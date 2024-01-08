@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Microsoft.ML.TensorFlow</id>
+    <version>4.0.0-dev.24058.1</version>
+    <authors>Microsoft</authors>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <icon>mlnetlogo.png</icon>
+    <projectUrl>https://dot.net/ml</projectUrl>
+    <description>Microsoft.ML.TensorFlow contains ML.NET integration of TensorFlow.</description>
+    <releaseNotes>https://aka.ms/mlnetreleasenotes</releaseNotes>
+    <copyright>© Microsoft Corporation. All rights reserved.</copyright>
+    <tags>ML.NET ML Machine Learning</tags>
+    <repository type="git" url="https://github.com/ericstj/machinelearning" commit="373a86467c64baf0d542ded25b299099be54cf4c" />
+    <dependencies>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="Microsoft.ML" version="4.0.0-dev.24058.1" exclude="Build,Analyzers" />
+        <dependency id="Google.Protobuf" version="3.19.6" include="All" />
+        <dependency id="System.IO.FileSystem.AccessControl" version="4.5.0" include="All" />
+        <dependency id="System.Security.Principal.Windows" version="4.5.0" include="All" />
+        <dependency id="TensorFlow.NET" version="0.20.1" include="All" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\src\dotnet\machinelearning\artifacts\bin\Microsoft.ML.TensorFlow\Debug\netstandard2.0\Microsoft.ML.TensorFlow.dll" target="lib\netstandard2.0\Microsoft.ML.TensorFlow.dll" />
+    <file src="C:\src\dotnet\machinelearning\artifacts\bin\Microsoft.ML.TensorFlow\Debug\netstandard2.0\Microsoft.ML.TensorFlow.xml" target="lib\netstandard2.0\Microsoft.ML.TensorFlow.xml" />
+    <file src="C:\src\dotnet\machinelearning\eng\pkg\mlnetlogo.png" target="mlnetlogo.png" />
+    <file src="C:\src\dotnet\machinelearning\THIRD-PARTY-NOTICES.TXT" target="THIRD-PARTY-NOTICES.TXT" />
+    <file src="C:\src\dotnet\machinelearning\LICENSE" target="LICENSE" />
+  </files>
+</package>
