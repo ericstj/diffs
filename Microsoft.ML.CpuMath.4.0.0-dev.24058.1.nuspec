@@ -13,7 +13,7 @@
     <releaseNotes>https://aka.ms/mlnetreleasenotes</releaseNotes>
     <copyright>© Microsoft Corporation. All rights reserved.</copyright>
     <tags>ML.NET ML Machine Learning</tags>
-    <repository type="git" url="https://github.com/ericstj/machinelearning" commit="373a86467c64baf0d542ded25b299099be54cf4c" />
+    <repository type="git" url="https://github.com/ericstj/machinelearning" commit="ca66f2b01753b7d22f6aa10968c61738fbfbb31d" />
     <dependencies>
       <group targetFramework="net6.0">
         <dependency id="System.Numerics.Tensors" version="8.0.0" include="All" />
@@ -31,9 +31,9 @@
     <file src="C:\src\dotnet\machinelearning\artifacts\bin\Microsoft.ML.CpuMath\Debug\netstandard2.0\Microsoft.ML.CpuMath.xml" target="lib\netstandard2.0\Microsoft.ML.CpuMath.xml" />
     <file src="C:\src\dotnet\machinelearning\artifacts\pkgassets\Microsoft.ML.CpuMath\runtimes\win-x64\nativeassets\net6.0\_._" target="runtimes\win-x64\nativeassets\net6.0\_._" />
     <file src="C:\src\dotnet\machinelearning\artifacts\pkgassets\Microsoft.ML.CpuMath\runtimes\win-x64\nativeassets\netstandard2.0\CpuMathNative.dll" target="runtimes\win-x64\nativeassets\netstandard2.0\CpuMathNative.dll" />
+    <file src="C:\src\dotnet\machinelearning\src\Microsoft.ML.CpuMath\build\netstandard2.0\Microsoft.ML.CpuMath.props" target="build\netstandard2.0\Microsoft.ML.CpuMath.props" />
     <file src="C:\src\dotnet\machinelearning\eng\pkg\mlnetlogo.png" target="mlnetlogo.png" />
     <file src="C:\src\dotnet\machinelearning\THIRD-PARTY-NOTICES.TXT" target="THIRD-PARTY-NOTICES.TXT" />
     <file src="C:\src\dotnet\machinelearning\LICENSE" target="LICENSE" />
-    <file src="C:\src\dotnet\machinelearning\src\Microsoft.ML.CpuMath\build\netstandard2.0\Microsoft.ML.CpuMath.props" target="build\netstandard2.0\Microsoft.ML.CpuMath.props" />
   </files>
 </package>

@@ -15,7 +15,7 @@
     <copyright>© Microsoft Corporation. All rights reserved.</copyright>
     <tags>ML.NET ML Machine Learning</tags>
     <serviceable>true</serviceable>
-    <repository type="git" url="https://github.com/ericstj/machinelearning" commit="373a86467c64baf0d542ded25b299099be54cf4c" />
+    <repository type="git" url="https://github.com/ericstj/machinelearning" commit="ca66f2b01753b7d22f6aa10968c61738fbfbb31d" />
     <dependencies>
       <group targetFramework=".NETStandard2.0">
         <dependency id="Microsoft.ML.CpuMath" version="4.0.0-dev.24058.1" exclude="Build,Analyzers" />
@@ -30,28 +30,34 @@
     </dependencies>
   </metadata>
   <files>
-    <file src="C:\src\dotnet\machinelearning\artifacts\bin\Microsoft.ML\Debug\netstandard2.0\Microsoft.ML.pdb" target="lib\netstandard2.0\Microsoft.ML.pdb" />
+    <file src="C:\src\dotnet\machinelearning\artifacts\bin\Microsoft.ML.Core\Debug\netstandard2.0\Microsoft.ML.Core.pdb" target="\lib\netstandard2.0\Microsoft.ML.Core.pdb" />
+    <file src="C:\src\dotnet\machinelearning\artifacts\bin\Microsoft.ML.Data\Debug\netstandard2.0\Microsoft.ML.Data.pdb" target="\lib\netstandard2.0\Microsoft.ML.Data.pdb" />
+    <file src="C:\src\dotnet\machinelearning\artifacts\bin\Microsoft.ML.KMeansClustering\Debug\netstandard2.0\Microsoft.ML.KMeansClustering.pdb" target="\lib\netstandard2.0\Microsoft.ML.KMeansClustering.pdb" />
+    <file src="C:\src\dotnet\machinelearning\artifacts\bin\Microsoft.ML.PCA\Debug\netstandard2.0\Microsoft.ML.PCA.pdb" target="\lib\netstandard2.0\Microsoft.ML.PCA.pdb" />
+    <file src="C:\src\dotnet\machinelearning\artifacts\bin\Microsoft.ML.StandardTrainers\Debug\netstandard2.0\Microsoft.ML.StandardTrainers.pdb" target="\lib\netstandard2.0\Microsoft.ML.StandardTrainers.pdb" />
+    <file src="C:\src\dotnet\machinelearning\artifacts\bin\Microsoft.ML.Transforms\Debug\netstandard2.0\Microsoft.ML.Transforms.pdb" target="\lib\netstandard2.0\Microsoft.ML.Transforms.pdb" />
+    <file src="C:\src\dotnet\machinelearning\artifacts\bin\Microsoft.ML.StandardTrainers\Debug\netstandard2.0\Microsoft.ML.SearchSpace.pdb" target="\lib\netstandard2.0\Microsoft.ML.SearchSpace.pdb" />
+    <file src="C:\src\dotnet\machinelearning\artifacts\pkgassets\Microsoft.ML\runtimes\win-x64\native\LdaNative.pdb" target="\runtimes\win-x64\native\LdaNative.pdb" />
     <file src="C:\src\dotnet\machinelearning\artifacts\bin\Microsoft.ML.Core\Debug\netstandard2.0\Microsoft.ML.Core.dll" target="lib\netstandard2.0\Microsoft.ML.Core.dll" />
     <file src="C:\src\dotnet\machinelearning\artifacts\bin\Microsoft.ML.Data\Debug\netstandard2.0\Microsoft.ML.Data.dll" target="lib\netstandard2.0\Microsoft.ML.Data.dll" />
     <file src="C:\src\dotnet\machinelearning\artifacts\bin\Microsoft.ML.KMeansClustering\Debug\netstandard2.0\Microsoft.ML.KMeansClustering.dll" target="lib\netstandard2.0\Microsoft.ML.KMeansClustering.dll" />
     <file src="C:\src\dotnet\machinelearning\artifacts\bin\Microsoft.ML.PCA\Debug\netstandard2.0\Microsoft.ML.PCA.dll" target="lib\netstandard2.0\Microsoft.ML.PCA.dll" />
     <file src="C:\src\dotnet\machinelearning\artifacts\bin\Microsoft.ML.StandardTrainers\Debug\netstandard2.0\Microsoft.ML.StandardTrainers.dll" target="lib\netstandard2.0\Microsoft.ML.StandardTrainers.dll" />
     <file src="C:\src\dotnet\machinelearning\artifacts\bin\Microsoft.ML.Transforms\Debug\netstandard2.0\Microsoft.ML.Transforms.dll" target="lib\netstandard2.0\Microsoft.ML.Transforms.dll" />
-    <file src="C:\src\dotnet\machinelearning\artifacts\bin\Microsoft.ML.Core\Debug\netstandard2.0\Microsoft.ML.Core.pdb" target="lib\netstandard2.0\Microsoft.ML.Core.pdb" />
-    <file src="C:\src\dotnet\machinelearning\artifacts\bin\Microsoft.ML.Data\Debug\netstandard2.0\Microsoft.ML.Data.pdb" target="lib\netstandard2.0\Microsoft.ML.Data.pdb" />
-    <file src="C:\src\dotnet\machinelearning\artifacts\bin\Microsoft.ML.KMeansClustering\Debug\netstandard2.0\Microsoft.ML.KMeansClustering.pdb" target="lib\netstandard2.0\Microsoft.ML.KMeansClustering.pdb" />
-    <file src="C:\src\dotnet\machinelearning\artifacts\bin\Microsoft.ML.PCA\Debug\netstandard2.0\Microsoft.ML.PCA.pdb" target="lib\netstandard2.0\Microsoft.ML.PCA.pdb" />
-    <file src="C:\src\dotnet\machinelearning\artifacts\bin\Microsoft.ML.StandardTrainers\Debug\netstandard2.0\Microsoft.ML.StandardTrainers.pdb" target="lib\netstandard2.0\Microsoft.ML.StandardTrainers.pdb" />
-    <file src="C:\src\dotnet\machinelearning\artifacts\bin\Microsoft.ML.Transforms\Debug\netstandard2.0\Microsoft.ML.Transforms.pdb" target="lib\netstandard2.0\Microsoft.ML.Transforms.pdb" />
-    <file src="C:\src\dotnet\machinelearning\artifacts\pkgassets/Microsoft.ML\runtimes\win-x64\native\LdaNative.pdb" target="lib\netstandard2.0\..\..\runtimes\win-x64\native" />
-    <file src="C:\src\dotnet\machinelearning\artifacts\bin\Microsoft.ML\Debug\netstandard2.0\Microsoft.ML.dll" target="lib\netstandard2.0\Microsoft.ML.dll" />
-    <file src="C:\src\dotnet\machinelearning\artifacts\bin\Microsoft.ML\Debug\netstandard2.0\Microsoft.ML.xml" target="lib\netstandard2.0\Microsoft.ML.xml" />
+    <file src="C:\src\dotnet\machinelearning\artifacts\bin\Microsoft.ML.StandardTrainers\Debug\netstandard2.0\Microsoft.ML.SearchSpace.dll" target="lib\netstandard2.0\Microsoft.ML.SearchSpace.dll" />
+    <file src="C:\src\dotnet\machinelearning\artifacts\bin\Microsoft.ML.Core\Debug\netstandard2.0\Microsoft.ML.Core.xml" target="lib\netstandard2.0\Microsoft.ML.Core.xml" />
+    <file src="C:\src\dotnet\machinelearning\artifacts\bin\Microsoft.ML.Data\Debug\netstandard2.0\Microsoft.ML.Data.xml" target="lib\netstandard2.0\Microsoft.ML.Data.xml" />
+    <file src="C:\src\dotnet\machinelearning\artifacts\bin\Microsoft.ML.KMeansClustering\Debug\netstandard2.0\Microsoft.ML.KMeansClustering.xml" target="lib\netstandard2.0\Microsoft.ML.KMeansClustering.xml" />
+    <file src="C:\src\dotnet\machinelearning\artifacts\bin\Microsoft.ML.PCA\Debug\netstandard2.0\Microsoft.ML.PCA.xml" target="lib\netstandard2.0\Microsoft.ML.PCA.xml" />
+    <file src="C:\src\dotnet\machinelearning\artifacts\bin\Microsoft.ML.StandardTrainers\Debug\netstandard2.0\Microsoft.ML.StandardTrainers.xml" target="lib\netstandard2.0\Microsoft.ML.StandardTrainers.xml" />
+    <file src="C:\src\dotnet\machinelearning\artifacts\bin\Microsoft.ML.Transforms\Debug\netstandard2.0\Microsoft.ML.Transforms.xml" target="lib\netstandard2.0\Microsoft.ML.Transforms.xml" />
+    <file src="C:\src\dotnet\machinelearning\artifacts\bin\Microsoft.ML.StandardTrainers\Debug\netstandard2.0\Microsoft.ML.SearchSpace.xml" target="lib\netstandard2.0\Microsoft.ML.SearchSpace.xml" />
     <file src="C:\src\dotnet\machinelearning\artifacts\pkgassets\Microsoft.ML\runtimes\win-x64\native\LdaNative.dll" target="runtimes\win-x64\native\LdaNative.dll" />
+    <file src="C:\src\dotnet\machinelearning\eng\pkg\CommonPackage.props" target="build\netstandard2.0\Microsoft.ML.props" />
+    <file src="C:\src\dotnet\machinelearning\src\Microsoft.ML\build\netstandard2.0\Microsoft.ML.targets" target="build\netstandard2.0\Microsoft.ML.targets" />
     <file src="C:\src\dotnet\machinelearning\eng\pkg\mlnetlogo.png" target="mlnetlogo.png" />
     <file src="C:\src\dotnet\machinelearning\THIRD-PARTY-NOTICES.TXT" target="THIRD-PARTY-NOTICES.TXT" />
     <file src="C:\src\dotnet\machinelearning\LICENSE" target="LICENSE" />
-    <file src="C:\src\dotnet\machinelearning\eng\pkg\CommonPackage.props" target="build\netstandard2.0\Microsoft.ML.props" />
-    <file src="C:\src\dotnet\machinelearning\src\Microsoft.ML\build\netstandard2.0\Microsoft.ML.targets" target="build\netstandard2.0\Microsoft.ML.targets" />
     <file src="C:\src\dotnet\machinelearning\src\Microsoft.ML\README.md" target="\README.md" />
   </files>
 </package>

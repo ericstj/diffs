@@ -13,7 +13,7 @@
     <releaseNotes>https://aka.ms/mlnetreleasenotes</releaseNotes>
     <copyright>© Microsoft Corporation. All rights reserved.</copyright>
     <tags>ML.NET ML Machine Learning</tags>
-    <repository type="git" url="https://github.com/ericstj/machinelearning" commit="373a86467c64baf0d542ded25b299099be54cf4c" />
+    <repository type="git" url="https://github.com/ericstj/machinelearning" commit="ca66f2b01753b7d22f6aa10968c61738fbfbb31d" />
     <dependencies>
       <group targetFramework=".NETStandard2.0">
         <dependency id="Microsoft.ML.OnnxTransformer" version="4.0.0-dev.24058.1" exclude="Build,Analyzers" />
@@ -23,11 +23,9 @@
   <files>
     <file src="C:\src\dotnet\machinelearning\artifacts\bin\Microsoft.ML.DnnImageFeaturizer.ResNet50\Debug\netstandard2.0\Microsoft.ML.DnnImageFeaturizer.ResNet50.dll" target="lib\netstandard2.0\Microsoft.ML.DnnImageFeaturizer.ResNet50.dll" />
     <file src="C:\src\dotnet\machinelearning\artifacts\bin\Microsoft.ML.DnnImageFeaturizer.ResNet50\Debug\netstandard2.0\Microsoft.ML.DnnImageFeaturizer.ResNet50.xml" target="lib\netstandard2.0\Microsoft.ML.DnnImageFeaturizer.ResNet50.xml" />
-    <file src="C:\src\dotnet\machinelearning\artifacts\pkgassets\Microsoft.ML.DnnImageFeaturizer.ResNet50\tools\DnnImageModels\ResNet50Onnx\ResNet50.onnx" target="tools\DnnImageModels\ResNet50Onnx\ResNet50.onnx" />
-    <file src="C:\src\dotnet\machinelearning\artifacts\pkgassets\Microsoft.ML.DnnImageFeaturizer.ResNet50\tools\DnnImageModels\ResNetPrepOnnx\ResNetPreprocess.onnx" target="tools\DnnImageModels\ResNetPrepOnnx\ResNetPreprocess.onnx" />
+    <file src="C:\src\dotnet\machinelearning\eng\pkg\DnnImageFeaturizer.props" target="build\netstandard2.0\Microsoft.ML.DnnImageFeaturizer.ResNet50.props" />
     <file src="C:\src\dotnet\machinelearning\eng\pkg\mlnetlogo.png" target="mlnetlogo.png" />
     <file src="C:\src\dotnet\machinelearning\THIRD-PARTY-NOTICES.TXT" target="THIRD-PARTY-NOTICES.TXT" />
     <file src="C:\src\dotnet\machinelearning\LICENSE" target="LICENSE" />
-    <file src="C:\src\dotnet\machinelearning\eng\pkg\DnnImageFeaturizer.props" target="build\netstandard2.0\Microsoft.ML.DnnImageFeaturizer.ResNet50.props" />
   </files>
 </package>

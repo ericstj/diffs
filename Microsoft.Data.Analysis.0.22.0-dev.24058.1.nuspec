@@ -13,7 +13,7 @@
     <releaseNotes>Initial preview of robust and extensible types and algorithms for manipulating structured data that supports aggregations, statistical funtions, sorting, grouping, joins, merges, handling missing values and more.</releaseNotes>
     <copyright>© Microsoft Corporation. All rights reserved.</copyright>
     <tags>ML.NET ML Machine Learning Data Science DataFrame Preparation DataView Analytics Exploration</tags>
-    <repository type="git" url="https://github.com/ericstj/machinelearning" commit="373a86467c64baf0d542ded25b299099be54cf4c" />
+    <repository type="git" url="https://github.com/ericstj/machinelearning" commit="ca66f2b01753b7d22f6aa10968c61738fbfbb31d" />
     <dependencies>
       <group targetFramework=".NETStandard2.0">
         <dependency id="Microsoft.ML.DataView" version="4.0.0-dev.24058.1" exclude="Build,Analyzers" />
