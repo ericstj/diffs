@@ -14,7 +14,7 @@
     <copyright>© Microsoft Corporation. All rights reserved.</copyright>
     <tags>ML.NET ML Machine Learning</tags>
     <serviceable>true</serviceable>
-    <repository type="git" url="https://github.com/ericstj/machinelearning" commit="ca66f2b01753b7d22f6aa10968c61738fbfbb31d" />
+    <repository type="git" url="https://github.com/ericstj/machinelearning" commit="9a9b26b67a3bfc4aba1c6509a3253744faf09f17" />
     <dependencies>
       <group targetFramework=".NETStandard2.0">
         <dependency id="Microsoft.ML.CpuMath" version="4.0.0-dev.24058.1" exclude="Build,Analyzers" />
