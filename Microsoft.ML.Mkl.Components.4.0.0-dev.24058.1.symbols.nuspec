@@ -14,7 +14,7 @@
     <copyright>© Microsoft Corporation. All rights reserved.</copyright>
     <tags>ML.NET ML Machine Learning</tags>
     <serviceable>true</serviceable>
-    <repository type="git" url="https://github.com/ericstj/machinelearning" commit="9a9b26b67a3bfc4aba1c6509a3253744faf09f17" />
+    <repository type="git" url="https://github.com/ericstj/machinelearning" commit="1ca51b3fec203ac7511df33036383ea1eadbfbeb" />
     <dependencies>
       <group targetFramework=".NETStandard2.0">
         <dependency id="Microsoft.ML.Mkl.Redist" version="4.0.0-dev.24058.1" exclude="Build,Analyzers" />
@@ -24,7 +24,7 @@
   </metadata>
   <files>
     <file src="C:\src\dotnet\machinelearning\artifacts\bin\Microsoft.ML.Mkl.Components\Debug\netstandard2.0\Microsoft.ML.Mkl.Components.pdb" target="lib\netstandard2.0\Microsoft.ML.Mkl.Components.pdb" />
-    <file src="C:\src\dotnet\machinelearning\artifacts\pkgassets\Microsoft.ML.Mkl.Components\runtimes\win-x64\native\SymSgdNative.pdb" target="\runtimes\win-x64\native\SymSgdNative.pdb" />
+    <file src="C:\src\dotnet\machinelearning\artifacts\pkgassets\Microsoft.ML.Mkl.Components\runtimes\win-x64\native\SymSgdNative.pdb" target="lib\netstandard2.0\runtimes\win-x64\native\SymSgdNative.pdb" />
     <file src="C:\src\dotnet\machinelearning\artifacts\bin\Microsoft.ML.Mkl.Components\Debug\netstandard2.0\Microsoft.ML.Mkl.Components.dll" target="lib\netstandard2.0\Microsoft.ML.Mkl.Components.dll" />
     <file src="C:\src\dotnet\machinelearning\artifacts\bin\Microsoft.ML.Mkl.Components\Debug\netstandard2.0\Microsoft.ML.Mkl.Components.xml" target="lib\netstandard2.0\Microsoft.ML.Mkl.Components.xml" />
     <file src="C:\src\dotnet\machinelearning\artifacts\pkgassets\Microsoft.ML.Mkl.Components\runtimes\win-x64\native\SymSgdNative.dll" target="runtimes\win-x64\native\SymSgdNative.dll" />

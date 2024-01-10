@@ -13,7 +13,7 @@
     <releaseNotes>https://aka.ms/mlnetreleasenotes</releaseNotes>
     <copyright>© Microsoft Corporation. All rights reserved.</copyright>
     <tags>ML.NET ML Machine Learning</tags>
-    <repository type="git" url="https://github.com/ericstj/machinelearning" commit="9a9b26b67a3bfc4aba1c6509a3253744faf09f17" />
+    <repository type="git" url="https://github.com/ericstj/machinelearning" commit="1ca51b3fec203ac7511df33036383ea1eadbfbeb" />
     <dependencies>
       <group targetFramework=".NETStandard2.0">
         <dependency id="Microsoft.ML.Mkl.Redist" version="4.0.0-dev.24058.1" exclude="Build,Analyzers" />

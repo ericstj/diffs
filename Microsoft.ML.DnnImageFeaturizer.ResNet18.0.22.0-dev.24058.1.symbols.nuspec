@@ -14,7 +14,7 @@
     <copyright>© Microsoft Corporation. All rights reserved.</copyright>
     <tags>ML.NET ML Machine Learning</tags>
     <serviceable>true</serviceable>
-    <repository type="git" url="https://github.com/ericstj/machinelearning" commit="9a9b26b67a3bfc4aba1c6509a3253744faf09f17" />
+    <repository type="git" url="https://github.com/ericstj/machinelearning" commit="1ca51b3fec203ac7511df33036383ea1eadbfbeb" />
     <dependencies>
       <group targetFramework=".NETStandard2.0">
         <dependency id="Microsoft.ML.OnnxTransformer" version="4.0.0-dev.24058.1" exclude="Build,Analyzers" />
@@ -25,6 +25,8 @@
     <file src="C:\src\dotnet\machinelearning\artifacts\bin\Microsoft.ML.DnnImageFeaturizer.ResNet18\Debug\netstandard2.0\Microsoft.ML.DnnImageFeaturizer.ResNet18.pdb" target="lib\netstandard2.0\Microsoft.ML.DnnImageFeaturizer.ResNet18.pdb" />
     <file src="C:\src\dotnet\machinelearning\artifacts\bin\Microsoft.ML.DnnImageFeaturizer.ResNet18\Debug\netstandard2.0\Microsoft.ML.DnnImageFeaturizer.ResNet18.dll" target="lib\netstandard2.0\Microsoft.ML.DnnImageFeaturizer.ResNet18.dll" />
     <file src="C:\src\dotnet\machinelearning\artifacts\bin\Microsoft.ML.DnnImageFeaturizer.ResNet18\Debug\netstandard2.0\Microsoft.ML.DnnImageFeaturizer.ResNet18.xml" target="lib\netstandard2.0\Microsoft.ML.DnnImageFeaturizer.ResNet18.xml" />
+    <file src="C:\src\dotnet\machinelearning\artifacts\models\ResNet18Onnx\ResNet18.onnx" target="tools\DnnImageModels\ResNet18Onnx\ResNet18.onnx" />
+    <file src="C:\src\dotnet\machinelearning\artifacts\models\ResNetPrepOnnx\ResNetPreprocess.onnx" target="tools\DnnImageModels\ResNetPrepOnnx\ResNetPreprocess.onnx" />
     <file src="C:\src\dotnet\machinelearning\eng\pkg\DnnImageFeaturizer.props" target="build\netstandard2.0\Microsoft.ML.DnnImageFeaturizer.ResNet18.props" />
     <file src="C:\src\dotnet\machinelearning\eng\pkg\mlnetlogo.png" target="mlnetlogo.png" />
     <file src="C:\src\dotnet\machinelearning\THIRD-PARTY-NOTICES.TXT" target="THIRD-PARTY-NOTICES.TXT" />
