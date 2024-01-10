@@ -14,7 +14,7 @@
     <copyright>© Microsoft Corporation. All rights reserved.</copyright>
     <tags>ML.NET ML Machine Learning</tags>
     <serviceable>true</serviceable>
-    <repository type="git" url="https://github.com/ericstj/machinelearning" commit="1ca51b3fec203ac7511df33036383ea1eadbfbeb" />
+    <repository type="git" url="https://github.com/ericstj/machinelearning" commit="fce65343f4d6dfff10e2cdd475f294af2e56024d" />
     <dependencies>
       <group targetFramework=".NETStandard2.0">
         <dependency id="System.Text.Json" version="6.0.1" include="All" />
