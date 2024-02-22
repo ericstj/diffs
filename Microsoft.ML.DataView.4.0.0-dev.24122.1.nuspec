@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Microsoft.ML.DataView</id>
+    <version>4.0.0-dev.24122.1</version>
+    <authors>Microsoft</authors>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <icon>mlnetlogo.png</icon>
+    <projectUrl>https://dot.net/ml</projectUrl>
+    <description>Contains the IDataView system which is a set of interfaces and components that provide efficient, compositional processing of schematized data for machine learning and advanced analytics applications.</description>
+    <releaseNotes>https://aka.ms/mlnetreleasenotes</releaseNotes>
+    <copyright>© Microsoft Corporation. All rights reserved.</copyright>
+    <tags>ML.NET ML Machine Learning</tags>
+    <repository type="git" url="https://github.com/ericstj/machinelearning" commit="0d2fd603a20bb72a280feec7afb35fcf23ceaa7a" />
+    <dependencies>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="System.Collections.Immutable" version="1.5.0" include="All" />
+        <dependency id="System.Memory" version="4.5.5" include="All" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\src\dotnet\machinelearning\artifacts\bin\Microsoft.ML.DataView\Debug\netstandard2.0\Microsoft.ML.DataView.dll" target="lib\netstandard2.0\Microsoft.ML.DataView.dll" />
+    <file src="C:\src\dotnet\machinelearning\artifacts\bin\Microsoft.ML.DataView\Debug\netstandard2.0\Microsoft.ML.DataView.xml" target="lib\netstandard2.0\Microsoft.ML.DataView.xml" />
+    <file src="C:\src\dotnet\machinelearning\eng\pkg\mlnetlogo.png" target="mlnetlogo.png" />
+    <file src="C:\src\dotnet\machinelearning\THIRD-PARTY-NOTICES.TXT" target="THIRD-PARTY-NOTICES.TXT" />
+    <file src="C:\src\dotnet\machinelearning\LICENSE" target="LICENSE" />
+  </files>
+</package>

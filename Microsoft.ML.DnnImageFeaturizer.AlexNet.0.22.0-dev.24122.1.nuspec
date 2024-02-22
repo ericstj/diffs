@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Microsoft.ML.DnnImageFeaturizer.AlexNet</id>
+    <version>0.22.0-dev.24122.1</version>
+    <authors>Microsoft</authors>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <icon>mlnetlogo.png</icon>
+    <projectUrl>https://dot.net/ml</projectUrl>
+    <description>ML.NET component for pretrained AlexNet image featurization</description>
+    <releaseNotes>https://aka.ms/mlnetreleasenotes</releaseNotes>
+    <copyright>© Microsoft Corporation. All rights reserved.</copyright>
+    <tags>ML.NET ML Machine Learning</tags>
+    <repository type="git" url="https://github.com/ericstj/machinelearning" commit="0d2fd603a20bb72a280feec7afb35fcf23ceaa7a" />
+    <dependencies>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="Microsoft.ML.OnnxTransformer" version="4.0.0-dev.24122.1" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\src\dotnet\machinelearning\artifacts\bin\Microsoft.ML.DnnImageFeaturizer.AlexNet\Debug\netstandard2.0\Microsoft.ML.DnnImageFeaturizer.AlexNet.dll" target="lib\netstandard2.0\Microsoft.ML.DnnImageFeaturizer.AlexNet.dll" />
+    <file src="C:\src\dotnet\machinelearning\artifacts\bin\Microsoft.ML.DnnImageFeaturizer.AlexNet\Debug\netstandard2.0\Microsoft.ML.DnnImageFeaturizer.AlexNet.xml" target="lib\netstandard2.0\Microsoft.ML.DnnImageFeaturizer.AlexNet.xml" />
+    <file src="C:\src\dotnet\machinelearning\artifacts\pkgassets\Microsoft.ML.DnnImageFeaturizer.AlexNet\tools\DnnImageModels\AlexNetOnnx\AlexNet.onnx" target="tools\DnnImageModels\AlexNetOnnx\AlexNet.onnx" />
+    <file src="C:\src\dotnet\machinelearning\artifacts\pkgassets\Microsoft.ML.DnnImageFeaturizer.AlexNet\tools\DnnImageModels\AlexNetPrepOnnx\AlexNetPreprocess.onnx" target="tools\DnnImageModels\AlexNetPrepOnnx\AlexNetPreprocess.onnx" />
+    <file src="C:\src\dotnet\machinelearning\eng\pkg\mlnetlogo.png" target="mlnetlogo.png" />
+    <file src="C:\src\dotnet\machinelearning\THIRD-PARTY-NOTICES.TXT" target="THIRD-PARTY-NOTICES.TXT" />
+    <file src="C:\src\dotnet\machinelearning\LICENSE" target="LICENSE" />
+    <file src="C:\src\dotnet\machinelearning\eng\pkg\DnnImageFeaturizer.props" target="build\netstandard2.0\Microsoft.ML.DnnImageFeaturizer.AlexNet.props" />
+  </files>
+</package>

@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Microsoft.Data.Analysis</id>
+    <version>0.22.0-dev.24122.1</version>
+    <authors>Microsoft</authors>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <icon>mlnetlogo.png</icon>
+    <projectUrl>https://dot.net/ml</projectUrl>
+    <description>This package contains easy-to-use and high-performance libraries for data analysis and transformation.</description>
+    <releaseNotes>Initial preview of robust and extensible types and algorithms for manipulating structured data that supports aggregations, statistical funtions, sorting, grouping, joins, merges, handling missing values and more.</releaseNotes>
+    <copyright>© Microsoft Corporation. All rights reserved.</copyright>
+    <tags>ML.NET ML Machine Learning Data Science DataFrame Preparation DataView Analytics Exploration</tags>
+    <serviceable>true</serviceable>
+    <repository type="git" url="https://github.com/ericstj/machinelearning" commit="0d2fd603a20bb72a280feec7afb35fcf23ceaa7a" />
+    <dependencies>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="Microsoft.ML.DataView" version="4.0.0-dev.24122.1" exclude="Build,Analyzers" />
+        <dependency id="Apache.Arrow" version="11.0.0" include="All" />
+        <dependency id="System.Buffers" version="4.5.1" include="All" />
+        <dependency id="System.Memory" version="4.5.5" include="All" />
+        <dependency id="System.Runtime.CompilerServices.Unsafe" version="6.0.0" include="All" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\src\dotnet\machinelearning\artifacts\bin\Microsoft.Data.Analysis\Debug\netstandard2.0\Microsoft.Data.Analysis.pdb" target="lib\netstandard2.0\Microsoft.Data.Analysis.pdb" />
+    <file src="C:\src\dotnet\machinelearning\artifacts\bin\Microsoft.Data.Analysis\Debug\netstandard2.0\Microsoft.Data.Analysis.dll" target="lib\netstandard2.0\Microsoft.Data.Analysis.dll" />
+    <file src="C:\src\dotnet\machinelearning\artifacts\bin\Microsoft.Data.Analysis\Debug\netstandard2.0\Microsoft.Data.Analysis.xml" target="lib\netstandard2.0\Microsoft.Data.Analysis.xml" />
+    <file src="C:\src\dotnet\machinelearning\artifacts\obj\Microsoft.Data.Analysis.Interactive\Debug\net6.0\Microsoft.Data.Analysis.Interactive.dll" target="interactive-extensions\dotnet\Microsoft.Data.Analysis.Interactive.dll" />
+    <file src="C:\src\dotnet\machinelearning\artifacts\obj\Microsoft.Data.Analysis.Interactive\Debug\net6.0\Microsoft.Data.Analysis.Interactive.xml" target="interactive-extensions\dotnet\Microsoft.Data.Analysis.Interactive.xml" />
+    <file src="C:\src\dotnet\machinelearning\eng\pkg\mlnetlogo.png" target="mlnetlogo.png" />
+    <file src="C:\src\dotnet\machinelearning\THIRD-PARTY-NOTICES.TXT" target="THIRD-PARTY-NOTICES.TXT" />
+    <file src="C:\src\dotnet\machinelearning\LICENSE" target="LICENSE" />
+  </files>
+</package>

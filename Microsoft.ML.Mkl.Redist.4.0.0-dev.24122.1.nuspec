@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Microsoft.ML.Mkl.Redist</id>
+    <version>4.0.0-dev.24122.1</version>
+    <authors>Microsoft</authors>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <license type="file">LICENSE.txt</license>
+    <licenseUrl>https://aka.ms/deprecateLicenseUrl</licenseUrl>
+    <icon>mlnetlogo.png</icon>
+    <projectUrl>https://dot.net/ml</projectUrl>
+    <description>Microsoft.ML.Mkl.Redist contains the MKL library redistributed as a NuGet package.</description>
+    <releaseNotes>https://aka.ms/mlnetreleasenotes</releaseNotes>
+    <copyright>© Microsoft Corporation. All rights reserved.</copyright>
+    <tags>ML.NET ML Machine Learning MLNET MKL</tags>
+    <repository type="git" url="https://github.com/ericstj/machinelearning" commit="0d2fd603a20bb72a280feec7afb35fcf23ceaa7a" />
+    <dependencies>
+      <group targetFramework=".NETStandard2.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\src\dotnet\machinelearning\artifacts\pkgassets\Microsoft.ML.Mkl.Redist\runtimes\win-x64\native\libiomp5md.dll" target="runtimes\win-x64\native\libiomp5md.dll" />
+    <file src="C:\src\dotnet\machinelearning\artifacts\pkgassets\Microsoft.ML.Mkl.Redist\runtimes\win-x64\native\MklImports.dll" target="runtimes\win-x64\native\MklImports.dll" />
+    <file src="C:\src\dotnet\machinelearning\artifacts\pkgassets\Microsoft.ML.Mkl.Redist\runtimes\win-x64\native\MklProxyNative.dll" target="runtimes\win-x64\native\MklProxyNative.dll" />
+    <file src="C:\src\dotnet\machinelearning\eng\pkg\mlnetlogo.png" target="mlnetlogo.png" />
+    <file src="C:\src\dotnet\machinelearning\eng\pkg\CommonPackage.props" target="build\netstandard2.0\Microsoft.ML.Mkl.Redist.props" />
+    <file src="C:\src\dotnet\machinelearning\eng\pkg\_._" target="lib\netstandard2.0\_._" />
+    <file src="C:\Users\ericstj\.nuget\packages\mlnetmkldeps\0.0.0.12\LICENSE.txt" target="LICENSE.txt" />
+  </files>
+</package>
