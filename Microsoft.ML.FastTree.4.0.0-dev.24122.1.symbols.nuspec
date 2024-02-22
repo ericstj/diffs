@@ -14,7 +14,7 @@
     <copyright>© Microsoft Corporation. All rights reserved.</copyright>
     <tags>ML.NET ML Machine Learning</tags>
     <serviceable>true</serviceable>
-    <repository type="git" url="https://github.com/ericstj/machinelearning" commit="0d2fd603a20bb72a280feec7afb35fcf23ceaa7a" />
+    <repository type="git" url="https://github.com/ericstj/machinelearning" commit="498fc848bc57ddb9bc3127512b616c6abeac97f7" />
     <dependencies>
       <group targetFramework=".NETStandard2.0">
         <dependency id="Microsoft.ML" version="4.0.0-dev.24122.1" exclude="Build,Analyzers" />
@@ -23,13 +23,13 @@
   </metadata>
   <files>
     <file src="C:\src\dotnet\machinelearning\artifacts\bin\Microsoft.ML.FastTree\Debug\netstandard2.0\Microsoft.ML.FastTree.pdb" target="lib\netstandard2.0\Microsoft.ML.FastTree.pdb" />
-    <file src="C:\src\dotnet\machinelearning\artifacts\pkgassets/Microsoft.ML.FastTree\runtimes\win-x64\native\FastTreeNative.pdb" target="lib\netstandard2.0\..\..\runtimes\win-x64\native" />
+    <file src="C:\src\dotnet\machinelearning\artifacts\pkgassets\Microsoft.ML.FastTree\runtimes\win-x64\native\FastTreeNative.pdb" target="\runtimes\win-x64\native\FastTreeNative.pdb" />
     <file src="C:\src\dotnet\machinelearning\artifacts\bin\Microsoft.ML.FastTree\Debug\netstandard2.0\Microsoft.ML.FastTree.dll" target="lib\netstandard2.0\Microsoft.ML.FastTree.dll" />
     <file src="C:\src\dotnet\machinelearning\artifacts\bin\Microsoft.ML.FastTree\Debug\netstandard2.0\Microsoft.ML.FastTree.xml" target="lib\netstandard2.0\Microsoft.ML.FastTree.xml" />
     <file src="C:\src\dotnet\machinelearning\artifacts\pkgassets\Microsoft.ML.FastTree\runtimes\win-x64\native\FastTreeNative.dll" target="runtimes\win-x64\native\FastTreeNative.dll" />
+    <file src="C:\src\dotnet\machinelearning\eng\pkg\CommonPackage.props" target="build\netstandard2.0\Microsoft.ML.FastTree.props" />
     <file src="C:\src\dotnet\machinelearning\eng\pkg\mlnetlogo.png" target="mlnetlogo.png" />
     <file src="C:\src\dotnet\machinelearning\THIRD-PARTY-NOTICES.TXT" target="THIRD-PARTY-NOTICES.TXT" />
     <file src="C:\src\dotnet\machinelearning\LICENSE" target="LICENSE" />
-    <file src="C:\src\dotnet\machinelearning\eng\pkg\CommonPackage.props" target="build\netstandard2.0\Microsoft.ML.FastTree.props" />
   </files>
 </package>

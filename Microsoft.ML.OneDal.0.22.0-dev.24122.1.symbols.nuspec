@@ -14,7 +14,7 @@
     <copyright>© Microsoft Corporation. All rights reserved.</copyright>
     <tags>ML.NET ML Machine Learning</tags>
     <serviceable>true</serviceable>
-    <repository type="git" url="https://github.com/ericstj/machinelearning" commit="0d2fd603a20bb72a280feec7afb35fcf23ceaa7a" />
+    <repository type="git" url="https://github.com/ericstj/machinelearning" commit="498fc848bc57ddb9bc3127512b616c6abeac97f7" />
     <dependencies>
       <group targetFramework=".NETStandard2.0">
         <dependency id="Microsoft.ML" version="4.0.0-dev.24122.1" exclude="Build,Analyzers" />
@@ -30,9 +30,9 @@
     <file src="C:\src\dotnet\machinelearning\artifacts\pkgassets\Microsoft.ML.OneDal\runtimes\win-x64\native\onedal_thread.1.dll" target="runtimes\win-x64\native\onedal_thread.1.dll" />
     <file src="C:\src\dotnet\machinelearning\artifacts\pkgassets\Microsoft.ML.OneDal\runtimes\win-x64\native\tbb12.dll" target="runtimes\win-x64\native\tbb12.dll" />
     <file src="C:\src\dotnet\machinelearning\artifacts\pkgassets\Microsoft.ML.OneDal\runtimes\win-x64\native\tbbmalloc.dll" target="runtimes\win-x64\native\tbbmalloc.dll" />
+    <file src="C:\src\dotnet\machinelearning\eng\pkg\CommonPackage.props" target="build\netstandard2.0\Microsoft.ML.OneDal.props" />
     <file src="C:\src\dotnet\machinelearning\eng\pkg\mlnetlogo.png" target="mlnetlogo.png" />
     <file src="C:\src\dotnet\machinelearning\THIRD-PARTY-NOTICES.TXT" target="THIRD-PARTY-NOTICES.TXT" />
     <file src="C:\src\dotnet\machinelearning\LICENSE" target="LICENSE" />
-    <file src="C:\src\dotnet\machinelearning\eng\pkg\CommonPackage.props" target="build\netstandard2.0\Microsoft.ML.OneDal.props" />
   </files>
 </package>
