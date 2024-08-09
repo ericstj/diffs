@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Microsoft.NET.WebAssembly.Threading</id>
+    <version>9.0.0-dev</version>
+    <authors>Microsoft</authors>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <icon>Icon.png</icon>
+    <projectUrl>https://dot.net/</projectUrl>
+    <description>Exposes Threading APIs for WebAssembly projects</description>
+    <releaseNotes>https://go.microsoft.com/fwlink/?LinkID=799421</releaseNotes>
+    <copyright>© Microsoft Corporation. All rights reserved.</copyright>
+    <serviceable>true</serviceable>
+    <repository type="git" url="https://github.com/dotnet/runtime" commit="0000000000000000000000000000000000000000" />
+    <dependencies>
+      <group targetFramework="net9.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\src\dotnet\runtime\artifacts\bin\System.Diagnostics.Tracing.WebAssembly.PerfTracing\ref\Debug\net9.0\System.Diagnostics.Tracing.dll" target="ref\net9.0\System.Diagnostics.Tracing.dll" />
+    <file src="C:\src\dotnet\runtime\artifacts\bin\System.Threading.WebAssembly.Threading\ref\Debug\net9.0\System.Threading.dll" target="ref\net9.0\System.Threading.dll" />
+    <file src="C:\src\dotnet\runtime\artifacts\bin\System.Threading.Thread.WebAssembly.Threading\ref\Debug\net9.0\System.Threading.Thread.dll" target="ref\net9.0\System.Threading.Thread.dll" />
+    <file src="C:\src\dotnet\runtime\artifacts\bin\System.Threading.ThreadPool.WebAssembly.Threading\ref\Debug\net9.0\System.Threading.ThreadPool.dll" target="ref\net9.0\System.Threading.ThreadPool.dll" />
+    <file src="C:\Users\ericstj\.nuget\packages\microsoft.dotnet.arcade.sdk\9.0.0-beta.24408.1\tools\Assets\DotNetPackageIcon.png" target="Icon.png" />
+    <file src="C:\src\dotnet\runtime\eng\useSharedDesignerContext.txt" target="useSharedDesignerContext.txt" />
+    <file src="C:\src\dotnet\runtime\LICENSE.TXT" target="LICENSE.TXT" />
+    <file src="C:\src\dotnet\runtime\THIRD-PARTY-NOTICES.TXT" target="THIRD-PARTY-NOTICES.TXT" />
+  </files>
+</package>

@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>System.Text.Json</id>
+    <version>9.0.0-dev</version>
+    <authors>Microsoft</authors>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <icon>Icon.png</icon>
+    <projectUrl>https://dot.net/</projectUrl>
+    <description>Provides high-performance and low-allocating types that serialize objects to JavaScript Object Notation (JSON) text and deserialize JSON text to objects, with UTF-8 support built-in. Also provides types to read and write JSON text encoded as UTF-8, and to create an in-memory document object model (DOM), that is read-only, for random access of the JSON elements within a structured view of the data.
+
+The System.Text.Json library is built-in as part of the shared framework in .NET Runtime. The package can be installed when you need to use it in other target frameworks.</description>
+    <releaseNotes>https://go.microsoft.com/fwlink/?LinkID=799421</releaseNotes>
+    <copyright>© Microsoft Corporation. All rights reserved.</copyright>
+    <serviceable>true</serviceable>
+    <repository type="git" url="https://github.com/dotnet/runtime" commit="0000000000000000000000000000000000000000" />
+    <dependencies>
+      <group targetFramework=".NETFramework4.6.2">
+        <dependency id="Microsoft.Bcl.AsyncInterfaces" version="9.0.0-dev" exclude="Build,Analyzers" />
+        <dependency id="System.IO.Pipelines" version="9.0.0-dev" exclude="Build,Analyzers" />
+        <dependency id="System.Text.Encodings.Web" version="9.0.0-dev" exclude="Build,Analyzers" />
+        <dependency id="System.Buffers" version="4.5.1" exclude="Build,Analyzers" />
+        <dependency id="System.Memory" version="4.5.5" exclude="Build,Analyzers" />
+        <dependency id="System.Runtime.CompilerServices.Unsafe" version="6.0.0" exclude="Build,Analyzers" />
+        <dependency id="System.Threading.Tasks.Extensions" version="4.5.4" exclude="Build,Analyzers" />
+        <dependency id="System.ValueTuple" version="4.5.0" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework="net8.0">
+        <dependency id="System.IO.Pipelines" version="9.0.0-dev" exclude="Build,Analyzers" />
+        <dependency id="System.Text.Encodings.Web" version="9.0.0-dev" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework="net9.0">
+        <dependency id="System.IO.Pipelines" version="9.0.0-dev" exclude="Build,Analyzers" />
+        <dependency id="System.Text.Encodings.Web" version="9.0.0-dev" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="Microsoft.Bcl.AsyncInterfaces" version="9.0.0-dev" exclude="Build,Analyzers" />
+        <dependency id="System.IO.Pipelines" version="9.0.0-dev" exclude="Build,Analyzers" />
+        <dependency id="System.Text.Encodings.Web" version="9.0.0-dev" exclude="Build,Analyzers" />
+        <dependency id="System.Buffers" version="4.5.1" exclude="Build,Analyzers" />
+        <dependency id="System.Memory" version="4.5.5" exclude="Build,Analyzers" />
+        <dependency id="System.Runtime.CompilerServices.Unsafe" version="6.0.0" exclude="Build,Analyzers" />
+        <dependency id="System.Threading.Tasks.Extensions" version="4.5.4" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\src\dotnet\runtime\artifacts\bin\System.Text.Json.SourceGeneration.Roslyn3.11\Debug\netstandard2.0\System.Text.Json.SourceGeneration.pdb" target="\analyzers\dotnet\roslyn3.11\cs\System.Text.Json.SourceGeneration.pdb" />
+    <file src="C:\src\dotnet\runtime\artifacts\bin\System.Text.Json.SourceGeneration.Roslyn4.0\Debug\netstandard2.0\System.Text.Json.SourceGeneration.pdb" target="\analyzers\dotnet\roslyn4.0\cs\System.Text.Json.SourceGeneration.pdb" />
+    <file src="C:\src\dotnet\runtime\artifacts\bin\System.Text.Json.SourceGeneration.Roslyn4.4\Debug\netstandard2.0\System.Text.Json.SourceGeneration.pdb" target="\analyzers\dotnet\roslyn4.4\cs\System.Text.Json.SourceGeneration.pdb" />
+    <file src="C:\src\dotnet\runtime\artifacts\bin\System.Text.Json\Debug\net462\System.Text.Json.pdb" target="lib\net462\System.Text.Json.pdb" />
+    <file src="C:\src\dotnet\runtime\artifacts\bin\System.Text.Json\Debug\net8.0\System.Text.Json.pdb" target="lib\net8.0\System.Text.Json.pdb" />
+    <file src="C:\src\dotnet\runtime\artifacts\bin\System.Text.Json\Debug\net9.0\System.Text.Json.pdb" target="lib\net9.0\System.Text.Json.pdb" />
+    <file src="C:\src\dotnet\runtime\artifacts\bin\System.Text.Json\Debug\netstandard2.0\System.Text.Json.pdb" target="lib\netstandard2.0\System.Text.Json.pdb" />
+    <file src="C:\src\dotnet\runtime\artifacts\bin\System.Text.Json\Debug\net462\System.Text.Json.dll" target="lib\net462\System.Text.Json.dll" />
+    <file src="C:\src\dotnet\runtime\artifacts\bin\System.Text.Json\Debug\net462\System.Text.Json.xml" target="lib\net462\System.Text.Json.xml" />
+    <file src="C:\src\dotnet\runtime\artifacts\bin\System.Text.Json\Debug\net8.0\System.Text.Json.dll" target="lib\net8.0\System.Text.Json.dll" />
+    <file src="C:\src\dotnet\runtime\artifacts\bin\System.Text.Json\Debug\net8.0\System.Text.Json.xml" target="lib\net8.0\System.Text.Json.xml" />
+    <file src="C:\src\dotnet\runtime\artifacts\bin\System.Text.Json\Debug\net9.0\System.Text.Json.dll" target="lib\net9.0\System.Text.Json.dll" />
+    <file src="C:\src\dotnet\runtime\artifacts\bin\System.Text.Json\Debug\net9.0\System.Text.Json.xml" target="lib\net9.0\System.Text.Json.xml" />
+    <file src="C:\src\dotnet\runtime\artifacts\bin\System.Text.Json\Debug\netstandard2.0\System.Text.Json.dll" target="lib\netstandard2.0\System.Text.Json.dll" />
+    <file src="C:\src\dotnet\runtime\artifacts\bin\System.Text.Json\Debug\netstandard2.0\System.Text.Json.xml" target="lib\netstandard2.0\System.Text.Json.xml" />
+    <file src="C:\src\dotnet\runtime\artifacts\obj\System.Text.Json.SourceGeneration.Roslyn3.11\Debug\netstandard2.0\cs\System.Text.Json.SourceGeneration.resources.dll" target="analyzers\dotnet\roslyn3.11\cs\cs\System.Text.Json.SourceGeneration.resources.dll" />
+    <file src="C:\src\dotnet\runtime\artifacts\obj\System.Text.Json.SourceGeneration.Roslyn3.11\Debug\netstandard2.0\de\System.Text.Json.SourceGeneration.resources.dll" target="analyzers\dotnet\roslyn3.11\cs\de\System.Text.Json.SourceGeneration.resources.dll" />
+    <file src="C:\src\dotnet\runtime\artifacts\obj\System.Text.Json.SourceGeneration.Roslyn3.11\Debug\netstandard2.0\es\System.Text.Json.SourceGeneration.resources.dll" target="analyzers\dotnet\roslyn3.11\cs\es\System.Text.Json.SourceGeneration.resources.dll" />
+    <file src="C:\src\dotnet\runtime\artifacts\obj\System.Text.Json.SourceGeneration.Roslyn3.11\Debug\netstandard2.0\fr\System.Text.Json.SourceGeneration.resources.dll" target="analyzers\dotnet\roslyn3.11\cs\fr\System.Text.Json.SourceGeneration.resources.dll" />
+    <file src="C:\src\dotnet\runtime\artifacts\obj\System.Text.Json.SourceGeneration.Roslyn3.11\Debug\netstandard2.0\it\System.Text.Json.SourceGeneration.resources.dll" target="analyzers\dotnet\roslyn3.11\cs\it\System.Text.Json.SourceGeneration.resources.dll" />
+    <file src="C:\src\dotnet\runtime\artifacts\obj\System.Text.Json.SourceGeneration.Roslyn3.11\Debug\netstandard2.0\ja\System.Text.Json.SourceGeneration.resources.dll" target="analyzers\dotnet\roslyn3.11\cs\ja\System.Text.Json.SourceGeneration.resources.dll" />
+    <file src="C:\src\dotnet\runtime\artifacts\obj\System.Text.Json.SourceGeneration.Roslyn3.11\Debug\netstandard2.0\ko\System.Text.Json.SourceGeneration.resources.dll" target="analyzers\dotnet\roslyn3.11\cs\ko\System.Text.Json.SourceGeneration.resources.dll" />
+    <file src="C:\src\dotnet\runtime\artifacts\obj\System.Text.Json.SourceGeneration.Roslyn3.11\Debug\netstandard2.0\pl\System.Text.Json.SourceGeneration.resources.dll" target="analyzers\dotnet\roslyn3.11\cs\pl\System.Text.Json.SourceGeneration.resources.dll" />
+    <file src="C:\src\dotnet\runtime\artifacts\obj\System.Text.Json.SourceGeneration.Roslyn3.11\Debug\netstandard2.0\pt-BR\System.Text.Json.SourceGeneration.resources.dll" target="analyzers\dotnet\roslyn3.11\cs\pt-BR\System.Text.Json.SourceGeneration.resources.dll" />
+    <file src="C:\src\dotnet\runtime\artifacts\obj\System.Text.Json.SourceGeneration.Roslyn3.11\Debug\netstandard2.0\ru\System.Text.Json.SourceGeneration.resources.dll" target="analyzers\dotnet\roslyn3.11\cs\ru\System.Text.Json.SourceGeneration.resources.dll" />
+    <file src="C:\src\dotnet\runtime\artifacts\obj\System.Text.Json.SourceGeneration.Roslyn3.11\Debug\netstandard2.0\tr\System.Text.Json.SourceGeneration.resources.dll" target="analyzers\dotnet\roslyn3.11\cs\tr\System.Text.Json.SourceGeneration.resources.dll" />
+    <file src="C:\src\dotnet\runtime\artifacts\obj\System.Text.Json.SourceGeneration.Roslyn3.11\Debug\netstandard2.0\zh-Hans\System.Text.Json.SourceGeneration.resources.dll" target="analyzers\dotnet\roslyn3.11\cs\zh-Hans\System.Text.Json.SourceGeneration.resources.dll" />
+    <file src="C:\src\dotnet\runtime\artifacts\obj\System.Text.Json.SourceGeneration.Roslyn3.11\Debug\netstandard2.0\zh-Hant\System.Text.Json.SourceGeneration.resources.dll" target="analyzers\dotnet\roslyn3.11\cs\zh-Hant\System.Text.Json.SourceGeneration.resources.dll" />
+    <file src="C:\src\dotnet\runtime\artifacts\obj\System.Text.Json.SourceGeneration.Roslyn3.11\Debug\netstandard2.0\System.Text.Json.SourceGeneration.dll" target="analyzers\dotnet\roslyn3.11\cs\System.Text.Json.SourceGeneration.dll" />
+    <file src="C:\src\dotnet\runtime\artifacts\obj\System.Text.Json.SourceGeneration.Roslyn4.0\Debug\netstandard2.0\cs\System.Text.Json.SourceGeneration.resources.dll" target="analyzers\dotnet\roslyn4.0\cs\cs\System.Text.Json.SourceGeneration.resources.dll" />
+    <file src="C:\src\dotnet\runtime\artifacts\obj\System.Text.Json.SourceGeneration.Roslyn4.0\Debug\netstandard2.0\de\System.Text.Json.SourceGeneration.resources.dll" target="analyzers\dotnet\roslyn4.0\cs\de\System.Text.Json.SourceGeneration.resources.dll" />
+    <file src="C:\src\dotnet\runtime\artifacts\obj\System.Text.Json.SourceGeneration.Roslyn4.0\Debug\netstandard2.0\es\System.Text.Json.SourceGeneration.resources.dll" target="analyzers\dotnet\roslyn4.0\cs\es\System.Text.Json.SourceGeneration.resources.dll" />
+    <file src="C:\src\dotnet\runtime\artifacts\obj\System.Text.Json.SourceGeneration.Roslyn4.0\Debug\netstandard2.0\fr\System.Text.Json.SourceGeneration.resources.dll" target="analyzers\dotnet\roslyn4.0\cs\fr\System.Text.Json.SourceGeneration.resources.dll" />
+    <file src="C:\src\dotnet\runtime\artifacts\obj\System.Text.Json.SourceGeneration.Roslyn4.0\Debug\netstandard2.0\it\System.Text.Json.SourceGeneration.resources.dll" target="analyzers\dotnet\roslyn4.0\cs\it\System.Text.Json.SourceGeneration.resources.dll" />
+    <file src="C:\src\dotnet\runtime\artifacts\obj\System.Text.Json.SourceGeneration.Roslyn4.0\Debug\netstandard2.0\ja\System.Text.Json.SourceGeneration.resources.dll" target="analyzers\dotnet\roslyn4.0\cs\ja\System.Text.Json.SourceGeneration.resources.dll" />
+    <file src="C:\src\dotnet\runtime\artifacts\obj\System.Text.Json.SourceGeneration.Roslyn4.0\Debug\netstandard2.0\ko\System.Text.Json.SourceGeneration.resources.dll" target="analyzers\dotnet\roslyn4.0\cs\ko\System.Text.Json.SourceGeneration.resources.dll" />
+    <file src="C:\src\dotnet\runtime\artifacts\obj\System.Text.Json.SourceGeneration.Roslyn4.0\Debug\netstandard2.0\pl\System.Text.Json.SourceGeneration.resources.dll" target="analyzers\dotnet\roslyn4.0\cs\pl\System.Text.Json.SourceGeneration.resources.dll" />
+    <file src="C:\src\dotnet\runtime\artifacts\obj\System.Text.Json.SourceGeneration.Roslyn4.0\Debug\netstandard2.0\pt-BR\System.Text.Json.SourceGeneration.resources.dll" target="analyzers\dotnet\roslyn4.0\cs\pt-BR\System.Text.Json.SourceGeneration.resources.dll" />
+    <file src="C:\src\dotnet\runtime\artifacts\obj\System.Text.Json.SourceGeneration.Roslyn4.0\Debug\netstandard2.0\ru\System.Text.Json.SourceGeneration.resources.dll" target="analyzers\dotnet\roslyn4.0\cs\ru\System.Text.Json.SourceGeneration.resources.dll" />
+    <file src="C:\src\dotnet\runtime\artifacts\obj\System.Text.Json.SourceGeneration.Roslyn4.0\Debug\netstandard2.0\tr\System.Text.Json.SourceGeneration.resources.dll" target="analyzers\dotnet\roslyn4.0\cs\tr\System.Text.Json.SourceGeneration.resources.dll" />
+    <file src="C:\src\dotnet\runtime\artifacts\obj\System.Text.Json.SourceGeneration.Roslyn4.0\Debug\netstandard2.0\zh-Hans\System.Text.Json.SourceGeneration.resources.dll" target="analyzers\dotnet\roslyn4.0\cs\zh-Hans\System.Text.Json.SourceGeneration.resources.dll" />
+    <file src="C:\src\dotnet\runtime\artifacts\obj\System.Text.Json.SourceGeneration.Roslyn4.0\Debug\netstandard2.0\zh-Hant\System.Text.Json.SourceGeneration.resources.dll" target="analyzers\dotnet\roslyn4.0\cs\zh-Hant\System.Text.Json.SourceGeneration.resources.dll" />
+    <file src="C:\src\dotnet\runtime\artifacts\obj\System.Text.Json.SourceGeneration.Roslyn4.0\Debug\netstandard2.0\System.Text.Json.SourceGeneration.dll" target="analyzers\dotnet\roslyn4.0\cs\System.Text.Json.SourceGeneration.dll" />
+    <file src="C:\src\dotnet\runtime\artifacts\obj\System.Text.Json.SourceGeneration.Roslyn4.4\Debug\netstandard2.0\cs\System.Text.Json.SourceGeneration.resources.dll" target="analyzers\dotnet\roslyn4.4\cs\cs\System.Text.Json.SourceGeneration.resources.dll" />
+    <file src="C:\src\dotnet\runtime\artifacts\obj\System.Text.Json.SourceGeneration.Roslyn4.4\Debug\netstandard2.0\de\System.Text.Json.SourceGeneration.resources.dll" target="analyzers\dotnet\roslyn4.4\cs\de\System.Text.Json.SourceGeneration.resources.dll" />
+    <file src="C:\src\dotnet\runtime\artifacts\obj\System.Text.Json.SourceGeneration.Roslyn4.4\Debug\netstandard2.0\es\System.Text.Json.SourceGeneration.resources.dll" target="analyzers\dotnet\roslyn4.4\cs\es\System.Text.Json.SourceGeneration.resources.dll" />
+    <file src="C:\src\dotnet\runtime\artifacts\obj\System.Text.Json.SourceGeneration.Roslyn4.4\Debug\netstandard2.0\fr\System.Text.Json.SourceGeneration.resources.dll" target="analyzers\dotnet\roslyn4.4\cs\fr\System.Text.Json.SourceGeneration.resources.dll" />
+    <file src="C:\src\dotnet\runtime\artifacts\obj\System.Text.Json.SourceGeneration.Roslyn4.4\Debug\netstandard2.0\it\System.Text.Json.SourceGeneration.resources.dll" target="analyzers\dotnet\roslyn4.4\cs\it\System.Text.Json.SourceGeneration.resources.dll" />
+    <file src="C:\src\dotnet\runtime\artifacts\obj\System.Text.Json.SourceGeneration.Roslyn4.4\Debug\netstandard2.0\ja\System.Text.Json.SourceGeneration.resources.dll" target="analyzers\dotnet\roslyn4.4\cs\ja\System.Text.Json.SourceGeneration.resources.dll" />
+    <file src="C:\src\dotnet\runtime\artifacts\obj\System.Text.Json.SourceGeneration.Roslyn4.4\Debug\netstandard2.0\ko\System.Text.Json.SourceGeneration.resources.dll" target="analyzers\dotnet\roslyn4.4\cs\ko\System.Text.Json.SourceGeneration.resources.dll" />
+    <file src="C:\src\dotnet\runtime\artifacts\obj\System.Text.Json.SourceGeneration.Roslyn4.4\Debug\netstandard2.0\pl\System.Text.Json.SourceGeneration.resources.dll" target="analyzers\dotnet\roslyn4.4\cs\pl\System.Text.Json.SourceGeneration.resources.dll" />
+    <file src="C:\src\dotnet\runtime\artifacts\obj\System.Text.Json.SourceGeneration.Roslyn4.4\Debug\netstandard2.0\pt-BR\System.Text.Json.SourceGeneration.resources.dll" target="analyzers\dotnet\roslyn4.4\cs\pt-BR\System.Text.Json.SourceGeneration.resources.dll" />
+    <file src="C:\src\dotnet\runtime\artifacts\obj\System.Text.Json.SourceGeneration.Roslyn4.4\Debug\netstandard2.0\ru\System.Text.Json.SourceGeneration.resources.dll" target="analyzers\dotnet\roslyn4.4\cs\ru\System.Text.Json.SourceGeneration.resources.dll" />
+    <file src="C:\src\dotnet\runtime\artifacts\obj\System.Text.Json.SourceGeneration.Roslyn4.4\Debug\netstandard2.0\tr\System.Text.Json.SourceGeneration.resources.dll" target="analyzers\dotnet\roslyn4.4\cs\tr\System.Text.Json.SourceGeneration.resources.dll" />
+    <file src="C:\src\dotnet\runtime\artifacts\obj\System.Text.Json.SourceGeneration.Roslyn4.4\Debug\netstandard2.0\zh-Hans\System.Text.Json.SourceGeneration.resources.dll" target="analyzers\dotnet\roslyn4.4\cs\zh-Hans\System.Text.Json.SourceGeneration.resources.dll" />
+    <file src="C:\src\dotnet\runtime\artifacts\obj\System.Text.Json.SourceGeneration.Roslyn4.4\Debug\netstandard2.0\zh-Hant\System.Text.Json.SourceGeneration.resources.dll" target="analyzers\dotnet\roslyn4.4\cs\zh-Hant\System.Text.Json.SourceGeneration.resources.dll" />
+    <file src="C:\src\dotnet\runtime\artifacts\obj\System.Text.Json.SourceGeneration.Roslyn4.4\Debug\netstandard2.0\System.Text.Json.SourceGeneration.dll" target="analyzers\dotnet\roslyn4.4\cs\System.Text.Json.SourceGeneration.dll" />
+    <file src="C:\src\dotnet\runtime\artifacts\obj\System.Text.Json\Debug\MultiTargetRoslynComponent.targets" target="buildTransitive\netstandard2.0\System.Text.Json.targets" />
+    <file src="C:\src\dotnet\runtime\artifacts\obj\System.Text.Json\Debug\MultiTargetRoslynComponent.targets" target="buildTransitive\net8.0\System.Text.Json.targets" />
+    <file src="C:\src\dotnet\runtime\artifacts\obj\System.Text.Json\Debug\MultiTargetRoslynComponent.targets" target="buildTransitive\net462\System.Text.Json.targets" />
+    <file src="C:\Users\ericstj\.nuget\packages\microsoft.dotnet.arcade.sdk\9.0.0-beta.24408.1\tools\Assets\DotNetPackageIcon.png" target="Icon.png" />
+    <file src="C:\src\dotnet\runtime\eng\useSharedDesignerContext.txt" target="useSharedDesignerContext.txt" />
+    <file src="C:\src\dotnet\runtime\LICENSE.TXT" target="LICENSE.TXT" />
+    <file src="C:\src\dotnet\runtime\THIRD-PARTY-NOTICES.TXT" target="THIRD-PARTY-NOTICES.TXT" />
+    <file src="C:\src\dotnet\runtime\artifacts\obj\System.Text.Json\netstandardcompaterror_netcoreapp2.0.targets" target="buildTransitive\netcoreapp2.0\System.Text.Json.targets" />
+    <file src="C:\src\dotnet\runtime\artifacts\obj\System.Text.Json\netstandardcompaterror_net461.targets" target="buildTransitive\net461\System.Text.Json.targets" />
+  </files>
+</package>

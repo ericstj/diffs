@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Microsoft.Extensions.Configuration.Binder</id>
+    <version>9.0.0-dev</version>
+    <authors>Microsoft</authors>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <icon>Icon.png</icon>
+    <projectUrl>https://dot.net/</projectUrl>
+    <description>Provides the functionality to bind an object to data in configuration providers for Microsoft.Extensions.Configuration. This package enables you to represent the configuration data as strongly-typed classes defined in the application code. To bind a configuration, use the Microsoft.Extensions.Configuration.ConfigurationBinder.Get extension method on the IConfiguration object. To use this package, you also need to install a package for the configuration provider, for example, Microsoft.Extensions.Configuration.Json for the JSON provider.</description>
+    <releaseNotes>https://go.microsoft.com/fwlink/?LinkID=799421</releaseNotes>
+    <copyright>© Microsoft Corporation. All rights reserved.</copyright>
+    <repository type="git" url="https://github.com/dotnet/runtime" commit="0000000000000000000000000000000000000000" />
+    <dependencies>
+      <group targetFramework=".NETFramework4.6.2">
+        <dependency id="Microsoft.Extensions.Configuration.Abstractions" version="9.0.0-dev" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework="net8.0">
+        <dependency id="Microsoft.Extensions.Configuration.Abstractions" version="9.0.0-dev" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework="net9.0">
+        <dependency id="Microsoft.Extensions.Configuration.Abstractions" version="9.0.0-dev" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="Microsoft.Extensions.Configuration.Abstractions" version="9.0.0-dev" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\src\dotnet\runtime\artifacts\bin\Microsoft.Extensions.Configuration.Binder\Debug\net462\Microsoft.Extensions.Configuration.Binder.dll" target="lib\net462\Microsoft.Extensions.Configuration.Binder.dll" />
+    <file src="C:\src\dotnet\runtime\artifacts\bin\Microsoft.Extensions.Configuration.Binder\Debug\net462\Microsoft.Extensions.Configuration.Binder.xml" target="lib\net462\Microsoft.Extensions.Configuration.Binder.xml" />
+    <file src="C:\src\dotnet\runtime\artifacts\bin\Microsoft.Extensions.Configuration.Binder\Debug\net8.0\Microsoft.Extensions.Configuration.Binder.dll" target="lib\net8.0\Microsoft.Extensions.Configuration.Binder.dll" />
+    <file src="C:\src\dotnet\runtime\artifacts\bin\Microsoft.Extensions.Configuration.Binder\Debug\net8.0\Microsoft.Extensions.Configuration.Binder.xml" target="lib\net8.0\Microsoft.Extensions.Configuration.Binder.xml" />
+    <file src="C:\src\dotnet\runtime\artifacts\bin\Microsoft.Extensions.Configuration.Binder\Debug\net9.0\Microsoft.Extensions.Configuration.Binder.dll" target="lib\net9.0\Microsoft.Extensions.Configuration.Binder.dll" />
+    <file src="C:\src\dotnet\runtime\artifacts\bin\Microsoft.Extensions.Configuration.Binder\Debug\net9.0\Microsoft.Extensions.Configuration.Binder.xml" target="lib\net9.0\Microsoft.Extensions.Configuration.Binder.xml" />
+    <file src="C:\src\dotnet\runtime\artifacts\bin\Microsoft.Extensions.Configuration.Binder\Debug\netstandard2.0\Microsoft.Extensions.Configuration.Binder.dll" target="lib\netstandard2.0\Microsoft.Extensions.Configuration.Binder.dll" />
+    <file src="C:\src\dotnet\runtime\artifacts\bin\Microsoft.Extensions.Configuration.Binder\Debug\netstandard2.0\Microsoft.Extensions.Configuration.Binder.xml" target="lib\netstandard2.0\Microsoft.Extensions.Configuration.Binder.xml" />
+    <file src="C:\src\dotnet\runtime\src\libraries\Microsoft.Extensions.Configuration.Binder\src\buildTransitive\Microsoft.Extensions.Configuration.Binder.targets" target="buildTransitive\netstandard2.0\Microsoft.Extensions.Configuration.Binder.targets" />
+    <file src="C:\src\dotnet\runtime\artifacts\obj\Microsoft.Extensions.Configuration.Binder.SourceGeneration\Debug\netstandard2.0\cs\Microsoft.Extensions.Configuration.Binder.SourceGeneration.resources.dll" target="analyzers\dotnet\cs\cs\Microsoft.Extensions.Configuration.Binder.SourceGeneration.resources.dll" />
+    <file src="C:\src\dotnet\runtime\artifacts\obj\Microsoft.Extensions.Configuration.Binder.SourceGeneration\Debug\netstandard2.0\de\Microsoft.Extensions.Configuration.Binder.SourceGeneration.resources.dll" target="analyzers\dotnet\cs\de\Microsoft.Extensions.Configuration.Binder.SourceGeneration.resources.dll" />
+    <file src="C:\src\dotnet\runtime\artifacts\obj\Microsoft.Extensions.Configuration.Binder.SourceGeneration\Debug\netstandard2.0\es\Microsoft.Extensions.Configuration.Binder.SourceGeneration.resources.dll" target="analyzers\dotnet\cs\es\Microsoft.Extensions.Configuration.Binder.SourceGeneration.resources.dll" />
+    <file src="C:\src\dotnet\runtime\artifacts\obj\Microsoft.Extensions.Configuration.Binder.SourceGeneration\Debug\netstandard2.0\fr\Microsoft.Extensions.Configuration.Binder.SourceGeneration.resources.dll" target="analyzers\dotnet\cs\fr\Microsoft.Extensions.Configuration.Binder.SourceGeneration.resources.dll" />
+    <file src="C:\src\dotnet\runtime\artifacts\obj\Microsoft.Extensions.Configuration.Binder.SourceGeneration\Debug\netstandard2.0\it\Microsoft.Extensions.Configuration.Binder.SourceGeneration.resources.dll" target="analyzers\dotnet\cs\it\Microsoft.Extensions.Configuration.Binder.SourceGeneration.resources.dll" />
+    <file src="C:\src\dotnet\runtime\artifacts\obj\Microsoft.Extensions.Configuration.Binder.SourceGeneration\Debug\netstandard2.0\ja\Microsoft.Extensions.Configuration.Binder.SourceGeneration.resources.dll" target="analyzers\dotnet\cs\ja\Microsoft.Extensions.Configuration.Binder.SourceGeneration.resources.dll" />
+    <file src="C:\src\dotnet\runtime\artifacts\obj\Microsoft.Extensions.Configuration.Binder.SourceGeneration\Debug\netstandard2.0\ko\Microsoft.Extensions.Configuration.Binder.SourceGeneration.resources.dll" target="analyzers\dotnet\cs\ko\Microsoft.Extensions.Configuration.Binder.SourceGeneration.resources.dll" />
+    <file src="C:\src\dotnet\runtime\artifacts\obj\Microsoft.Extensions.Configuration.Binder.SourceGeneration\Debug\netstandard2.0\pl\Microsoft.Extensions.Configuration.Binder.SourceGeneration.resources.dll" target="analyzers\dotnet\cs\pl\Microsoft.Extensions.Configuration.Binder.SourceGeneration.resources.dll" />
+    <file src="C:\src\dotnet\runtime\artifacts\obj\Microsoft.Extensions.Configuration.Binder.SourceGeneration\Debug\netstandard2.0\pt-BR\Microsoft.Extensions.Configuration.Binder.SourceGeneration.resources.dll" target="analyzers\dotnet\cs\pt-BR\Microsoft.Extensions.Configuration.Binder.SourceGeneration.resources.dll" />
+    <file src="C:\src\dotnet\runtime\artifacts\obj\Microsoft.Extensions.Configuration.Binder.SourceGeneration\Debug\netstandard2.0\ru\Microsoft.Extensions.Configuration.Binder.SourceGeneration.resources.dll" target="analyzers\dotnet\cs\ru\Microsoft.Extensions.Configuration.Binder.SourceGeneration.resources.dll" />
+    <file src="C:\src\dotnet\runtime\artifacts\obj\Microsoft.Extensions.Configuration.Binder.SourceGeneration\Debug\netstandard2.0\tr\Microsoft.Extensions.Configuration.Binder.SourceGeneration.resources.dll" target="analyzers\dotnet\cs\tr\Microsoft.Extensions.Configuration.Binder.SourceGeneration.resources.dll" />
+    <file src="C:\src\dotnet\runtime\artifacts\obj\Microsoft.Extensions.Configuration.Binder.SourceGeneration\Debug\netstandard2.0\zh-Hans\Microsoft.Extensions.Configuration.Binder.SourceGeneration.resources.dll" target="analyzers\dotnet\cs\zh-Hans\Microsoft.Extensions.Configuration.Binder.SourceGeneration.resources.dll" />
+    <file src="C:\src\dotnet\runtime\artifacts\obj\Microsoft.Extensions.Configuration.Binder.SourceGeneration\Debug\netstandard2.0\zh-Hant\Microsoft.Extensions.Configuration.Binder.SourceGeneration.resources.dll" target="analyzers\dotnet\cs\zh-Hant\Microsoft.Extensions.Configuration.Binder.SourceGeneration.resources.dll" />
+    <file src="C:\src\dotnet\runtime\artifacts\obj\Microsoft.Extensions.Configuration.Binder.SourceGeneration\Debug\netstandard2.0\Microsoft.Extensions.Configuration.Binder.SourceGeneration.dll" target="analyzers\dotnet\cs\Microsoft.Extensions.Configuration.Binder.SourceGeneration.dll" />
+    <file src="C:\Users\ericstj\.nuget\packages\microsoft.dotnet.arcade.sdk\9.0.0-beta.24408.1\tools\Assets\DotNetPackageIcon.png" target="Icon.png" />
+    <file src="C:\src\dotnet\runtime\eng\useSharedDesignerContext.txt" target="useSharedDesignerContext.txt" />
+    <file src="C:\src\dotnet\runtime\LICENSE.TXT" target="LICENSE.TXT" />
+    <file src="C:\src\dotnet\runtime\THIRD-PARTY-NOTICES.TXT" target="THIRD-PARTY-NOTICES.TXT" />
+  </files>
+</package>

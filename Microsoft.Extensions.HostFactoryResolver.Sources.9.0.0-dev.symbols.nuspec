@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
+  <metadata>
+    <id>Microsoft.Extensions.HostFactoryResolver.Sources</id>
+    <version>9.0.0-dev</version>
+    <authors>Microsoft</authors>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <icon>Icon.png</icon>
+    <projectUrl>https://dot.net/</projectUrl>
+    <description>Internal package for sharing Microsoft.Extensions.Hosting.HostFactoryResolver type.</description>
+    <releaseNotes>https://go.microsoft.com/fwlink/?LinkID=799421</releaseNotes>
+    <copyright>© Microsoft Corporation. All rights reserved.</copyright>
+    <serviceable>true</serviceable>
+    <repository type="git" url="https://github.com/dotnet/runtime" commit="0000000000000000000000000000000000000000" />
+    <contentFiles>
+      <files include="cs/netstandard2.0/HostFactoryResolver.cs" buildAction="Compile" />
+      <files include="cs/netstandard2.0/HostFactoryResolver.cs" buildAction="Compile" />
+    </contentFiles>
+  </metadata>
+  <files>
+    <file src="C:\src\dotnet\runtime\src\libraries\Microsoft.Extensions.HostFactoryResolver\src\HostFactoryResolver.cs" target="contentFiles\cs\netstandard2.0\HostFactoryResolver.cs" />
+    <file src="C:\Users\ericstj\.nuget\packages\microsoft.dotnet.arcade.sdk\9.0.0-beta.24408.1\tools\Assets\DotNetPackageIcon.png" target="Icon.png" />
+    <file src="C:\src\dotnet\runtime\eng\useSharedDesignerContext.txt" target="useSharedDesignerContext.txt" />
+    <file src="C:\src\dotnet\runtime\LICENSE.TXT" target="LICENSE.TXT" />
+    <file src="C:\src\dotnet\runtime\THIRD-PARTY-NOTICES.TXT" target="THIRD-PARTY-NOTICES.TXT" />
+  </files>
+</package>

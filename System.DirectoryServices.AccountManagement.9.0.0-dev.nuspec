@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>System.DirectoryServices.AccountManagement</id>
+    <version>9.0.0-dev</version>
+    <authors>Microsoft</authors>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <icon>Icon.png</icon>
+    <projectUrl>https://dot.net/</projectUrl>
+    <description>Provides uniform access and manipulation of user, computer, and group security principals across the multiple principal stores: Active Directory Domain Services (AD DS), Active Directory Lightweight Directory Services (AD LDS), and Machine SAM (MSAM).</description>
+    <releaseNotes>https://go.microsoft.com/fwlink/?LinkID=799421</releaseNotes>
+    <copyright>© Microsoft Corporation. All rights reserved.</copyright>
+    <repository type="git" url="https://github.com/dotnet/runtime" commit="0000000000000000000000000000000000000000" />
+    <dependencies>
+      <group targetFramework="net8.0">
+        <dependency id="Microsoft.Bcl.Cryptography" version="9.0.0-dev" exclude="Build,Analyzers" />
+        <dependency id="System.Configuration.ConfigurationManager" version="9.0.0-dev" exclude="Build,Analyzers" />
+        <dependency id="System.DirectoryServices.Protocols" version="9.0.0-dev" exclude="Build,Analyzers" />
+        <dependency id="System.DirectoryServices" version="9.0.0-dev" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework="net9.0">
+        <dependency id="System.Configuration.ConfigurationManager" version="9.0.0-dev" exclude="Build,Analyzers" />
+        <dependency id="System.DirectoryServices.Protocols" version="9.0.0-dev" exclude="Build,Analyzers" />
+        <dependency id="System.DirectoryServices" version="9.0.0-dev" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="Microsoft.Bcl.Cryptography" version="9.0.0-dev" exclude="Build,Analyzers" />
+        <dependency id="System.Security.Principal.Windows" version="5.0.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="System.DirectoryServices.AccountManagement" targetFramework=".NETFramework4.6.2" />
+    </frameworkAssemblies>
+  </metadata>
+  <files>
+    <file src="C:\src\dotnet\runtime\artifacts\bin\System.DirectoryServices.AccountManagement\Debug\net8.0\System.DirectoryServices.AccountManagement.dll" target="lib\net8.0\System.DirectoryServices.AccountManagement.dll" />
+    <file src="C:\src\dotnet\runtime\artifacts\bin\System.DirectoryServices.AccountManagement\Debug\net8.0\System.DirectoryServices.AccountManagement.xml" target="lib\net8.0\System.DirectoryServices.AccountManagement.xml" />
+    <file src="C:\src\dotnet\runtime\artifacts\bin\System.DirectoryServices.AccountManagement\Debug\net9.0\System.DirectoryServices.AccountManagement.dll" target="lib\net9.0\System.DirectoryServices.AccountManagement.dll" />
+    <file src="C:\src\dotnet\runtime\artifacts\bin\System.DirectoryServices.AccountManagement\Debug\net9.0\System.DirectoryServices.AccountManagement.xml" target="lib\net9.0\System.DirectoryServices.AccountManagement.xml" />
+    <file src="C:\src\dotnet\runtime\artifacts\bin\System.DirectoryServices.AccountManagement\Debug\netstandard2.0\System.DirectoryServices.AccountManagement.dll" target="lib\netstandard2.0\System.DirectoryServices.AccountManagement.dll" />
+    <file src="C:\src\dotnet\runtime\artifacts\bin\System.DirectoryServices.AccountManagement\Debug\netstandard2.0\System.DirectoryServices.AccountManagement.xml" target="lib\netstandard2.0\System.DirectoryServices.AccountManagement.xml" />
+    <file src="C:\src\dotnet\runtime\artifacts\obj\System.DirectoryServices.AccountManagement\Debug\net8.0-windows\System.DirectoryServices.AccountManagement.dll" target="runtimes\win\lib\net8.0\System.DirectoryServices.AccountManagement.dll" />
+    <file src="C:\src\dotnet\runtime\artifacts\obj\System.DirectoryServices.AccountManagement\Debug\net8.0-windows\System.DirectoryServices.AccountManagement.xml" target="runtimes\win\lib\net8.0\System.DirectoryServices.AccountManagement.xml" />
+    <file src="C:\src\dotnet\runtime\artifacts\obj\System.DirectoryServices.AccountManagement\Debug\net9.0-windows\System.DirectoryServices.AccountManagement.dll" target="runtimes\win\lib\net9.0\System.DirectoryServices.AccountManagement.dll" />
+    <file src="C:\src\dotnet\runtime\artifacts\obj\System.DirectoryServices.AccountManagement\Debug\net9.0-windows\System.DirectoryServices.AccountManagement.xml" target="runtimes\win\lib\net9.0\System.DirectoryServices.AccountManagement.xml" />
+    <file src="C:\Users\ericstj\.nuget\packages\microsoft.dotnet.arcade.sdk\9.0.0-beta.24408.1\tools\Assets\DotNetPackageIcon.png" target="Icon.png" />
+    <file src="C:\src\dotnet\runtime\eng\useSharedDesignerContext.txt" target="useSharedDesignerContext.txt" />
+    <file src="C:\src\dotnet\runtime\eng\_._" target="lib\net462\_._" />
+    <file src="C:\src\dotnet\runtime\eng\_._" target="buildTransitive\net8.0\_._" />
+    <file src="C:\src\dotnet\runtime\LICENSE.TXT" target="LICENSE.TXT" />
+    <file src="C:\src\dotnet\runtime\THIRD-PARTY-NOTICES.TXT" target="THIRD-PARTY-NOTICES.TXT" />
+    <file src="C:\src\dotnet\runtime\artifacts\obj\System.DirectoryServices.AccountManagement\netstandardcompaterror_netcoreapp2.0.targets" target="buildTransitive\netcoreapp2.0\System.DirectoryServices.AccountManagement.targets" />
+  </files>
+</package>

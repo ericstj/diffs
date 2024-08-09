@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
+  <metadata>
+    <id>Microsoft.Internal.Runtime.WindowsDesktop.Transport</id>
+    <version>9.0.0-dev</version>
+    <authors>Microsoft</authors>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <icon>Icon.png</icon>
+    <projectUrl>https://dot.net/</projectUrl>
+    <description>Internal transport package to provide windowsdesktop with the assemblies from dotnet/runtime that make up the Microsoft.WindowsDesktop.App shared framework.</description>
+    <releaseNotes>https://go.microsoft.com/fwlink/?LinkID=799421</releaseNotes>
+    <copyright>© Microsoft Corporation. All rights reserved.</copyright>
+    <serviceable>true</serviceable>
+    <repository type="git" url="https://github.com/dotnet/runtime" commit="0000000000000000000000000000000000000000" />
+  </metadata>
+  <files>
+    <file src="C:\src\dotnet\runtime\artifacts\bin\Microsoft.Win32.Registry.AccessControl\Debug\net9.0-windows\Microsoft.Win32.Registry.AccessControl.dll" target="lib\net9.0\Microsoft.Win32.Registry.AccessControl.dll" />
+    <file src="C:\src\dotnet\runtime\artifacts\bin\Microsoft.Win32.SystemEvents\Debug\net9.0-windows\Microsoft.Win32.SystemEvents.dll" target="lib\net9.0\Microsoft.Win32.SystemEvents.dll" />
+    <file src="C:\src\dotnet\runtime\artifacts\bin\System.CodeDom\Debug\net9.0\System.CodeDom.dll" target="lib\net9.0\System.CodeDom.dll" />
+    <file src="C:\src\dotnet\runtime\artifacts\bin\System.Configuration.ConfigurationManager\Debug\net9.0\System.Configuration.ConfigurationManager.dll" target="lib\net9.0\System.Configuration.ConfigurationManager.dll" />
+    <file src="C:\src\dotnet\runtime\artifacts\bin\System.Diagnostics.EventLog\Debug\net9.0-windows\System.Diagnostics.EventLog.dll" target="lib\net9.0\System.Diagnostics.EventLog.dll" />
+    <file src="C:\src\dotnet\runtime\artifacts\bin\System.Diagnostics.EventLog.Messages\Debug\netstandard2.0\System.Diagnostics.EventLog.Messages.dll" target="lib\net9.0\System.Diagnostics.EventLog.Messages.dll" />
+    <file src="C:\src\dotnet\runtime\artifacts\bin\System.Diagnostics.PerformanceCounter\Debug\net9.0-windows\System.Diagnostics.PerformanceCounter.dll" target="lib\net9.0\System.Diagnostics.PerformanceCounter.dll" />
+    <file src="C:\src\dotnet\runtime\artifacts\bin\System.DirectoryServices\Debug\net9.0-windows\System.DirectoryServices.dll" target="lib\net9.0\System.DirectoryServices.dll" />
+    <file src="C:\src\dotnet\runtime\artifacts\bin\System.Formats.Nrbf\Debug\net9.0\System.Formats.Nrbf.dll" target="lib\net9.0\System.Formats.Nrbf.dll" />
+    <file src="C:\src\dotnet\runtime\artifacts\bin\System.IO.Packaging\Debug\net9.0\System.IO.Packaging.dll" target="lib\net9.0\System.IO.Packaging.dll" />
+    <file src="C:\src\dotnet\runtime\artifacts\bin\System.Resources.Extensions\Debug\net9.0\System.Resources.Extensions.dll" target="lib\net9.0\System.Resources.Extensions.dll" />
+    <file src="C:\src\dotnet\runtime\artifacts\bin\System.Security.Cryptography.Pkcs\Debug\net9.0-windows\System.Security.Cryptography.Pkcs.dll" target="lib\net9.0\System.Security.Cryptography.Pkcs.dll" />
+    <file src="C:\src\dotnet\runtime\artifacts\bin\System.Security.Cryptography.ProtectedData\Debug\net9.0\System.Security.Cryptography.ProtectedData.dll" target="lib\net9.0\System.Security.Cryptography.ProtectedData.dll" />
+    <file src="C:\src\dotnet\runtime\artifacts\bin\System.Security.Cryptography.Xml\Debug\net9.0\System.Security.Cryptography.Xml.dll" target="lib\net9.0\System.Security.Cryptography.Xml.dll" />
+    <file src="C:\src\dotnet\runtime\artifacts\bin\System.Security.Permissions\Debug\net9.0\System.Security.Permissions.dll" target="lib\net9.0\System.Security.Permissions.dll" />
+    <file src="C:\src\dotnet\runtime\artifacts\bin\System.Threading.AccessControl\Debug\net9.0-windows\System.Threading.AccessControl.dll" target="lib\net9.0\System.Threading.AccessControl.dll" />
+    <file src="C:\src\dotnet\runtime\artifacts\bin\System.Windows.Extensions\Debug\net9.0-windows\System.Windows.Extensions.dll" target="lib\net9.0\System.Windows.Extensions.dll" />
+    <file src="C:\src\dotnet\runtime\artifacts\bin\Microsoft.Win32.Registry.AccessControl\ref\Debug\net9.0\Microsoft.Win32.Registry.AccessControl.dll" target="ref\net9.0\Microsoft.Win32.Registry.AccessControl.dll" />
+    <file src="C:\src\dotnet\runtime\artifacts\bin\Microsoft.Win32.SystemEvents\ref\Debug\net9.0\Microsoft.Win32.SystemEvents.dll" target="ref\net9.0\Microsoft.Win32.SystemEvents.dll" />
+    <file src="C:\src\dotnet\runtime\artifacts\bin\System.CodeDom\ref\Debug\net9.0\System.CodeDom.dll" target="ref\net9.0\System.CodeDom.dll" />
+    <file src="C:\src\dotnet\runtime\artifacts\bin\System.Configuration.ConfigurationManager\ref\Debug\net9.0\System.Configuration.ConfigurationManager.dll" target="ref\net9.0\System.Configuration.ConfigurationManager.dll" />
+    <file src="C:\src\dotnet\runtime\artifacts\bin\System.Diagnostics.EventLog\ref\Debug\net9.0\System.Diagnostics.EventLog.dll" target="ref\net9.0\System.Diagnostics.EventLog.dll" />
+    <file src="C:\src\dotnet\runtime\artifacts\bin\System.Diagnostics.PerformanceCounter\ref\Debug\net9.0\System.Diagnostics.PerformanceCounter.dll" target="ref\net9.0\System.Diagnostics.PerformanceCounter.dll" />
+    <file src="C:\src\dotnet\runtime\artifacts\bin\System.DirectoryServices\ref\Debug\net9.0\System.DirectoryServices.dll" target="ref\net9.0\System.DirectoryServices.dll" />
+    <file src="C:\src\dotnet\runtime\artifacts\bin\System.Formats.Nrbf\ref\Debug\net9.0\System.Formats.Nrbf.dll" target="ref\net9.0\System.Formats.Nrbf.dll" />
+    <file src="C:\src\dotnet\runtime\artifacts\bin\System.IO.Packaging\ref\Debug\net9.0\System.IO.Packaging.dll" target="ref\net9.0\System.IO.Packaging.dll" />
+    <file src="C:\src\dotnet\runtime\artifacts\bin\System.Resources.Extensions\ref\Debug\net9.0\System.Resources.Extensions.dll" target="ref\net9.0\System.Resources.Extensions.dll" />
+    <file src="C:\src\dotnet\runtime\artifacts\bin\System.Security.Cryptography.Pkcs\ref\Debug\net9.0\System.Security.Cryptography.Pkcs.dll" target="ref\net9.0\System.Security.Cryptography.Pkcs.dll" />
+    <file src="C:\src\dotnet\runtime\artifacts\bin\System.Security.Cryptography.ProtectedData\ref\Debug\net9.0\System.Security.Cryptography.ProtectedData.dll" target="ref\net9.0\System.Security.Cryptography.ProtectedData.dll" />
+    <file src="C:\src\dotnet\runtime\artifacts\bin\System.Security.Cryptography.Xml\ref\Debug\net9.0\System.Security.Cryptography.Xml.dll" target="ref\net9.0\System.Security.Cryptography.Xml.dll" />
+    <file src="C:\src\dotnet\runtime\artifacts\bin\System.Security.Permissions\ref\Debug\net9.0\System.Security.Permissions.dll" target="ref\net9.0\System.Security.Permissions.dll" />
+    <file src="C:\src\dotnet\runtime\artifacts\bin\System.Threading.AccessControl\ref\Debug\net9.0\System.Threading.AccessControl.dll" target="ref\net9.0\System.Threading.AccessControl.dll" />
+    <file src="C:\src\dotnet\runtime\artifacts\bin\System.Windows.Extensions\ref\Debug\net9.0\System.Windows.Extensions.dll" target="ref\net9.0\System.Windows.Extensions.dll" />
+    <file src="C:\src\dotnet\runtime\artifacts\bin\Microsoft.Win32.Registry.AccessControl\Debug\net9.0-windows\Microsoft.Win32.Registry.AccessControl.xml" target="ref\net9.0\Microsoft.Win32.Registry.AccessControl.xml" />
+    <file src="C:\src\dotnet\runtime\artifacts\bin\Microsoft.Win32.SystemEvents\Debug\net9.0-windows\Microsoft.Win32.SystemEvents.xml" target="ref\net9.0\Microsoft.Win32.SystemEvents.xml" />
+    <file src="C:\src\dotnet\runtime\artifacts\bin\System.Diagnostics.EventLog\Debug\net9.0-windows\System.Diagnostics.EventLog.xml" target="ref\net9.0\System.Diagnostics.EventLog.xml" />
+    <file src="C:\src\dotnet\runtime\artifacts\bin\System.Diagnostics.PerformanceCounter\Debug\net9.0-windows\System.Diagnostics.PerformanceCounter.xml" target="ref\net9.0\System.Diagnostics.PerformanceCounter.xml" />
+    <file src="C:\src\dotnet\runtime\artifacts\bin\System.DirectoryServices\Debug\net9.0-windows\System.DirectoryServices.xml" target="ref\net9.0\System.DirectoryServices.xml" />
+    <file src="C:\src\dotnet\runtime\artifacts\bin\System.Security.Cryptography.Pkcs\Debug\net9.0-windows\System.Security.Cryptography.Pkcs.xml" target="ref\net9.0\System.Security.Cryptography.Pkcs.xml" />
+    <file src="C:\src\dotnet\runtime\artifacts\bin\System.Threading.AccessControl\Debug\net9.0-windows\System.Threading.AccessControl.xml" target="ref\net9.0\System.Threading.AccessControl.xml" />
+    <file src="C:\src\dotnet\runtime\artifacts\bin\System.Windows.Extensions\Debug\net9.0-windows\System.Windows.Extensions.xml" target="ref\net9.0\System.Windows.Extensions.xml" />
+    <file src="C:\src\dotnet\runtime\artifacts\bin\System.CodeDom\Debug\net9.0\System.CodeDom.xml" target="ref\net9.0\System.CodeDom.xml" />
+    <file src="C:\src\dotnet\runtime\artifacts\bin\System.Configuration.ConfigurationManager\Debug\net9.0\System.Configuration.ConfigurationManager.xml" target="ref\net9.0\System.Configuration.ConfigurationManager.xml" />
+    <file src="C:\src\dotnet\runtime\artifacts\bin\System.Formats.Nrbf\Debug\net9.0\System.Formats.Nrbf.xml" target="ref\net9.0\System.Formats.Nrbf.xml" />
+    <file src="C:\src\dotnet\runtime\artifacts\bin\System.IO.Packaging\Debug\net9.0\System.IO.Packaging.xml" target="ref\net9.0\System.IO.Packaging.xml" />
+    <file src="C:\src\dotnet\runtime\artifacts\bin\System.Resources.Extensions\Debug\net9.0\System.Resources.Extensions.xml" target="ref\net9.0\System.Resources.Extensions.xml" />
+    <file src="C:\src\dotnet\runtime\artifacts\bin\System.Security.Cryptography.ProtectedData\Debug\net9.0\System.Security.Cryptography.ProtectedData.xml" target="ref\net9.0\System.Security.Cryptography.ProtectedData.xml" />
+    <file src="C:\src\dotnet\runtime\artifacts\bin\System.Security.Cryptography.Xml\Debug\net9.0\System.Security.Cryptography.Xml.xml" target="ref\net9.0\System.Security.Cryptography.Xml.xml" />
+    <file src="C:\src\dotnet\runtime\artifacts\bin\System.Security.Permissions\Debug\net9.0\System.Security.Permissions.xml" target="ref\net9.0\System.Security.Permissions.xml" />
+    <file src="C:\src\dotnet\runtime\artifacts\bin\System.Diagnostics.EventLog.Messages\Debug\netstandard2.0\System.Diagnostics.EventLog.Messages.xml" target="ref\net9.0\System.Diagnostics.EventLog.Messages.xml" />
+    <file src="C:\Users\ericstj\.nuget\packages\microsoft.dotnet.arcade.sdk\9.0.0-beta.24408.1\tools\Assets\DotNetPackageIcon.png" target="Icon.png" />
+    <file src="C:\src\dotnet\runtime\eng\useSharedDesignerContext.txt" target="useSharedDesignerContext.txt" />
+    <file src="C:\src\dotnet\runtime\LICENSE.TXT" target="LICENSE.TXT" />
+    <file src="C:\src\dotnet\runtime\THIRD-PARTY-NOTICES.TXT" target="THIRD-PARTY-NOTICES.TXT" />
+  </files>
+</package>

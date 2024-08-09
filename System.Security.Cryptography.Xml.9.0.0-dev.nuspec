@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>System.Security.Cryptography.Xml</id>
+    <version>9.0.0-dev</version>
+    <authors>Microsoft</authors>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <icon>Icon.png</icon>
+    <projectUrl>https://dot.net/</projectUrl>
+    <description>Provides classes to support the creation and validation of XML digital signatures. The classes in this namespace implement the World Wide Web Consortium Recommendation, "XML-Signature Syntax and Processing", described at http://www.w3.org/TR/xmldsig-core/.
+
+Commonly Used Types:
+System.Security.Cryptography.Xml.CipherData
+System.Security.Cryptography.Xml.CipherReference
+System.Security.Cryptography.Xml.DataObject
+System.Security.Cryptography.Xml.DataReference
+System.Security.Cryptography.Xml.DSAKeyValue
+System.Security.Cryptography.Xml.EncryptedData
+System.Security.Cryptography.Xml.EncryptedKey
+System.Security.Cryptography.Xml.EncryptedReference
+System.Security.Cryptography.Xml.EncryptedType
+System.Security.Cryptography.Xml.EncryptedXml
+System.Security.Cryptography.Xml.EncryptionMethod
+System.Security.Cryptography.Xml.EncryptionProperty
+System.Security.Cryptography.Xml.EncryptionPropertyCollection
+System.Security.Cryptography.Xml.KeyInfo
+System.Security.Cryptography.Xml.KeyInfoClause
+System.Security.Cryptography.Xml.KeyInfoEncryptedKey
+System.Security.Cryptography.Xml.KeyInfoName
+System.Security.Cryptography.Xml.KeyInfoNode
+System.Security.Cryptography.Xml.KeyInfoRetrievalMethod
+System.Security.Cryptography.Xml.KeyInfoX509Data
+System.Security.Cryptography.Xml.KeyReference
+System.Security.Cryptography.Xml.Reference
+System.Security.Cryptography.Xml.ReferenceList
+System.Security.Cryptography.Xml.RSAKeyValue
+System.Security.Cryptography.Xml.Signature
+System.Security.Cryptography.Xml.SignedInfo
+System.Security.Cryptography.Xml.SignedXml
+System.Security.Cryptography.Xml.Transform
+System.Security.Cryptography.Xml.TransformChain
+System.Security.Cryptography.Xml.XmlDecryptionTransform
+System.Security.Cryptography.Xml.XmlDsigBase64Transform
+System.Security.Cryptography.Xml.XmlDsigC14NTransform
+System.Security.Cryptography.Xml.XmlDsigC14NWithCommentsTransform
+System.Security.Cryptography.Xml.XmlDsigEnvelopedSignatureTransform
+System.Security.Cryptography.Xml.XmlDsigExcC14NTransform
+System.Security.Cryptography.Xml.XmlDsigExcC14NWithCommentsTransform
+System.Security.Cryptography.Xml.XmlDsigXPathTransform
+System.Security.Cryptography.Xml.XmlDsigXsltTransform
+System.Security.Cryptography.Xml.XmlLicenseTransform</description>
+    <releaseNotes>https://go.microsoft.com/fwlink/?LinkID=799421</releaseNotes>
+    <copyright>© Microsoft Corporation. All rights reserved.</copyright>
+    <repository type="git" url="https://github.com/dotnet/runtime" commit="0000000000000000000000000000000000000000" />
+    <dependencies>
+      <group targetFramework=".NETFramework4.6.2">
+        <dependency id="Microsoft.Bcl.Cryptography" version="9.0.0-dev" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework="net8.0">
+        <dependency id="Microsoft.Bcl.Cryptography" version="9.0.0-dev" exclude="Build,Analyzers" />
+        <dependency id="System.Security.Cryptography.Pkcs" version="9.0.0-dev" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework="net9.0">
+        <dependency id="System.Security.Cryptography.Pkcs" version="9.0.0-dev" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="Microsoft.Bcl.Cryptography" version="9.0.0-dev" exclude="Build,Analyzers" />
+        <dependency id="System.Security.Cryptography.Pkcs" version="9.0.0-dev" exclude="Build,Analyzers" />
+        <dependency id="System.Memory" version="4.5.5" exclude="Build,Analyzers" />
+        <dependency id="System.Security.AccessControl" version="6.0.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="System.Security" targetFramework=".NETFramework4.6.2" />
+    </frameworkAssemblies>
+  </metadata>
+  <files>
+    <file src="C:\src\dotnet\runtime\artifacts\bin\System.Security.Cryptography.Xml\Debug\net462\System.Security.Cryptography.Xml.dll" target="lib\net462\System.Security.Cryptography.Xml.dll" />
+    <file src="C:\src\dotnet\runtime\artifacts\bin\System.Security.Cryptography.Xml\Debug\net462\System.Security.Cryptography.Xml.xml" target="lib\net462\System.Security.Cryptography.Xml.xml" />
+    <file src="C:\src\dotnet\runtime\artifacts\bin\System.Security.Cryptography.Xml\Debug\net8.0\System.Security.Cryptography.Xml.dll" target="lib\net8.0\System.Security.Cryptography.Xml.dll" />
+    <file src="C:\src\dotnet\runtime\artifacts\bin\System.Security.Cryptography.Xml\Debug\net8.0\System.Security.Cryptography.Xml.xml" target="lib\net8.0\System.Security.Cryptography.Xml.xml" />
+    <file src="C:\src\dotnet\runtime\artifacts\bin\System.Security.Cryptography.Xml\Debug\net9.0\System.Security.Cryptography.Xml.dll" target="lib\net9.0\System.Security.Cryptography.Xml.dll" />
+    <file src="C:\src\dotnet\runtime\artifacts\bin\System.Security.Cryptography.Xml\Debug\net9.0\System.Security.Cryptography.Xml.xml" target="lib\net9.0\System.Security.Cryptography.Xml.xml" />
+    <file src="C:\src\dotnet\runtime\artifacts\bin\System.Security.Cryptography.Xml\Debug\netstandard2.0\System.Security.Cryptography.Xml.dll" target="lib\netstandard2.0\System.Security.Cryptography.Xml.dll" />
+    <file src="C:\src\dotnet\runtime\artifacts\bin\System.Security.Cryptography.Xml\Debug\netstandard2.0\System.Security.Cryptography.Xml.xml" target="lib\netstandard2.0\System.Security.Cryptography.Xml.xml" />
+    <file src="C:\Users\ericstj\.nuget\packages\microsoft.dotnet.arcade.sdk\9.0.0-beta.24408.1\tools\Assets\DotNetPackageIcon.png" target="Icon.png" />
+    <file src="C:\src\dotnet\runtime\eng\useSharedDesignerContext.txt" target="useSharedDesignerContext.txt" />
+    <file src="C:\src\dotnet\runtime\LICENSE.TXT" target="LICENSE.TXT" />
+    <file src="C:\src\dotnet\runtime\THIRD-PARTY-NOTICES.TXT" target="THIRD-PARTY-NOTICES.TXT" />
+    <file src="C:\src\dotnet\runtime\artifacts\obj\System.Security.Cryptography.Xml\netstandardcompaterror_netcoreapp2.0.targets" target="buildTransitive\netcoreapp2.0\System.Security.Cryptography.Xml.targets" />
+    <file src="C:\src\dotnet\runtime\eng\_._" target="buildTransitive\net8.0\_._" />
+    <file src="C:\src\dotnet\runtime\eng\_._" target="buildTransitive\net462\_._" />
+    <file src="C:\src\dotnet\runtime\artifacts\obj\System.Security.Cryptography.Xml\netstandardcompaterror_net461.targets" target="buildTransitive\net461\System.Security.Cryptography.Xml.targets" />
+  </files>
+</package>

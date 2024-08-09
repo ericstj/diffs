@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Microsoft.Bcl.TimeProvider</id>
+    <version>9.0.0-dev</version>
+    <authors>Microsoft</authors>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <icon>Icon.png</icon>
+    <projectUrl>https://dot.net/</projectUrl>
+    <description>Provides support for system time abstraction primitives for .NET Framework and .NET Standard.</description>
+    <releaseNotes>https://go.microsoft.com/fwlink/?LinkID=799421</releaseNotes>
+    <copyright>© Microsoft Corporation. All rights reserved.</copyright>
+    <repository type="git" url="https://github.com/dotnet/runtime" commit="0000000000000000000000000000000000000000" />
+    <dependencies>
+      <group targetFramework=".NETFramework4.6.2">
+        <dependency id="Microsoft.Bcl.AsyncInterfaces" version="9.0.0-dev" exclude="Build,Analyzers" />
+        <dependency id="System.ValueTuple" version="4.5.0" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework="net8.0" />
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="Microsoft.Bcl.AsyncInterfaces" version="9.0.0-dev" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\src\dotnet\runtime\artifacts\bin\Microsoft.Bcl.TimeProvider\Debug\net462\Microsoft.Bcl.TimeProvider.dll" target="lib\net462\Microsoft.Bcl.TimeProvider.dll" />
+    <file src="C:\src\dotnet\runtime\artifacts\bin\Microsoft.Bcl.TimeProvider\Debug\net462\Microsoft.Bcl.TimeProvider.xml" target="lib\net462\Microsoft.Bcl.TimeProvider.xml" />
+    <file src="C:\src\dotnet\runtime\artifacts\bin\Microsoft.Bcl.TimeProvider\Debug\net8.0\Microsoft.Bcl.TimeProvider.dll" target="lib\net8.0\Microsoft.Bcl.TimeProvider.dll" />
+    <file src="C:\src\dotnet\runtime\artifacts\bin\Microsoft.Bcl.TimeProvider\Debug\net8.0\Microsoft.Bcl.TimeProvider.xml" target="lib\net8.0\Microsoft.Bcl.TimeProvider.xml" />
+    <file src="C:\src\dotnet\runtime\artifacts\bin\Microsoft.Bcl.TimeProvider\Debug\netstandard2.0\Microsoft.Bcl.TimeProvider.dll" target="lib\netstandard2.0\Microsoft.Bcl.TimeProvider.dll" />
+    <file src="C:\src\dotnet\runtime\artifacts\bin\Microsoft.Bcl.TimeProvider\Debug\netstandard2.0\Microsoft.Bcl.TimeProvider.xml" target="lib\netstandard2.0\Microsoft.Bcl.TimeProvider.xml" />
+    <file src="C:\Users\ericstj\.nuget\packages\microsoft.dotnet.arcade.sdk\9.0.0-beta.24408.1\tools\Assets\DotNetPackageIcon.png" target="Icon.png" />
+    <file src="C:\src\dotnet\runtime\eng\useSharedDesignerContext.txt" target="useSharedDesignerContext.txt" />
+    <file src="C:\src\dotnet\runtime\LICENSE.TXT" target="LICENSE.TXT" />
+    <file src="C:\src\dotnet\runtime\THIRD-PARTY-NOTICES.TXT" target="THIRD-PARTY-NOTICES.TXT" />
+    <file src="C:\src\dotnet\runtime\artifacts\obj\Microsoft.Bcl.TimeProvider\netstandardcompaterror_netcoreapp2.0.targets" target="buildTransitive\netcoreapp2.0\Microsoft.Bcl.TimeProvider.targets" />
+    <file src="C:\src\dotnet\runtime\eng\_._" target="buildTransitive\net8.0\_._" />
+    <file src="C:\src\dotnet\runtime\eng\_._" target="buildTransitive\net462\_._" />
+    <file src="C:\src\dotnet\runtime\artifacts\obj\Microsoft.Bcl.TimeProvider\netstandardcompaterror_net461.targets" target="buildTransitive\net461\Microsoft.Bcl.TimeProvider.targets" />
+  </files>
+</package>

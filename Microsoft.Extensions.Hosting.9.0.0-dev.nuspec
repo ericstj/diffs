@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Microsoft.Extensions.Hosting</id>
+    <version>9.0.0-dev</version>
+    <authors>Microsoft</authors>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <icon>Icon.png</icon>
+    <projectUrl>https://dot.net/</projectUrl>
+    <description>Hosting and startup infrastructures for applications.</description>
+    <releaseNotes>https://go.microsoft.com/fwlink/?LinkID=799421</releaseNotes>
+    <copyright>© Microsoft Corporation. All rights reserved.</copyright>
+    <repository type="git" url="https://github.com/dotnet/runtime" commit="0000000000000000000000000000000000000000" />
+    <dependencies>
+      <group targetFramework=".NETFramework4.6.2">
+        <dependency id="Microsoft.Bcl.AsyncInterfaces" version="9.0.0-dev" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Configuration.Abstractions" version="9.0.0-dev" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Configuration.Binder" version="9.0.0-dev" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Configuration.CommandLine" version="9.0.0-dev" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Configuration.EnvironmentVariables" version="9.0.0-dev" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Configuration.FileExtensions" version="9.0.0-dev" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Configuration.Json" version="9.0.0-dev" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Configuration.UserSecrets" version="9.0.0-dev" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Configuration" version="9.0.0-dev" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.DependencyInjection.Abstractions" version="9.0.0-dev" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.DependencyInjection" version="9.0.0-dev" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Diagnostics" version="9.0.0-dev" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.FileProviders.Abstractions" version="9.0.0-dev" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.FileProviders.Physical" version="9.0.0-dev" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Hosting.Abstractions" version="9.0.0-dev" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Logging.Abstractions" version="9.0.0-dev" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Logging.Configuration" version="9.0.0-dev" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Logging.Console" version="9.0.0-dev" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Logging.Debug" version="9.0.0-dev" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Logging.EventLog" version="9.0.0-dev" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Logging.EventSource" version="9.0.0-dev" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Logging" version="9.0.0-dev" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Options" version="9.0.0-dev" exclude="Build,Analyzers" />
+        <dependency id="System.Threading.Tasks.Extensions" version="4.5.4" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework="net8.0">
+        <dependency id="Microsoft.Extensions.Configuration.Abstractions" version="9.0.0-dev" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Configuration.Binder" version="9.0.0-dev" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Configuration.CommandLine" version="9.0.0-dev" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Configuration.EnvironmentVariables" version="9.0.0-dev" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Configuration.FileExtensions" version="9.0.0-dev" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Configuration.Json" version="9.0.0-dev" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Configuration.UserSecrets" version="9.0.0-dev" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Configuration" version="9.0.0-dev" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.DependencyInjection.Abstractions" version="9.0.0-dev" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.DependencyInjection" version="9.0.0-dev" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Diagnostics" version="9.0.0-dev" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.FileProviders.Abstractions" version="9.0.0-dev" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.FileProviders.Physical" version="9.0.0-dev" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Hosting.Abstractions" version="9.0.0-dev" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Logging.Abstractions" version="9.0.0-dev" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Logging.Configuration" version="9.0.0-dev" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Logging.Console" version="9.0.0-dev" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Logging.Debug" version="9.0.0-dev" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Logging.EventLog" version="9.0.0-dev" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Logging.EventSource" version="9.0.0-dev" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Logging" version="9.0.0-dev" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Options" version="9.0.0-dev" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework="net9.0">
+        <dependency id="Microsoft.Extensions.Configuration.Abstractions" version="9.0.0-dev" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Configuration.Binder" version="9.0.0-dev" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Configuration.CommandLine" version="9.0.0-dev" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Configuration.EnvironmentVariables" version="9.0.0-dev" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Configuration.FileExtensions" version="9.0.0-dev" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Configuration.Json" version="9.0.0-dev" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Configuration.UserSecrets" version="9.0.0-dev" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Configuration" version="9.0.0-dev" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.DependencyInjection.Abstractions" version="9.0.0-dev" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.DependencyInjection" version="9.0.0-dev" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Diagnostics" version="9.0.0-dev" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.FileProviders.Abstractions" version="9.0.0-dev" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.FileProviders.Physical" version="9.0.0-dev" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Hosting.Abstractions" version="9.0.0-dev" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Logging.Abstractions" version="9.0.0-dev" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Logging.Configuration" version="9.0.0-dev" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Logging.Console" version="9.0.0-dev" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Logging.Debug" version="9.0.0-dev" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Logging.EventLog" version="9.0.0-dev" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Logging.EventSource" version="9.0.0-dev" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Logging" version="9.0.0-dev" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Options" version="9.0.0-dev" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="Microsoft.Bcl.AsyncInterfaces" version="9.0.0-dev" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Configuration.Abstractions" version="9.0.0-dev" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Configuration.Binder" version="9.0.0-dev" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Configuration.CommandLine" version="9.0.0-dev" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Configuration.EnvironmentVariables" version="9.0.0-dev" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Configuration.FileExtensions" version="9.0.0-dev" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Configuration.Json" version="9.0.0-dev" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Configuration.UserSecrets" version="9.0.0-dev" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Configuration" version="9.0.0-dev" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.DependencyInjection.Abstractions" version="9.0.0-dev" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.DependencyInjection" version="9.0.0-dev" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Diagnostics" version="9.0.0-dev" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.FileProviders.Abstractions" version="9.0.0-dev" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.FileProviders.Physical" version="9.0.0-dev" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Hosting.Abstractions" version="9.0.0-dev" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Logging.Abstractions" version="9.0.0-dev" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Logging.Configuration" version="9.0.0-dev" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Logging.Console" version="9.0.0-dev" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Logging.Debug" version="9.0.0-dev" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Logging.EventLog" version="9.0.0-dev" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Logging.EventSource" version="9.0.0-dev" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Logging" version="9.0.0-dev" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Options" version="9.0.0-dev" exclude="Build,Analyzers" />
+        <dependency id="System.Threading.Tasks.Extensions" version="4.5.4" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework=".NETStandard2.1">
+        <dependency id="Microsoft.Extensions.Configuration.Abstractions" version="9.0.0-dev" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Configuration.Binder" version="9.0.0-dev" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Configuration.CommandLine" version="9.0.0-dev" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Configuration.EnvironmentVariables" version="9.0.0-dev" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Configuration.FileExtensions" version="9.0.0-dev" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Configuration.Json" version="9.0.0-dev" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Configuration.UserSecrets" version="9.0.0-dev" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Configuration" version="9.0.0-dev" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.DependencyInjection.Abstractions" version="9.0.0-dev" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.DependencyInjection" version="9.0.0-dev" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Diagnostics" version="9.0.0-dev" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.FileProviders.Abstractions" version="9.0.0-dev" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.FileProviders.Physical" version="9.0.0-dev" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Hosting.Abstractions" version="9.0.0-dev" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Logging.Abstractions" version="9.0.0-dev" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Logging.Configuration" version="9.0.0-dev" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Logging.Console" version="9.0.0-dev" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Logging.Debug" version="9.0.0-dev" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Logging.EventLog" version="9.0.0-dev" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Logging.EventSource" version="9.0.0-dev" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Logging" version="9.0.0-dev" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Options" version="9.0.0-dev" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="System.Runtime" targetFramework=".NETFramework4.6.2" />
+    </frameworkAssemblies>
+  </metadata>
+  <files>
+    <file src="C:\src\dotnet\runtime\artifacts\bin\Microsoft.Extensions.Hosting\Debug\net462\Microsoft.Extensions.Hosting.dll" target="lib\net462\Microsoft.Extensions.Hosting.dll" />
+    <file src="C:\src\dotnet\runtime\artifacts\bin\Microsoft.Extensions.Hosting\Debug\net462\Microsoft.Extensions.Hosting.xml" target="lib\net462\Microsoft.Extensions.Hosting.xml" />
+    <file src="C:\src\dotnet\runtime\artifacts\bin\Microsoft.Extensions.Hosting\Debug\net8.0\Microsoft.Extensions.Hosting.dll" target="lib\net8.0\Microsoft.Extensions.Hosting.dll" />
+    <file src="C:\src\dotnet\runtime\artifacts\bin\Microsoft.Extensions.Hosting\Debug\net8.0\Microsoft.Extensions.Hosting.xml" target="lib\net8.0\Microsoft.Extensions.Hosting.xml" />
+    <file src="C:\src\dotnet\runtime\artifacts\bin\Microsoft.Extensions.Hosting\Debug\net9.0\Microsoft.Extensions.Hosting.dll" target="lib\net9.0\Microsoft.Extensions.Hosting.dll" />
+    <file src="C:\src\dotnet\runtime\artifacts\bin\Microsoft.Extensions.Hosting\Debug\net9.0\Microsoft.Extensions.Hosting.xml" target="lib\net9.0\Microsoft.Extensions.Hosting.xml" />
+    <file src="C:\src\dotnet\runtime\artifacts\bin\Microsoft.Extensions.Hosting\Debug\netstandard2.0\Microsoft.Extensions.Hosting.dll" target="lib\netstandard2.0\Microsoft.Extensions.Hosting.dll" />
+    <file src="C:\src\dotnet\runtime\artifacts\bin\Microsoft.Extensions.Hosting\Debug\netstandard2.0\Microsoft.Extensions.Hosting.xml" target="lib\netstandard2.0\Microsoft.Extensions.Hosting.xml" />
+    <file src="C:\src\dotnet\runtime\artifacts\bin\Microsoft.Extensions.Hosting\Debug\netstandard2.1\Microsoft.Extensions.Hosting.dll" target="lib\netstandard2.1\Microsoft.Extensions.Hosting.dll" />
+    <file src="C:\src\dotnet\runtime\artifacts\bin\Microsoft.Extensions.Hosting\Debug\netstandard2.1\Microsoft.Extensions.Hosting.xml" target="lib\netstandard2.1\Microsoft.Extensions.Hosting.xml" />
+    <file src="C:\Users\ericstj\.nuget\packages\microsoft.dotnet.arcade.sdk\9.0.0-beta.24408.1\tools\Assets\DotNetPackageIcon.png" target="Icon.png" />
+    <file src="C:\src\dotnet\runtime\eng\useSharedDesignerContext.txt" target="useSharedDesignerContext.txt" />
+    <file src="C:\src\dotnet\runtime\LICENSE.TXT" target="LICENSE.TXT" />
+    <file src="C:\src\dotnet\runtime\THIRD-PARTY-NOTICES.TXT" target="THIRD-PARTY-NOTICES.TXT" />
+    <file src="C:\src\dotnet\runtime\artifacts\obj\Microsoft.Extensions.Hosting\netstandardcompaterror_netcoreapp2.0.targets" target="buildTransitive\netcoreapp2.0\Microsoft.Extensions.Hosting.targets" />
+    <file src="C:\src\dotnet\runtime\eng\_._" target="buildTransitive\net8.0\_._" />
+    <file src="C:\src\dotnet\runtime\eng\_._" target="buildTransitive\net462\_._" />
+    <file src="C:\src\dotnet\runtime\artifacts\obj\Microsoft.Extensions.Hosting\netstandardcompaterror_net461.targets" target="buildTransitive\net461\Microsoft.Extensions.Hosting.targets" />
+  </files>
+</package>

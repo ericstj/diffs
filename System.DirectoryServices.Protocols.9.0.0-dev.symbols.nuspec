@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>System.DirectoryServices.Protocols</id>
+    <version>9.0.0-dev</version>
+    <authors>Microsoft</authors>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <icon>Icon.png</icon>
+    <projectUrl>https://dot.net/</projectUrl>
+    <description>Provides the methods defined in the Lightweight Directory Access Protocol (LDAP) version 3 (V3) and Directory Services Markup Language (DSML) version 2.0 (V2) standards.</description>
+    <releaseNotes>https://go.microsoft.com/fwlink/?LinkID=799421</releaseNotes>
+    <copyright>© Microsoft Corporation. All rights reserved.</copyright>
+    <serviceable>true</serviceable>
+    <repository type="git" url="https://github.com/dotnet/runtime" commit="0000000000000000000000000000000000000000" />
+    <dependencies>
+      <group targetFramework="net8.0" />
+      <group targetFramework="net9.0" />
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="System.Security.Principal.Windows" version="5.0.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="System.DirectoryServices.Protocols" targetFramework=".NETFramework4.6.2" />
+    </frameworkAssemblies>
+  </metadata>
+  <files>
+    <file src="C:\src\dotnet\runtime\artifacts\bin\System.DirectoryServices.Protocols\Debug\net8.0\System.DirectoryServices.Protocols.pdb" target="lib\net8.0\System.DirectoryServices.Protocols.pdb" />
+    <file src="C:\src\dotnet\runtime\artifacts\bin\System.DirectoryServices.Protocols\Debug\net8.0-linux\System.DirectoryServices.Protocols.pdb" target="\runtimes\linux\lib\net8.0\System.DirectoryServices.Protocols.pdb" />
+    <file src="C:\src\dotnet\runtime\artifacts\bin\System.DirectoryServices.Protocols\Debug\net8.0-osx\System.DirectoryServices.Protocols.pdb" target="\runtimes\osx\lib\net8.0\System.DirectoryServices.Protocols.pdb" />
+    <file src="C:\src\dotnet\runtime\artifacts\bin\System.DirectoryServices.Protocols\Debug\net8.0-windows\System.DirectoryServices.Protocols.pdb" target="\runtimes\win\lib\net8.0\System.DirectoryServices.Protocols.pdb" />
+    <file src="C:\src\dotnet\runtime\artifacts\bin\System.DirectoryServices.Protocols\Debug\net9.0\System.DirectoryServices.Protocols.pdb" target="lib\net9.0\System.DirectoryServices.Protocols.pdb" />
+    <file src="C:\src\dotnet\runtime\artifacts\bin\System.DirectoryServices.Protocols\Debug\net9.0-linux\System.DirectoryServices.Protocols.pdb" target="\runtimes\linux\lib\net9.0\System.DirectoryServices.Protocols.pdb" />
+    <file src="C:\src\dotnet\runtime\artifacts\bin\System.DirectoryServices.Protocols\Debug\net9.0-osx\System.DirectoryServices.Protocols.pdb" target="\runtimes\osx\lib\net9.0\System.DirectoryServices.Protocols.pdb" />
+    <file src="C:\src\dotnet\runtime\artifacts\bin\System.DirectoryServices.Protocols\Debug\net9.0-windows\System.DirectoryServices.Protocols.pdb" target="\runtimes\win\lib\net9.0\System.DirectoryServices.Protocols.pdb" />
+    <file src="C:\src\dotnet\runtime\artifacts\bin\System.DirectoryServices.Protocols\Debug\netstandard2.0\System.DirectoryServices.Protocols.pdb" target="lib\netstandard2.0\System.DirectoryServices.Protocols.pdb" />
+    <file src="C:\src\dotnet\runtime\artifacts\bin\System.DirectoryServices.Protocols\Debug\net8.0\System.DirectoryServices.Protocols.dll" target="lib\net8.0\System.DirectoryServices.Protocols.dll" />
+    <file src="C:\src\dotnet\runtime\artifacts\bin\System.DirectoryServices.Protocols\Debug\net8.0\System.DirectoryServices.Protocols.xml" target="lib\net8.0\System.DirectoryServices.Protocols.xml" />
+    <file src="C:\src\dotnet\runtime\artifacts\bin\System.DirectoryServices.Protocols\Debug\net9.0\System.DirectoryServices.Protocols.dll" target="lib\net9.0\System.DirectoryServices.Protocols.dll" />
+    <file src="C:\src\dotnet\runtime\artifacts\bin\System.DirectoryServices.Protocols\Debug\net9.0\System.DirectoryServices.Protocols.xml" target="lib\net9.0\System.DirectoryServices.Protocols.xml" />
+    <file src="C:\src\dotnet\runtime\artifacts\bin\System.DirectoryServices.Protocols\Debug\netstandard2.0\System.DirectoryServices.Protocols.dll" target="lib\netstandard2.0\System.DirectoryServices.Protocols.dll" />
+    <file src="C:\src\dotnet\runtime\artifacts\bin\System.DirectoryServices.Protocols\Debug\netstandard2.0\System.DirectoryServices.Protocols.xml" target="lib\netstandard2.0\System.DirectoryServices.Protocols.xml" />
+    <file src="C:\src\dotnet\runtime\artifacts\obj\System.DirectoryServices.Protocols\Debug\net8.0-linux\System.DirectoryServices.Protocols.dll" target="runtimes\linux\lib\net8.0\System.DirectoryServices.Protocols.dll" />
+    <file src="C:\src\dotnet\runtime\artifacts\obj\System.DirectoryServices.Protocols\Debug\net8.0-linux\System.DirectoryServices.Protocols.xml" target="runtimes\linux\lib\net8.0\System.DirectoryServices.Protocols.xml" />
+    <file src="C:\src\dotnet\runtime\artifacts\obj\System.DirectoryServices.Protocols\Debug\net8.0-osx\System.DirectoryServices.Protocols.dll" target="runtimes\osx\lib\net8.0\System.DirectoryServices.Protocols.dll" />
+    <file src="C:\src\dotnet\runtime\artifacts\obj\System.DirectoryServices.Protocols\Debug\net8.0-osx\System.DirectoryServices.Protocols.xml" target="runtimes\osx\lib\net8.0\System.DirectoryServices.Protocols.xml" />
+    <file src="C:\src\dotnet\runtime\artifacts\obj\System.DirectoryServices.Protocols\Debug\net8.0-windows\System.DirectoryServices.Protocols.dll" target="runtimes\win\lib\net8.0\System.DirectoryServices.Protocols.dll" />
+    <file src="C:\src\dotnet\runtime\artifacts\obj\System.DirectoryServices.Protocols\Debug\net8.0-windows\System.DirectoryServices.Protocols.xml" target="runtimes\win\lib\net8.0\System.DirectoryServices.Protocols.xml" />
+    <file src="C:\src\dotnet\runtime\artifacts\obj\System.DirectoryServices.Protocols\Debug\net9.0-linux\System.DirectoryServices.Protocols.dll" target="runtimes\linux\lib\net9.0\System.DirectoryServices.Protocols.dll" />
+    <file src="C:\src\dotnet\runtime\artifacts\obj\System.DirectoryServices.Protocols\Debug\net9.0-linux\System.DirectoryServices.Protocols.xml" target="runtimes\linux\lib\net9.0\System.DirectoryServices.Protocols.xml" />
+    <file src="C:\src\dotnet\runtime\artifacts\obj\System.DirectoryServices.Protocols\Debug\net9.0-osx\System.DirectoryServices.Protocols.dll" target="runtimes\osx\lib\net9.0\System.DirectoryServices.Protocols.dll" />
+    <file src="C:\src\dotnet\runtime\artifacts\obj\System.DirectoryServices.Protocols\Debug\net9.0-osx\System.DirectoryServices.Protocols.xml" target="runtimes\osx\lib\net9.0\System.DirectoryServices.Protocols.xml" />
+    <file src="C:\src\dotnet\runtime\artifacts\obj\System.DirectoryServices.Protocols\Debug\net9.0-windows\System.DirectoryServices.Protocols.dll" target="runtimes\win\lib\net9.0\System.DirectoryServices.Protocols.dll" />
+    <file src="C:\src\dotnet\runtime\artifacts\obj\System.DirectoryServices.Protocols\Debug\net9.0-windows\System.DirectoryServices.Protocols.xml" target="runtimes\win\lib\net9.0\System.DirectoryServices.Protocols.xml" />
+    <file src="C:\Users\ericstj\.nuget\packages\microsoft.dotnet.arcade.sdk\9.0.0-beta.24408.1\tools\Assets\DotNetPackageIcon.png" target="Icon.png" />
+    <file src="C:\src\dotnet\runtime\eng\useSharedDesignerContext.txt" target="useSharedDesignerContext.txt" />
+    <file src="C:\src\dotnet\runtime\eng\_._" target="lib\net462\_._" />
+    <file src="C:\src\dotnet\runtime\eng\_._" target="buildTransitive\net8.0\_._" />
+    <file src="C:\src\dotnet\runtime\LICENSE.TXT" target="LICENSE.TXT" />
+    <file src="C:\src\dotnet\runtime\THIRD-PARTY-NOTICES.TXT" target="THIRD-PARTY-NOTICES.TXT" />
+    <file src="C:\src\dotnet\runtime\artifacts\obj\System.DirectoryServices.Protocols\netstandardcompaterror_netcoreapp2.0.targets" target="buildTransitive\netcoreapp2.0\System.DirectoryServices.Protocols.targets" />
+  </files>
+</package>

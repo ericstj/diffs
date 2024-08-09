@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>runtime.native.System.IO.Ports</id>
+    <version>9.0.0-dev</version>
+    <authors>Microsoft</authors>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <icon>Icon.png</icon>
+    <projectUrl>https://dot.net/</projectUrl>
+    <description>Internal implementation package not meant for direct consumption. Please do not reference directly.</description>
+    <releaseNotes>https://go.microsoft.com/fwlink/?LinkID=799421</releaseNotes>
+    <copyright>© Microsoft Corporation. All rights reserved.</copyright>
+    <serviceable>true</serviceable>
+    <repository type="git" url="https://github.com/dotnet/runtime" commit="0000000000000000000000000000000000000000" />
+    <dependencies>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="runtime.android-arm.runtime.native.System.IO.Ports" version="9.0.0-dev" exclude="Build,Analyzers" />
+        <dependency id="runtime.android-arm64.runtime.native.System.IO.Ports" version="9.0.0-dev" exclude="Build,Analyzers" />
+        <dependency id="runtime.android-x64.runtime.native.System.IO.Ports" version="9.0.0-dev" exclude="Build,Analyzers" />
+        <dependency id="runtime.android-x86.runtime.native.System.IO.Ports" version="9.0.0-dev" exclude="Build,Analyzers" />
+        <dependency id="runtime.linux-arm.runtime.native.System.IO.Ports" version="9.0.0-dev" exclude="Build,Analyzers" />
+        <dependency id="runtime.linux-arm64.runtime.native.System.IO.Ports" version="9.0.0-dev" exclude="Build,Analyzers" />
+        <dependency id="runtime.linux-bionic-arm64.runtime.native.System.IO.Ports" version="9.0.0-dev" exclude="Build,Analyzers" />
+        <dependency id="runtime.linux-bionic-x64.runtime.native.System.IO.Ports" version="9.0.0-dev" exclude="Build,Analyzers" />
+        <dependency id="runtime.linux-musl-arm.runtime.native.System.IO.Ports" version="9.0.0-dev" exclude="Build,Analyzers" />
+        <dependency id="runtime.linux-musl-arm64.runtime.native.System.IO.Ports" version="9.0.0-dev" exclude="Build,Analyzers" />
+        <dependency id="runtime.linux-musl-x64.runtime.native.System.IO.Ports" version="9.0.0-dev" exclude="Build,Analyzers" />
+        <dependency id="runtime.linux-x64.runtime.native.System.IO.Ports" version="9.0.0-dev" exclude="Build,Analyzers" />
+        <dependency id="runtime.maccatalyst-arm64.runtime.native.System.IO.Ports" version="9.0.0-dev" exclude="Build,Analyzers" />
+        <dependency id="runtime.maccatalyst-x64.runtime.native.System.IO.Ports" version="9.0.0-dev" exclude="Build,Analyzers" />
+        <dependency id="runtime.osx-arm64.runtime.native.System.IO.Ports" version="9.0.0-dev" exclude="Build,Analyzers" />
+        <dependency id="runtime.osx-x64.runtime.native.System.IO.Ports" version="9.0.0-dev" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\ericstj\.nuget\packages\microsoft.dotnet.arcade.sdk\9.0.0-beta.24408.1\tools\Assets\DotNetPackageIcon.png" target="Icon.png" />
+    <file src="C:\src\dotnet\runtime\eng\useSharedDesignerContext.txt" target="useSharedDesignerContext.txt" />
+    <file src="C:\src\dotnet\runtime\src\libraries\System.IO.Ports\src\PACKAGE.md" target="\PACKAGE.md" />
+    <file src="C:\src\dotnet\runtime\LICENSE.TXT" target="LICENSE.TXT" />
+    <file src="C:\src\dotnet\runtime\THIRD-PARTY-NOTICES.TXT" target="THIRD-PARTY-NOTICES.TXT" />
+  </files>
+</package>

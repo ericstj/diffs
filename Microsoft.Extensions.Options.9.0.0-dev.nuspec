@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Microsoft.Extensions.Options</id>
+    <version>9.0.0-dev</version>
+    <authors>Microsoft</authors>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <icon>Icon.png</icon>
+    <projectUrl>https://dot.net/</projectUrl>
+    <description>Provides a strongly typed way of specifying and accessing settings using dependency injection.</description>
+    <releaseNotes>https://go.microsoft.com/fwlink/?LinkID=799421</releaseNotes>
+    <copyright>© Microsoft Corporation. All rights reserved.</copyright>
+    <repository type="git" url="https://github.com/dotnet/runtime" commit="0000000000000000000000000000000000000000" />
+    <dependencies>
+      <group targetFramework=".NETFramework4.6.2">
+        <dependency id="Microsoft.Extensions.DependencyInjection.Abstractions" version="9.0.0-dev" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Primitives" version="9.0.0-dev" exclude="Build,Analyzers" />
+        <dependency id="System.ValueTuple" version="4.5.0" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework="net8.0">
+        <dependency id="Microsoft.Extensions.DependencyInjection.Abstractions" version="9.0.0-dev" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Primitives" version="9.0.0-dev" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework="net9.0">
+        <dependency id="Microsoft.Extensions.DependencyInjection.Abstractions" version="9.0.0-dev" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Primitives" version="9.0.0-dev" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="Microsoft.Extensions.DependencyInjection.Abstractions" version="9.0.0-dev" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Primitives" version="9.0.0-dev" exclude="Build,Analyzers" />
+        <dependency id="System.ComponentModel.Annotations" version="5.0.0" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework=".NETStandard2.1">
+        <dependency id="Microsoft.Extensions.DependencyInjection.Abstractions" version="9.0.0-dev" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Primitives" version="9.0.0-dev" exclude="Build,Analyzers" />
+        <dependency id="System.ComponentModel.Annotations" version="5.0.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="System.ComponentModel.DataAnnotations" targetFramework=".NETFramework4.6.2" />
+    </frameworkAssemblies>
+  </metadata>
+  <files>
+    <file src="C:\src\dotnet\runtime\artifacts\bin\Microsoft.Extensions.Options\Debug\net462\Microsoft.Extensions.Options.dll" target="lib\net462\Microsoft.Extensions.Options.dll" />
+    <file src="C:\src\dotnet\runtime\artifacts\bin\Microsoft.Extensions.Options\Debug\net462\Microsoft.Extensions.Options.xml" target="lib\net462\Microsoft.Extensions.Options.xml" />
+    <file src="C:\src\dotnet\runtime\artifacts\bin\Microsoft.Extensions.Options\Debug\net8.0\Microsoft.Extensions.Options.dll" target="lib\net8.0\Microsoft.Extensions.Options.dll" />
+    <file src="C:\src\dotnet\runtime\artifacts\bin\Microsoft.Extensions.Options\Debug\net8.0\Microsoft.Extensions.Options.xml" target="lib\net8.0\Microsoft.Extensions.Options.xml" />
+    <file src="C:\src\dotnet\runtime\artifacts\bin\Microsoft.Extensions.Options\Debug\net9.0\Microsoft.Extensions.Options.dll" target="lib\net9.0\Microsoft.Extensions.Options.dll" />
+    <file src="C:\src\dotnet\runtime\artifacts\bin\Microsoft.Extensions.Options\Debug\net9.0\Microsoft.Extensions.Options.xml" target="lib\net9.0\Microsoft.Extensions.Options.xml" />
+    <file src="C:\src\dotnet\runtime\artifacts\bin\Microsoft.Extensions.Options\Debug\netstandard2.0\Microsoft.Extensions.Options.dll" target="lib\netstandard2.0\Microsoft.Extensions.Options.dll" />
+    <file src="C:\src\dotnet\runtime\artifacts\bin\Microsoft.Extensions.Options\Debug\netstandard2.0\Microsoft.Extensions.Options.xml" target="lib\netstandard2.0\Microsoft.Extensions.Options.xml" />
+    <file src="C:\src\dotnet\runtime\artifacts\bin\Microsoft.Extensions.Options\Debug\netstandard2.1\Microsoft.Extensions.Options.dll" target="lib\netstandard2.1\Microsoft.Extensions.Options.dll" />
+    <file src="C:\src\dotnet\runtime\artifacts\bin\Microsoft.Extensions.Options\Debug\netstandard2.1\Microsoft.Extensions.Options.xml" target="lib\netstandard2.1\Microsoft.Extensions.Options.xml" />
+    <file src="C:\src\dotnet\runtime\artifacts\obj\Microsoft.Extensions.Options.SourceGeneration\Debug\netstandard2.0\cs\Microsoft.Extensions.Options.SourceGeneration.resources.dll" target="analyzers\dotnet\roslyn4.4\cs\cs\Microsoft.Extensions.Options.SourceGeneration.resources.dll" />
+    <file src="C:\src\dotnet\runtime\artifacts\obj\Microsoft.Extensions.Options.SourceGeneration\Debug\netstandard2.0\de\Microsoft.Extensions.Options.SourceGeneration.resources.dll" target="analyzers\dotnet\roslyn4.4\cs\de\Microsoft.Extensions.Options.SourceGeneration.resources.dll" />
+    <file src="C:\src\dotnet\runtime\artifacts\obj\Microsoft.Extensions.Options.SourceGeneration\Debug\netstandard2.0\es\Microsoft.Extensions.Options.SourceGeneration.resources.dll" target="analyzers\dotnet\roslyn4.4\cs\es\Microsoft.Extensions.Options.SourceGeneration.resources.dll" />
+    <file src="C:\src\dotnet\runtime\artifacts\obj\Microsoft.Extensions.Options.SourceGeneration\Debug\netstandard2.0\fr\Microsoft.Extensions.Options.SourceGeneration.resources.dll" target="analyzers\dotnet\roslyn4.4\cs\fr\Microsoft.Extensions.Options.SourceGeneration.resources.dll" />
+    <file src="C:\src\dotnet\runtime\artifacts\obj\Microsoft.Extensions.Options.SourceGeneration\Debug\netstandard2.0\it\Microsoft.Extensions.Options.SourceGeneration.resources.dll" target="analyzers\dotnet\roslyn4.4\cs\it\Microsoft.Extensions.Options.SourceGeneration.resources.dll" />
+    <file src="C:\src\dotnet\runtime\artifacts\obj\Microsoft.Extensions.Options.SourceGeneration\Debug\netstandard2.0\ja\Microsoft.Extensions.Options.SourceGeneration.resources.dll" target="analyzers\dotnet\roslyn4.4\cs\ja\Microsoft.Extensions.Options.SourceGeneration.resources.dll" />
+    <file src="C:\src\dotnet\runtime\artifacts\obj\Microsoft.Extensions.Options.SourceGeneration\Debug\netstandard2.0\ko\Microsoft.Extensions.Options.SourceGeneration.resources.dll" target="analyzers\dotnet\roslyn4.4\cs\ko\Microsoft.Extensions.Options.SourceGeneration.resources.dll" />
+    <file src="C:\src\dotnet\runtime\artifacts\obj\Microsoft.Extensions.Options.SourceGeneration\Debug\netstandard2.0\pl\Microsoft.Extensions.Options.SourceGeneration.resources.dll" target="analyzers\dotnet\roslyn4.4\cs\pl\Microsoft.Extensions.Options.SourceGeneration.resources.dll" />
+    <file src="C:\src\dotnet\runtime\artifacts\obj\Microsoft.Extensions.Options.SourceGeneration\Debug\netstandard2.0\pt-BR\Microsoft.Extensions.Options.SourceGeneration.resources.dll" target="analyzers\dotnet\roslyn4.4\cs\pt-BR\Microsoft.Extensions.Options.SourceGeneration.resources.dll" />
+    <file src="C:\src\dotnet\runtime\artifacts\obj\Microsoft.Extensions.Options.SourceGeneration\Debug\netstandard2.0\ru\Microsoft.Extensions.Options.SourceGeneration.resources.dll" target="analyzers\dotnet\roslyn4.4\cs\ru\Microsoft.Extensions.Options.SourceGeneration.resources.dll" />
+    <file src="C:\src\dotnet\runtime\artifacts\obj\Microsoft.Extensions.Options.SourceGeneration\Debug\netstandard2.0\tr\Microsoft.Extensions.Options.SourceGeneration.resources.dll" target="analyzers\dotnet\roslyn4.4\cs\tr\Microsoft.Extensions.Options.SourceGeneration.resources.dll" />
+    <file src="C:\src\dotnet\runtime\artifacts\obj\Microsoft.Extensions.Options.SourceGeneration\Debug\netstandard2.0\zh-Hans\Microsoft.Extensions.Options.SourceGeneration.resources.dll" target="analyzers\dotnet\roslyn4.4\cs\zh-Hans\Microsoft.Extensions.Options.SourceGeneration.resources.dll" />
+    <file src="C:\src\dotnet\runtime\artifacts\obj\Microsoft.Extensions.Options.SourceGeneration\Debug\netstandard2.0\zh-Hant\Microsoft.Extensions.Options.SourceGeneration.resources.dll" target="analyzers\dotnet\roslyn4.4\cs\zh-Hant\Microsoft.Extensions.Options.SourceGeneration.resources.dll" />
+    <file src="C:\src\dotnet\runtime\artifacts\obj\Microsoft.Extensions.Options.SourceGeneration\Debug\netstandard2.0\Microsoft.Extensions.Options.SourceGeneration.dll" target="analyzers\dotnet\roslyn4.4\cs\Microsoft.Extensions.Options.SourceGeneration.dll" />
+    <file src="C:\src\dotnet\runtime\artifacts\obj\Microsoft.Extensions.Options\Debug\MultiTargetRoslynComponent.targets" target="buildTransitive\netstandard2.0\Microsoft.Extensions.Options.targets" />
+    <file src="C:\src\dotnet\runtime\artifacts\obj\Microsoft.Extensions.Options\Debug\MultiTargetRoslynComponent.targets" target="buildTransitive\net8.0\Microsoft.Extensions.Options.targets" />
+    <file src="C:\src\dotnet\runtime\artifacts\obj\Microsoft.Extensions.Options\Debug\MultiTargetRoslynComponent.targets" target="buildTransitive\net462\Microsoft.Extensions.Options.targets" />
+    <file src="C:\Users\ericstj\.nuget\packages\microsoft.dotnet.arcade.sdk\9.0.0-beta.24408.1\tools\Assets\DotNetPackageIcon.png" target="Icon.png" />
+    <file src="C:\src\dotnet\runtime\eng\useSharedDesignerContext.txt" target="useSharedDesignerContext.txt" />
+    <file src="C:\src\dotnet\runtime\LICENSE.TXT" target="LICENSE.TXT" />
+    <file src="C:\src\dotnet\runtime\THIRD-PARTY-NOTICES.TXT" target="THIRD-PARTY-NOTICES.TXT" />
+    <file src="C:\src\dotnet\runtime\artifacts\obj\Microsoft.Extensions.Options\netstandardcompaterror_netcoreapp2.0.targets" target="buildTransitive\netcoreapp2.0\Microsoft.Extensions.Options.targets" />
+    <file src="C:\src\dotnet\runtime\artifacts\obj\Microsoft.Extensions.Options\netstandardcompaterror_net461.targets" target="buildTransitive\net461\Microsoft.Extensions.Options.targets" />
+  </files>
+</package>

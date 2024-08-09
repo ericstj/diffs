@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>System.Security.Permissions</id>
+    <version>9.0.0-dev</version>
+    <authors>Microsoft</authors>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <icon>Icon.png</icon>
+    <projectUrl>https://dot.net/</projectUrl>
+    <description>Provides types supporting Code Access Security (CAS).</description>
+    <releaseNotes>https://go.microsoft.com/fwlink/?LinkID=799421</releaseNotes>
+    <copyright>© Microsoft Corporation. All rights reserved.</copyright>
+    <serviceable>true</serviceable>
+    <repository type="git" url="https://github.com/dotnet/runtime" commit="0000000000000000000000000000000000000000" />
+    <dependencies>
+      <group targetFramework=".NETFramework4.6.2">
+        <dependency id="System.Security.AccessControl" version="6.0.0" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework="net8.0">
+        <dependency id="System.Windows.Extensions" version="9.0.0-dev" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework="net9.0">
+        <dependency id="System.Windows.Extensions" version="9.0.0-dev" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="System.Security.AccessControl" version="6.0.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="System.Configuration" targetFramework=".NETFramework4.6.2" />
+      <frameworkAssembly assemblyName="System.Data.OracleClient" targetFramework=".NETFramework4.6.2" />
+      <frameworkAssembly assemblyName="System.DirectoryServices" targetFramework=".NETFramework4.6.2" />
+      <frameworkAssembly assemblyName="System.Net" targetFramework=".NETFramework4.6.2" />
+      <frameworkAssembly assemblyName="System.Security" targetFramework=".NETFramework4.6.2" />
+      <frameworkAssembly assemblyName="System.ServiceProcess" targetFramework=".NETFramework4.6.2" />
+      <frameworkAssembly assemblyName="System.Transactions" targetFramework=".NETFramework4.6.2" />
+      <frameworkAssembly assemblyName="WindowsBase" targetFramework=".NETFramework4.6.2" />
+    </frameworkAssemblies>
+  </metadata>
+  <files>
+    <file src="C:\src\dotnet\runtime\artifacts\bin\System.Security.Permissions\Debug\net462\System.Security.Permissions.pdb" target="lib\net462\System.Security.Permissions.pdb" />
+    <file src="C:\src\dotnet\runtime\artifacts\bin\System.Security.Permissions\Debug\net8.0\System.Security.Permissions.pdb" target="lib\net8.0\System.Security.Permissions.pdb" />
+    <file src="C:\src\dotnet\runtime\artifacts\bin\System.Security.Permissions\Debug\net9.0\System.Security.Permissions.pdb" target="lib\net9.0\System.Security.Permissions.pdb" />
+    <file src="C:\src\dotnet\runtime\artifacts\bin\System.Security.Permissions\Debug\netstandard2.0\System.Security.Permissions.pdb" target="lib\netstandard2.0\System.Security.Permissions.pdb" />
+    <file src="C:\src\dotnet\runtime\artifacts\bin\System.Security.Permissions\Debug\net462\System.Security.Permissions.dll" target="lib\net462\System.Security.Permissions.dll" />
+    <file src="C:\src\dotnet\runtime\artifacts\bin\System.Security.Permissions\Debug\net462\System.Security.Permissions.xml" target="lib\net462\System.Security.Permissions.xml" />
+    <file src="C:\src\dotnet\runtime\artifacts\bin\System.Security.Permissions\Debug\net8.0\System.Security.Permissions.dll" target="lib\net8.0\System.Security.Permissions.dll" />
+    <file src="C:\src\dotnet\runtime\artifacts\bin\System.Security.Permissions\Debug\net8.0\System.Security.Permissions.xml" target="lib\net8.0\System.Security.Permissions.xml" />
+    <file src="C:\src\dotnet\runtime\artifacts\bin\System.Security.Permissions\Debug\net9.0\System.Security.Permissions.dll" target="lib\net9.0\System.Security.Permissions.dll" />
+    <file src="C:\src\dotnet\runtime\artifacts\bin\System.Security.Permissions\Debug\net9.0\System.Security.Permissions.xml" target="lib\net9.0\System.Security.Permissions.xml" />
+    <file src="C:\src\dotnet\runtime\artifacts\bin\System.Security.Permissions\Debug\netstandard2.0\System.Security.Permissions.dll" target="lib\netstandard2.0\System.Security.Permissions.dll" />
+    <file src="C:\src\dotnet\runtime\artifacts\bin\System.Security.Permissions\Debug\netstandard2.0\System.Security.Permissions.xml" target="lib\netstandard2.0\System.Security.Permissions.xml" />
+    <file src="C:\Users\ericstj\.nuget\packages\microsoft.dotnet.arcade.sdk\9.0.0-beta.24408.1\tools\Assets\DotNetPackageIcon.png" target="Icon.png" />
+    <file src="C:\src\dotnet\runtime\eng\useSharedDesignerContext.txt" target="useSharedDesignerContext.txt" />
+    <file src="C:\src\dotnet\runtime\LICENSE.TXT" target="LICENSE.TXT" />
+    <file src="C:\src\dotnet\runtime\THIRD-PARTY-NOTICES.TXT" target="THIRD-PARTY-NOTICES.TXT" />
+    <file src="C:\src\dotnet\runtime\artifacts\obj\System.Security.Permissions\netstandardcompaterror_netcoreapp2.0.targets" target="buildTransitive\netcoreapp2.0\System.Security.Permissions.targets" />
+    <file src="C:\src\dotnet\runtime\eng\_._" target="buildTransitive\net8.0\_._" />
+    <file src="C:\src\dotnet\runtime\eng\_._" target="buildTransitive\net462\_._" />
+    <file src="C:\src\dotnet\runtime\artifacts\obj\System.Security.Permissions\netstandardcompaterror_net461.targets" target="buildTransitive\net461\System.Security.Permissions.targets" />
+  </files>
+</package>
