@@ -33,7 +33,6 @@
         <dependency id="Microsoft.Extensions.Configuration.FileExtensions" version="9.0.0-dev" exclude="Build,Analyzers" />
         <dependency id="Microsoft.Extensions.Configuration" version="9.0.0-dev" exclude="Build,Analyzers" />
         <dependency id="Microsoft.Extensions.FileProviders.Abstractions" version="9.0.0-dev" exclude="Build,Analyzers" />
-        <dependency id="System.Text.Json" version="9.0.0-dev" exclude="Build,Analyzers" />
       </group>
       <group targetFramework=".NETStandard2.0">
         <dependency id="Microsoft.Extensions.Configuration.Abstractions" version="9.0.0-dev" exclude="Build,Analyzers" />

@@ -37,7 +37,6 @@ Microsoft.Extensions.Diagnostics.Metrics.MetricsOptions</description>
       <group targetFramework="net9.0">
         <dependency id="Microsoft.Extensions.DependencyInjection.Abstractions" version="9.0.0-dev" exclude="Build,Analyzers" />
         <dependency id="Microsoft.Extensions.Options" version="9.0.0-dev" exclude="Build,Analyzers" />
-        <dependency id="System.Diagnostics.DiagnosticSource" version="9.0.0-dev" exclude="Build,Analyzers" />
       </group>
       <group targetFramework=".NETStandard2.0">
         <dependency id="Microsoft.Extensions.DependencyInjection.Abstractions" version="9.0.0-dev" exclude="Build,Analyzers" />

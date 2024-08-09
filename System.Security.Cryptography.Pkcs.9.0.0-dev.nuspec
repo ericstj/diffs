@@ -23,9 +23,7 @@ System.Security.Cryptography.Pkcs.EnvelopedCms</description>
         <dependency id="Microsoft.Bcl.Cryptography" version="9.0.0-dev" exclude="Build,Analyzers" />
         <dependency id="System.Formats.Asn1" version="9.0.0-dev" exclude="Build,Analyzers" />
       </group>
-      <group targetFramework="net9.0">
-        <dependency id="System.Formats.Asn1" version="9.0.0-dev" exclude="Build,Analyzers" />
-      </group>
+      <group targetFramework="net9.0" />
       <group targetFramework=".NETStandard2.0">
         <dependency id="Microsoft.Bcl.Cryptography" version="9.0.0-dev" exclude="Build,Analyzers" />
         <dependency id="System.Formats.Asn1" version="9.0.0-dev" exclude="Build,Analyzers" />

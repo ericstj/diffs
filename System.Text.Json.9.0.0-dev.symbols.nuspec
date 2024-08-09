@@ -30,10 +30,7 @@ The System.Text.Json library is built-in as part of the shared framework in .NET
         <dependency id="System.IO.Pipelines" version="9.0.0-dev" exclude="Build,Analyzers" />
         <dependency id="System.Text.Encodings.Web" version="9.0.0-dev" exclude="Build,Analyzers" />
       </group>
-      <group targetFramework="net9.0">
-        <dependency id="System.IO.Pipelines" version="9.0.0-dev" exclude="Build,Analyzers" />
-        <dependency id="System.Text.Encodings.Web" version="9.0.0-dev" exclude="Build,Analyzers" />
-      </group>
+      <group targetFramework="net9.0" />
       <group targetFramework=".NETStandard2.0">
         <dependency id="Microsoft.Bcl.AsyncInterfaces" version="9.0.0-dev" exclude="Build,Analyzers" />
         <dependency id="System.IO.Pipelines" version="9.0.0-dev" exclude="Build,Analyzers" />

@@ -28,9 +28,7 @@ System.Net.Http.Json.JsonContent</description>
       <group targetFramework="net8.0">
         <dependency id="System.Text.Json" version="9.0.0-dev" exclude="Build,Analyzers" />
       </group>
-      <group targetFramework="net9.0">
-        <dependency id="System.Text.Json" version="9.0.0-dev" exclude="Build,Analyzers" />
-      </group>
+      <group targetFramework="net9.0" />
       <group targetFramework=".NETStandard2.0">
         <dependency id="System.Text.Json" version="9.0.0-dev" exclude="Build,Analyzers" />
         <dependency id="System.Buffers" version="4.5.1" exclude="Build,Analyzers" />

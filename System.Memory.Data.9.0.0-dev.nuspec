@@ -23,9 +23,7 @@ System.BinaryData</description>
       <group targetFramework="net8.0">
         <dependency id="System.Text.Json" version="9.0.0-dev" exclude="Build,Analyzers" />
       </group>
-      <group targetFramework="net9.0">
-        <dependency id="System.Text.Json" version="9.0.0-dev" exclude="Build,Analyzers" />
-      </group>
+      <group targetFramework="net9.0" />
       <group targetFramework=".NETStandard2.0">
         <dependency id="System.Text.Json" version="9.0.0-dev" exclude="Build,Analyzers" />
         <dependency id="System.Memory" version="4.5.5" exclude="Build,Analyzers" />

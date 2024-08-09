@@ -26,10 +26,7 @@ By default, the dependency manifest contains information about the application's
         <dependency id="System.Text.Encodings.Web" version="9.0.0-dev" exclude="Build,Analyzers" />
         <dependency id="System.Text.Json" version="9.0.0-dev" exclude="Build,Analyzers" />
       </group>
-      <group targetFramework="net9.0">
-        <dependency id="System.Text.Encodings.Web" version="9.0.0-dev" exclude="Build,Analyzers" />
-        <dependency id="System.Text.Json" version="9.0.0-dev" exclude="Build,Analyzers" />
-      </group>
+      <group targetFramework="net9.0" />
       <group targetFramework=".NETStandard2.0">
         <dependency id="System.Text.Encodings.Web" version="9.0.0-dev" exclude="Build,Analyzers" />
         <dependency id="System.Text.Json" version="9.0.0-dev" exclude="Build,Analyzers" />

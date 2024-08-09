@@ -24,12 +24,8 @@ System.Data.Odbc.OdbcTransaction</description>
     <repository type="git" url="https://github.com/dotnet/runtime" commit="0000000000000000000000000000000000000000" />
     <dependencies>
       <group targetFramework=".NETFramework4.6.2" />
-      <group targetFramework="net8.0">
-        <dependency id="System.Text.Encoding.CodePages" version="9.0.0-dev" exclude="Build,Analyzers" />
-      </group>
-      <group targetFramework="net9.0">
-        <dependency id="System.Text.Encoding.CodePages" version="9.0.0-dev" exclude="Build,Analyzers" />
-      </group>
+      <group targetFramework="net8.0" />
+      <group targetFramework="net9.0" />
       <group targetFramework=".NETStandard2.0" />
     </dependencies>
   </metadata>
