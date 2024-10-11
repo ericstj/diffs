@@ -25,9 +25,7 @@ Microsoft.Extensions.Primitives.StringSegment</description>
       <group targetFramework=".NETCoreApp3.1">
         <dependency id="System.Runtime.CompilerServices.Unsafe" version="6.0.0" exclude="Build,Analyzers" />
       </group>
-      <group targetFramework="net6.0">
-        <dependency id="System.Runtime.CompilerServices.Unsafe" version="6.0.0" exclude="Build,Analyzers" />
-      </group>
+      <group targetFramework="net6.0" />
       <group targetFramework=".NETStandard2.0">
         <dependency id="System.Runtime.CompilerServices.Unsafe" version="6.0.0" exclude="Build,Analyzers" />
         <dependency id="System.Memory" version="4.5.4" exclude="Build,Analyzers" />

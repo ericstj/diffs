@@ -22,9 +22,7 @@ System.Security.AccessControl.RegistrySecurity</description>
         <dependency id="System.Security.AccessControl" version="6.0.1" exclude="Build,Analyzers" />
         <dependency id="Microsoft.Win32.Registry" version="5.0.0" exclude="Build,Analyzers" />
       </group>
-      <group targetFramework="net6.0">
-        <dependency id="System.Security.AccessControl" version="6.0.1" exclude="Build,Analyzers" />
-      </group>
+      <group targetFramework="net6.0" />
       <group targetFramework=".NETStandard2.0">
         <dependency id="System.Security.AccessControl" version="6.0.1" exclude="Build,Analyzers" />
         <dependency id="Microsoft.Win32.Registry" version="5.0.0" exclude="Build,Analyzers" />

@@ -27,9 +27,7 @@ System.Text.Encodings.Web.JavaScriptEncoder</description>
       <group targetFramework=".NETCoreApp3.1">
         <dependency id="System.Runtime.CompilerServices.Unsafe" version="6.0.0" exclude="Build,Analyzers" />
       </group>
-      <group targetFramework="net6.0">
-        <dependency id="System.Runtime.CompilerServices.Unsafe" version="6.0.0" exclude="Build,Analyzers" />
-      </group>
+      <group targetFramework="net6.0" />
       <group targetFramework=".NETStandard2.0">
         <dependency id="System.Runtime.CompilerServices.Unsafe" version="6.0.0" exclude="Build,Analyzers" />
         <dependency id="System.Buffers" version="4.5.1" exclude="Build,Analyzers" />

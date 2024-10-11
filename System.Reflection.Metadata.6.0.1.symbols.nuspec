@@ -24,9 +24,7 @@ System.Reflection.PortableExecutable.ManagedPEBuilder</description>
       <group targetFramework=".NETFramework4.6.1">
         <dependency id="System.Collections.Immutable" version="6.0.0" exclude="Build,Analyzers" />
       </group>
-      <group targetFramework="net6.0">
-        <dependency id="System.Collections.Immutable" version="6.0.0" exclude="Build,Analyzers" />
-      </group>
+      <group targetFramework="net6.0" />
       <group targetFramework=".NETStandard2.0">
         <dependency id="System.Collections.Immutable" version="6.0.0" exclude="Build,Analyzers" />
       </group>

@@ -25,7 +25,6 @@
         <dependency id="System.Configuration.ConfigurationManager" version="6.0.1" exclude="Build,Analyzers" />
         <dependency id="System.DirectoryServices.Protocols" version="6.0.2" exclude="Build,Analyzers" />
         <dependency id="System.DirectoryServices" version="6.0.1" exclude="Build,Analyzers" />
-        <dependency id="System.Security.AccessControl" version="6.0.1" exclude="Build,Analyzers" />
       </group>
       <group targetFramework=".NETStandard2.0">
         <dependency id="System.Security.Principal.Windows" version="5.0.0" exclude="Build,Analyzers" />
