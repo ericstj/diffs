@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>System.Security.Permissions</id>
+    <version>6.0.0</version>
+    <authors>Microsoft</authors>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <icon>Icon.png</icon>
+    <projectUrl>https://dot.net/</projectUrl>
+    <description>Provides types supporting Code Access Security (CAS).</description>
+    <releaseNotes>https://go.microsoft.com/fwlink/?LinkID=799421</releaseNotes>
+    <copyright>© Microsoft Corporation. All rights reserved.</copyright>
+    <serviceable>true</serviceable>
+    <repository type="git" url="https://github.com/dotnet/runtime" commit="0000000000000000000000000000000000000000" />
+    <dependencies>
+      <group targetFramework=".NETFramework4.6.1">
+        <dependency id="System.Security.AccessControl" version="6.0.1" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework=".NETCoreApp3.1">
+        <dependency id="System.Security.AccessControl" version="6.0.1" exclude="Build,Analyzers" />
+        <dependency id="System.Windows.Extensions" version="6.0.0" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework="net5.0">
+        <dependency id="System.Security.AccessControl" version="6.0.1" exclude="Build,Analyzers" />
+        <dependency id="System.Windows.Extensions" version="6.0.0" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework="net6.0">
+        <dependency id="System.Security.AccessControl" version="6.0.1" exclude="Build,Analyzers" />
+        <dependency id="System.Windows.Extensions" version="6.0.0" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="System.Security.AccessControl" version="6.0.1" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="System.Configuration" targetFramework=".NETFramework4.6.1" />
+      <frameworkAssembly assemblyName="System.Data.OracleClient" targetFramework=".NETFramework4.6.1" />
+      <frameworkAssembly assemblyName="System.Net" targetFramework=".NETFramework4.6.1" />
+      <frameworkAssembly assemblyName="System.Security" targetFramework=".NETFramework4.6.1" />
+      <frameworkAssembly assemblyName="System.ServiceProcess" targetFramework=".NETFramework4.6.1" />
+      <frameworkAssembly assemblyName="System.Transactions" targetFramework=".NETFramework4.6.1" />
+      <frameworkAssembly assemblyName="WindowsBase" targetFramework=".NETFramework4.6.1" />
+    </frameworkAssemblies>
+  </metadata>
+  <files>
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\System.Security.Permissions\net461-windows-Debug\System.Security.Permissions.pdb" target="\runtimes\win\lib\net461" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\System.Security.Permissions\net461-windows-Debug\System.Security.Permissions.pdb" target="\lib\net461" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\System.Security.Permissions\net5.0-Debug\System.Security.Permissions.pdb" target="lib\net5.0\System.Security.Permissions.pdb" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\System.Security.Permissions\net6.0-Debug\System.Security.Permissions.pdb" target="lib\net6.0\System.Security.Permissions.pdb" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\System.Security.Permissions\netcoreapp3.1-Debug\System.Security.Permissions.pdb" target="lib\netcoreapp3.1\System.Security.Permissions.pdb" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\System.Security.Permissions\netstandard2.0-Debug\System.Security.Permissions.pdb" target="lib\netstandard2.0\System.Security.Permissions.pdb" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\System.Security.Permissions\net5.0-Debug\System.Security.Permissions.dll" target="lib\net5.0\System.Security.Permissions.dll" />
+    <file src="C:\Users\ericstj\.nuget\packages\microsoft.private.intellisense\6.0.0-preview-20211019.1\IntellisenseFiles\dotnet-plat-ext\1033\System.Security.Permissions.xml" target="lib\net5.0\System.Security.Permissions.xml" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\System.Security.Permissions\net6.0-Debug\System.Security.Permissions.dll" target="lib\net6.0\System.Security.Permissions.dll" />
+    <file src="C:\Users\ericstj\.nuget\packages\microsoft.private.intellisense\6.0.0-preview-20211019.1\IntellisenseFiles\dotnet-plat-ext\1033\System.Security.Permissions.xml" target="lib\net6.0\System.Security.Permissions.xml" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\System.Security.Permissions\netcoreapp3.1-Debug\System.Security.Permissions.dll" target="lib\netcoreapp3.1\System.Security.Permissions.dll" />
+    <file src="C:\Users\ericstj\.nuget\packages\microsoft.private.intellisense\6.0.0-preview-20211019.1\IntellisenseFiles\dotnet-plat-ext\1033\System.Security.Permissions.xml" target="lib\netcoreapp3.1\System.Security.Permissions.xml" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\System.Security.Permissions\netstandard2.0-Debug\System.Security.Permissions.dll" target="lib\netstandard2.0\System.Security.Permissions.dll" />
+    <file src="C:\Users\ericstj\.nuget\packages\microsoft.private.intellisense\6.0.0-preview-20211019.1\IntellisenseFiles\dotnet-plat-ext\1033\System.Security.Permissions.xml" target="lib\netstandard2.0\System.Security.Permissions.xml" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\obj\System.Security.Permissions\net461-windows-Debug\System.Security.Permissions.dll" target="runtimes\win\lib\net461\System.Security.Permissions.dll" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\obj\System.Security.Permissions\net461-windows-Debug\System.Security.Permissions.dll" target="lib\net461\System.Security.Permissions.dll" />
+    <file src="C:\Users\ericstj\.nuget\packages\microsoft.private.intellisense\6.0.0-preview-20211019.1\IntellisenseFiles\dotnet-plat-ext\1033\System.Security.Permissions.xml" target="runtimes\win\lib\net461\System.Security.Permissions.xml" />
+    <file src="C:\Users\ericstj\.nuget\packages\microsoft.private.intellisense\6.0.0-preview-20211019.1\IntellisenseFiles\dotnet-plat-ext\1033\System.Security.Permissions.xml" target="lib\net461\System.Security.Permissions.xml" />
+    <file src="C:\Users\ericstj\.nuget\packages\microsoft.dotnet.arcade.sdk\6.0.0-beta.24413.1\tools\Assets\DotNetPackageIcon.png" target="Icon.png" />
+    <file src="C:\src\dotnet\runtimeRel\LICENSE.TXT" target="LICENSE.TXT" />
+    <file src="C:\src\dotnet\runtimeRel\THIRD-PARTY-NOTICES.TXT" target="THIRD-PARTY-NOTICES.TXT" />
+    <file src="C:\src\dotnet\runtimeRel\eng\useSharedDesignerContext.txt" target="useSharedDesignerContext.txt" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\obj\System.Security.Permissions\netstandardcompaterrors\netcoreapp2.0\System.Security.Permissions.targets" target="buildTransitive\netcoreapp2.0\System.Security.Permissions.targets" />
+    <file src="C:\src\dotnet\runtimeRel\eng\_._" target="buildTransitive\netcoreapp3.1\_._" />
+  </files>
+</package>

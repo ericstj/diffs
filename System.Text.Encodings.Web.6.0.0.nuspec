@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>System.Text.Encodings.Web</id>
+    <version>6.0.0</version>
+    <authors>Microsoft</authors>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <icon>Icon.png</icon>
+    <projectUrl>https://dot.net/</projectUrl>
+    <description>Provides types for encoding and escaping strings for use in JavaScript, HyperText Markup Language (HTML), and uniform resource locators (URL).
+
+Commonly Used Types:
+System.Text.Encodings.Web.HtmlEncoder
+System.Text.Encodings.Web.UrlEncoder
+System.Text.Encodings.Web.JavaScriptEncoder</description>
+    <releaseNotes>https://go.microsoft.com/fwlink/?LinkID=799421</releaseNotes>
+    <copyright>© Microsoft Corporation. All rights reserved.</copyright>
+    <repository type="git" url="https://github.com/dotnet/runtime" commit="0000000000000000000000000000000000000000" />
+    <dependencies>
+      <group targetFramework=".NETFramework4.6.1">
+        <dependency id="System.Runtime.CompilerServices.Unsafe" version="6.0.0" exclude="Build,Analyzers" />
+        <dependency id="System.Buffers" version="4.5.1" exclude="Build,Analyzers" />
+        <dependency id="System.Memory" version="4.5.4" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework=".NETCoreApp3.1">
+        <dependency id="System.Runtime.CompilerServices.Unsafe" version="6.0.0" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework="net6.0">
+        <dependency id="System.Runtime.CompilerServices.Unsafe" version="6.0.0" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="System.Runtime.CompilerServices.Unsafe" version="6.0.0" exclude="Build,Analyzers" />
+        <dependency id="System.Buffers" version="4.5.1" exclude="Build,Analyzers" />
+        <dependency id="System.Memory" version="4.5.4" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\System.Text.Encodings.Web\net461-Debug\System.Text.Encodings.Web.dll" target="lib\net461\System.Text.Encodings.Web.dll" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\System.Text.Encodings.Web\net461-Debug\System.Text.Encodings.Web.xml" target="lib\net461\System.Text.Encodings.Web.xml" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\System.Text.Encodings.Web\net6.0-Debug\System.Text.Encodings.Web.dll" target="lib\net6.0\System.Text.Encodings.Web.dll" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\System.Text.Encodings.Web\net6.0-Debug\System.Text.Encodings.Web.xml" target="lib\net6.0\System.Text.Encodings.Web.xml" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\System.Text.Encodings.Web\netcoreapp3.1-Debug\System.Text.Encodings.Web.dll" target="lib\netcoreapp3.1\System.Text.Encodings.Web.dll" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\System.Text.Encodings.Web\netcoreapp3.1-Debug\System.Text.Encodings.Web.xml" target="lib\netcoreapp3.1\System.Text.Encodings.Web.xml" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\System.Text.Encodings.Web\netstandard2.0-Debug\System.Text.Encodings.Web.dll" target="lib\netstandard2.0\System.Text.Encodings.Web.dll" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\System.Text.Encodings.Web\netstandard2.0-Debug\System.Text.Encodings.Web.xml" target="lib\netstandard2.0\System.Text.Encodings.Web.xml" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\obj\System.Text.Encodings.Web\net6.0-Browser-Debug\System.Text.Encodings.Web.dll" target="runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\obj\System.Text.Encodings.Web\net6.0-Browser-Debug\System.Text.Encodings.Web.xml" target="runtimes\browser\lib\net6.0\System.Text.Encodings.Web.xml" />
+    <file src="C:\Users\ericstj\.nuget\packages\microsoft.dotnet.arcade.sdk\6.0.0-beta.24413.1\tools\Assets\DotNetPackageIcon.png" target="Icon.png" />
+    <file src="C:\src\dotnet\runtimeRel\LICENSE.TXT" target="LICENSE.TXT" />
+    <file src="C:\src\dotnet\runtimeRel\THIRD-PARTY-NOTICES.TXT" target="THIRD-PARTY-NOTICES.TXT" />
+    <file src="C:\src\dotnet\runtimeRel\eng\useSharedDesignerContext.txt" target="useSharedDesignerContext.txt" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\obj\System.Text.Encodings.Web\netstandardcompaterrors\netcoreapp2.0\System.Text.Encodings.Web.targets" target="buildTransitive\netcoreapp2.0\System.Text.Encodings.Web.targets" />
+    <file src="C:\src\dotnet\runtimeRel\eng\_._" target="buildTransitive\netcoreapp3.1\_._" />
+  </files>
+</package>

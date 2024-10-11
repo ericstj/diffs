@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>System.Data.OleDb</id>
+    <version>6.0.0</version>
+    <authors>Microsoft</authors>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <icon>Icon.png</icon>
+    <projectUrl>https://dot.net/</projectUrl>
+    <description>Provides a collection of classes for OLEDB.
+
+Commonly Used Types:
+System.Data.OleDb.OleDbCommand
+System.Data.OleDb.OleDbCommandBuilder
+System.Data.OleDb.OleDbConnection
+System.Data.OleDb.OleDbDataAdapter
+System.Data.OleDb.OleDbDataReader
+System.Data.OleDb.OleDbParameter
+System.Data.OleDb.OleDbParameterCollection
+System.Data.OleDb.OleDbTransaction</description>
+    <releaseNotes>https://go.microsoft.com/fwlink/?LinkID=799421</releaseNotes>
+    <copyright>© Microsoft Corporation. All rights reserved.</copyright>
+    <serviceable>true</serviceable>
+    <repository type="git" url="https://github.com/dotnet/runtime" commit="0000000000000000000000000000000000000000" />
+    <dependencies>
+      <group targetFramework=".NETFramework4.6.1" />
+      <group targetFramework="net6.0">
+        <dependency id="System.Configuration.ConfigurationManager" version="6.0.1" exclude="Build,Analyzers" />
+        <dependency id="System.Diagnostics.PerformanceCounter" version="6.0.1" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="System.Configuration.ConfigurationManager" version="6.0.1" exclude="Build,Analyzers" />
+        <dependency id="System.Diagnostics.PerformanceCounter" version="6.0.1" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Win32.Registry" version="5.0.0" exclude="Build,Analyzers" />
+        <dependency id="System.Memory" version="4.5.4" exclude="Build,Analyzers" />
+        <dependency id="System.Security.Principal.Windows" version="5.0.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\System.Data.OleDb\net461-windows-Debug\System.Data.OleDb.pdb" target="\runtimes\win\lib\net461" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\System.Data.OleDb\net461-windows-Debug\System.Data.OleDb.pdb" target="\lib\net461" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\System.Data.OleDb\net6.0-Debug\System.Data.OleDb.pdb" target="lib\net6.0\System.Data.OleDb.pdb" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\System.Data.OleDb\net6.0-windows-Debug\System.Data.OleDb.pdb" target="\runtimes\win\lib\net6.0" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\System.Data.OleDb\netstandard2.0-Debug\System.Data.OleDb.pdb" target="lib\netstandard2.0\System.Data.OleDb.pdb" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\System.Data.OleDb\netstandard2.0-windows-Debug\System.Data.OleDb.pdb" target="\runtimes\win\lib\netstandard2.0" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\System.Data.OleDb\net6.0-Debug\System.Data.OleDb.dll" target="lib\net6.0\System.Data.OleDb.dll" />
+    <file src="C:\Users\ericstj\.nuget\packages\microsoft.private.intellisense\6.0.0-preview-20211019.1\IntellisenseFiles\dotnet-plat-ext\1033\System.Data.OleDb.xml" target="lib\net6.0\System.Data.OleDb.xml" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\System.Data.OleDb\netstandard2.0-Debug\System.Data.OleDb.dll" target="lib\netstandard2.0\System.Data.OleDb.dll" />
+    <file src="C:\Users\ericstj\.nuget\packages\microsoft.private.intellisense\6.0.0-preview-20211019.1\IntellisenseFiles\dotnet-plat-ext\1033\System.Data.OleDb.xml" target="lib\netstandard2.0\System.Data.OleDb.xml" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\obj\System.Data.OleDb\net461-windows-Debug\System.Data.OleDb.dll" target="runtimes\win\lib\net461\System.Data.OleDb.dll" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\obj\System.Data.OleDb\net461-windows-Debug\System.Data.OleDb.dll" target="lib\net461\System.Data.OleDb.dll" />
+    <file src="C:\Users\ericstj\.nuget\packages\microsoft.private.intellisense\6.0.0-preview-20211019.1\IntellisenseFiles\dotnet-plat-ext\1033\System.Data.OleDb.xml" target="runtimes\win\lib\net461\System.Data.OleDb.xml" />
+    <file src="C:\Users\ericstj\.nuget\packages\microsoft.private.intellisense\6.0.0-preview-20211019.1\IntellisenseFiles\dotnet-plat-ext\1033\System.Data.OleDb.xml" target="lib\net461\System.Data.OleDb.xml" />
+    <file src="C:\Users\ericstj\.nuget\packages\microsoft.private.intellisense\6.0.0-preview-20211019.1\IntellisenseFiles\dotnet-plat-ext\1033\System.Data.OleDb.xml" target="runtimes\win\lib\net6.0\System.Data.OleDb.xml" />
+    <file src="C:\Users\ericstj\.nuget\packages\microsoft.private.intellisense\6.0.0-preview-20211019.1\IntellisenseFiles\dotnet-plat-ext\1033\System.Data.OleDb.xml" target="runtimes\win\lib\netstandard2.0\System.Data.OleDb.xml" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\obj\System.Data.OleDb\net6.0-windows-Debug\System.Data.OleDb.dll" target="runtimes\win\lib\net6.0\System.Data.OleDb.dll" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\obj\System.Data.OleDb\netstandard2.0-windows-Debug\System.Data.OleDb.dll" target="runtimes\win\lib\netstandard2.0\System.Data.OleDb.dll" />
+    <file src="C:\Users\ericstj\.nuget\packages\microsoft.dotnet.arcade.sdk\6.0.0-beta.24413.1\tools\Assets\DotNetPackageIcon.png" target="Icon.png" />
+    <file src="C:\src\dotnet\runtimeRel\LICENSE.TXT" target="LICENSE.TXT" />
+    <file src="C:\src\dotnet\runtimeRel\THIRD-PARTY-NOTICES.TXT" target="THIRD-PARTY-NOTICES.TXT" />
+    <file src="C:\src\dotnet\runtimeRel\eng\useSharedDesignerContext.txt" target="useSharedDesignerContext.txt" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\obj\System.Data.OleDb\netstandardcompaterrors\netcoreapp2.0\System.Data.OleDb.targets" target="buildTransitive\netcoreapp2.0\System.Data.OleDb.targets" />
+    <file src="C:\src\dotnet\runtimeRel\eng\_._" target="buildTransitive\netcoreapp3.1\_._" />
+  </files>
+</package>

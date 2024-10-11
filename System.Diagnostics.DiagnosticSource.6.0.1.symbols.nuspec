@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>System.Diagnostics.DiagnosticSource</id>
+    <version>6.0.1</version>
+    <authors>Microsoft</authors>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <icon>Icon.png</icon>
+    <projectUrl>https://dot.net/</projectUrl>
+    <description>Provides Classes that allow you to decouple code logging rich (unserializable) diagnostics/telemetry (e.g. framework) from code that consumes it (e.g. tools)
+
+Commonly Used Types:
+System.Diagnostics.DiagnosticListener
+System.Diagnostics.DiagnosticSource</description>
+    <releaseNotes>https://go.microsoft.com/fwlink/?LinkID=799421</releaseNotes>
+    <copyright>© Microsoft Corporation. All rights reserved.</copyright>
+    <serviceable>true</serviceable>
+    <repository type="git" url="https://github.com/dotnet/runtime" commit="0000000000000000000000000000000000000000" />
+    <dependencies>
+      <group targetFramework=".NETFramework4.6.1">
+        <dependency id="System.Runtime.CompilerServices.Unsafe" version="6.0.0" exclude="Build,Analyzers" />
+        <dependency id="System.Memory" version="4.5.4" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework="net5.0">
+        <dependency id="System.Runtime.CompilerServices.Unsafe" version="6.0.0" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework="net6.0">
+        <dependency id="System.Runtime.CompilerServices.Unsafe" version="6.0.0" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="System.Runtime.CompilerServices.Unsafe" version="6.0.0" exclude="Build,Analyzers" />
+        <dependency id="System.Memory" version="4.5.4" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\System.Diagnostics.DiagnosticSource\net461-Debug\System.Diagnostics.DiagnosticSource.pdb" target="lib\net461\System.Diagnostics.DiagnosticSource.pdb" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\System.Diagnostics.DiagnosticSource\net5.0-Debug\System.Diagnostics.DiagnosticSource.pdb" target="lib\net5.0\System.Diagnostics.DiagnosticSource.pdb" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\System.Diagnostics.DiagnosticSource\net6.0-Debug\System.Diagnostics.DiagnosticSource.pdb" target="lib\net6.0\System.Diagnostics.DiagnosticSource.pdb" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\System.Diagnostics.DiagnosticSource\netstandard2.0-Debug\System.Diagnostics.DiagnosticSource.pdb" target="lib\netstandard2.0\System.Diagnostics.DiagnosticSource.pdb" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\System.Diagnostics.DiagnosticSource\net461-Debug\System.Diagnostics.DiagnosticSource.dll" target="lib\net461\System.Diagnostics.DiagnosticSource.dll" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\System.Diagnostics.DiagnosticSource\net461-Debug\System.Diagnostics.DiagnosticSource.xml" target="lib\net461\System.Diagnostics.DiagnosticSource.xml" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\System.Diagnostics.DiagnosticSource\net5.0-Debug\System.Diagnostics.DiagnosticSource.dll" target="lib\net5.0\System.Diagnostics.DiagnosticSource.dll" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\System.Diagnostics.DiagnosticSource\net5.0-Debug\System.Diagnostics.DiagnosticSource.xml" target="lib\net5.0\System.Diagnostics.DiagnosticSource.xml" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\System.Diagnostics.DiagnosticSource\net6.0-Debug\System.Diagnostics.DiagnosticSource.dll" target="lib\net6.0\System.Diagnostics.DiagnosticSource.dll" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\System.Diagnostics.DiagnosticSource\net6.0-Debug\System.Diagnostics.DiagnosticSource.xml" target="lib\net6.0\System.Diagnostics.DiagnosticSource.xml" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\System.Diagnostics.DiagnosticSource\netstandard2.0-Debug\System.Diagnostics.DiagnosticSource.dll" target="lib\netstandard2.0\System.Diagnostics.DiagnosticSource.dll" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\System.Diagnostics.DiagnosticSource\netstandard2.0-Debug\System.Diagnostics.DiagnosticSource.xml" target="lib\netstandard2.0\System.Diagnostics.DiagnosticSource.xml" />
+    <file src="C:\Users\ericstj\.nuget\packages\microsoft.dotnet.arcade.sdk\6.0.0-beta.24413.1\tools\Assets\DotNetPackageIcon.png" target="Icon.png" />
+    <file src="C:\src\dotnet\runtimeRel\LICENSE.TXT" target="LICENSE.TXT" />
+    <file src="C:\src\dotnet\runtimeRel\THIRD-PARTY-NOTICES.TXT" target="THIRD-PARTY-NOTICES.TXT" />
+    <file src="C:\src\dotnet\runtimeRel\eng\useSharedDesignerContext.txt" target="useSharedDesignerContext.txt" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\obj\System.Diagnostics.DiagnosticSource\netstandardcompaterrors\netcoreapp2.0\System.Diagnostics.DiagnosticSource.targets" target="buildTransitive\netcoreapp2.0\System.Diagnostics.DiagnosticSource.targets" />
+    <file src="C:\src\dotnet\runtimeRel\eng\_._" target="buildTransitive\netcoreapp3.1\_._" />
+  </files>
+</package>

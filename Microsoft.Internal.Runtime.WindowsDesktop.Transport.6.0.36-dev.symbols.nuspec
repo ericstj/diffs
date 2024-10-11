@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Microsoft.Internal.Runtime.WindowsDesktop.Transport</id>
+    <version>6.0.36-dev</version>
+    <authors>Microsoft</authors>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <icon>Icon.png</icon>
+    <projectUrl>https://dot.net/</projectUrl>
+    <description>Internal transport package to provide windowsdesktop with the assemblies from dotnet/runtime that make up the Microsoft.WindowsDesktop.App shared framework.</description>
+    <releaseNotes>https://go.microsoft.com/fwlink/?LinkID=799421</releaseNotes>
+    <copyright>© Microsoft Corporation. All rights reserved.</copyright>
+    <serviceable>true</serviceable>
+    <repository type="git" url="https://github.com/dotnet/runtime" commit="0000000000000000000000000000000000000000" />
+    <dependencies>
+      <group targetFramework="net6.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\Microsoft.Win32.Registry.AccessControl\net6.0-windows-Debug\Microsoft.Win32.Registry.AccessControl.pdb" target="\lib\net6.0\Microsoft.Win32.Registry.AccessControl.pdb" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\Microsoft.Win32.SystemEvents\net6.0-windows-Debug\Microsoft.Win32.SystemEvents.pdb" target="\lib\net6.0\Microsoft.Win32.SystemEvents.pdb" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\System.Diagnostics.EventLog\net6.0-windows-Debug\System.Diagnostics.EventLog.pdb" target="\lib\net6.0\System.Diagnostics.EventLog.pdb" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\System.Diagnostics.PerformanceCounter\net6.0-windows-Debug\System.Diagnostics.PerformanceCounter.pdb" target="\lib\net6.0\System.Diagnostics.PerformanceCounter.pdb" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\System.DirectoryServices\net6.0-windows-Debug\System.DirectoryServices.pdb" target="\lib\net6.0\System.DirectoryServices.pdb" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\System.Drawing.Common\net6.0-windows-Debug\System.Drawing.Common.pdb" target="\lib\net6.0\System.Drawing.Common.pdb" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\System.Security.Cryptography.Pkcs\net6.0-windows-Debug\System.Security.Cryptography.Pkcs.pdb" target="\lib\net6.0\System.Security.Cryptography.Pkcs.pdb" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\System.Security.Cryptography.ProtectedData\net6.0-windows-Debug\System.Security.Cryptography.ProtectedData.pdb" target="\lib\net6.0\System.Security.Cryptography.ProtectedData.pdb" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\System.Threading.AccessControl\net6.0-windows-Debug\System.Threading.AccessControl.pdb" target="\lib\net6.0\System.Threading.AccessControl.pdb" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\System.Windows.Extensions\net6.0-windows-Debug\System.Windows.Extensions.pdb" target="\lib\net6.0\System.Windows.Extensions.pdb" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\System.CodeDom\net6.0-Debug\System.CodeDom.pdb" target="\lib\net6.0\System.CodeDom.pdb" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\System.Configuration.ConfigurationManager\net6.0-Debug\System.Configuration.ConfigurationManager.pdb" target="\lib\net6.0\System.Configuration.ConfigurationManager.pdb" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\System.IO.Packaging\net6.0-Debug\System.IO.Packaging.pdb" target="\lib\net6.0\System.IO.Packaging.pdb" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\System.Resources.Extensions\net6.0-Debug\System.Resources.Extensions.pdb" target="\lib\net6.0\System.Resources.Extensions.pdb" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\System.Security.Cryptography.Xml\net6.0-Debug\System.Security.Cryptography.Xml.pdb" target="\lib\net6.0\System.Security.Cryptography.Xml.pdb" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\System.Security.Permissions\net6.0-Debug\System.Security.Permissions.pdb" target="\lib\net6.0\System.Security.Permissions.pdb" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\System.Diagnostics.EventLog.Messages\netstandard2.0-Debug\System.Diagnostics.EventLog.Messages.pdb" target="\lib\net6.0\System.Diagnostics.EventLog.Messages.pdb" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\Microsoft.Win32.Registry.AccessControl\net6.0-windows-Debug\Microsoft.Win32.Registry.AccessControl.dll" target="lib\net6.0\Microsoft.Win32.Registry.AccessControl.dll" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\Microsoft.Win32.SystemEvents\net6.0-windows-Debug\Microsoft.Win32.SystemEvents.dll" target="lib\net6.0\Microsoft.Win32.SystemEvents.dll" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\System.CodeDom\net6.0-Debug\System.CodeDom.dll" target="lib\net6.0\System.CodeDom.dll" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\System.Configuration.ConfigurationManager\net6.0-Debug\System.Configuration.ConfigurationManager.dll" target="lib\net6.0\System.Configuration.ConfigurationManager.dll" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\System.Diagnostics.EventLog\net6.0-windows-Debug\System.Diagnostics.EventLog.dll" target="lib\net6.0\System.Diagnostics.EventLog.dll" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\System.Diagnostics.EventLog.Messages\netstandard2.0-Debug\System.Diagnostics.EventLog.Messages.dll" target="lib\net6.0\System.Diagnostics.EventLog.Messages.dll" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\System.Diagnostics.PerformanceCounter\net6.0-windows-Debug\System.Diagnostics.PerformanceCounter.dll" target="lib\net6.0\System.Diagnostics.PerformanceCounter.dll" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\System.DirectoryServices\net6.0-windows-Debug\System.DirectoryServices.dll" target="lib\net6.0\System.DirectoryServices.dll" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\System.Drawing.Common\net6.0-windows-Debug\System.Drawing.Common.dll" target="lib\net6.0\System.Drawing.Common.dll" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\System.IO.Packaging\net6.0-Debug\System.IO.Packaging.dll" target="lib\net6.0\System.IO.Packaging.dll" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\System.Resources.Extensions\net6.0-Debug\System.Resources.Extensions.dll" target="lib\net6.0\System.Resources.Extensions.dll" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\System.Security.Cryptography.Pkcs\net6.0-windows-Debug\System.Security.Cryptography.Pkcs.dll" target="lib\net6.0\System.Security.Cryptography.Pkcs.dll" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\System.Security.Cryptography.ProtectedData\net6.0-windows-Debug\System.Security.Cryptography.ProtectedData.dll" target="lib\net6.0\System.Security.Cryptography.ProtectedData.dll" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\System.Security.Cryptography.Xml\net6.0-Debug\System.Security.Cryptography.Xml.dll" target="lib\net6.0\System.Security.Cryptography.Xml.dll" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\System.Security.Permissions\net6.0-Debug\System.Security.Permissions.dll" target="lib\net6.0\System.Security.Permissions.dll" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\System.Threading.AccessControl\net6.0-windows-Debug\System.Threading.AccessControl.dll" target="lib\net6.0\System.Threading.AccessControl.dll" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\System.Windows.Extensions\net6.0-windows-Debug\System.Windows.Extensions.dll" target="lib\net6.0\System.Windows.Extensions.dll" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\Microsoft.Win32.Registry.AccessControl\ref\net6.0-Debug\Microsoft.Win32.Registry.AccessControl.dll" target="ref\net6.0\Microsoft.Win32.Registry.AccessControl.dll" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\Microsoft.Win32.SystemEvents\ref\net6.0-Debug\Microsoft.Win32.SystemEvents.dll" target="ref\net6.0\Microsoft.Win32.SystemEvents.dll" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\System.CodeDom\ref\net6.0-Debug\System.CodeDom.dll" target="ref\net6.0\System.CodeDom.dll" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\System.Configuration.ConfigurationManager\ref\net6.0-Debug\System.Configuration.ConfigurationManager.dll" target="ref\net6.0\System.Configuration.ConfigurationManager.dll" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\System.Diagnostics.EventLog\ref\net6.0-Debug\System.Diagnostics.EventLog.dll" target="ref\net6.0\System.Diagnostics.EventLog.dll" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\System.Diagnostics.PerformanceCounter\ref\net6.0-Debug\System.Diagnostics.PerformanceCounter.dll" target="ref\net6.0\System.Diagnostics.PerformanceCounter.dll" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\System.DirectoryServices\ref\net6.0-Debug\System.DirectoryServices.dll" target="ref\net6.0\System.DirectoryServices.dll" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\System.Drawing.Common\ref\net6.0-Debug\System.Drawing.Common.dll" target="ref\net6.0\System.Drawing.Common.dll" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\System.IO.Packaging\ref\net6.0-Debug\System.IO.Packaging.dll" target="ref\net6.0\System.IO.Packaging.dll" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\System.Resources.Extensions\ref\net6.0-Debug\System.Resources.Extensions.dll" target="ref\net6.0\System.Resources.Extensions.dll" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\System.Security.Cryptography.Pkcs\ref\net6.0-Debug\System.Security.Cryptography.Pkcs.dll" target="ref\net6.0\System.Security.Cryptography.Pkcs.dll" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\System.Security.Cryptography.ProtectedData\ref\net6.0-Debug\System.Security.Cryptography.ProtectedData.dll" target="ref\net6.0\System.Security.Cryptography.ProtectedData.dll" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\System.Security.Cryptography.Xml\ref\net6.0-Debug\System.Security.Cryptography.Xml.dll" target="ref\net6.0\System.Security.Cryptography.Xml.dll" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\System.Security.Permissions\ref\net6.0-Debug\System.Security.Permissions.dll" target="ref\net6.0\System.Security.Permissions.dll" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\System.Threading.AccessControl\ref\net6.0-Debug\System.Threading.AccessControl.dll" target="ref\net6.0\System.Threading.AccessControl.dll" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\System.Windows.Extensions\ref\net6.0-Debug\System.Windows.Extensions.dll" target="ref\net6.0\System.Windows.Extensions.dll" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\Microsoft.Win32.Registry.AccessControl\net6.0-windows-Debug\Microsoft.Win32.Registry.AccessControl.xml" target="ref\net6.0\Microsoft.Win32.Registry.AccessControl.xml" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\Microsoft.Win32.SystemEvents\net6.0-windows-Debug\Microsoft.Win32.SystemEvents.xml" target="ref\net6.0\Microsoft.Win32.SystemEvents.xml" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\System.Diagnostics.EventLog\net6.0-windows-Debug\System.Diagnostics.EventLog.xml" target="ref\net6.0\System.Diagnostics.EventLog.xml" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\System.Diagnostics.PerformanceCounter\net6.0-windows-Debug\System.Diagnostics.PerformanceCounter.xml" target="ref\net6.0\System.Diagnostics.PerformanceCounter.xml" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\System.DirectoryServices\net6.0-windows-Debug\System.DirectoryServices.xml" target="ref\net6.0\System.DirectoryServices.xml" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\System.Drawing.Common\net6.0-windows-Debug\System.Drawing.Common.xml" target="ref\net6.0\System.Drawing.Common.xml" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\System.Security.Cryptography.Pkcs\net6.0-windows-Debug\System.Security.Cryptography.Pkcs.xml" target="ref\net6.0\System.Security.Cryptography.Pkcs.xml" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\System.Security.Cryptography.ProtectedData\net6.0-windows-Debug\System.Security.Cryptography.ProtectedData.xml" target="ref\net6.0\System.Security.Cryptography.ProtectedData.xml" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\System.Threading.AccessControl\net6.0-windows-Debug\System.Threading.AccessControl.xml" target="ref\net6.0\System.Threading.AccessControl.xml" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\System.Windows.Extensions\net6.0-windows-Debug\System.Windows.Extensions.xml" target="ref\net6.0\System.Windows.Extensions.xml" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\System.CodeDom\net6.0-Debug\System.CodeDom.xml" target="ref\net6.0\System.CodeDom.xml" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\System.Configuration.ConfigurationManager\net6.0-Debug\System.Configuration.ConfigurationManager.xml" target="ref\net6.0\System.Configuration.ConfigurationManager.xml" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\System.IO.Packaging\net6.0-Debug\System.IO.Packaging.xml" target="ref\net6.0\System.IO.Packaging.xml" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\System.Resources.Extensions\net6.0-Debug\System.Resources.Extensions.xml" target="ref\net6.0\System.Resources.Extensions.xml" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\System.Security.Cryptography.Xml\net6.0-Debug\System.Security.Cryptography.Xml.xml" target="ref\net6.0\System.Security.Cryptography.Xml.xml" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\System.Security.Permissions\net6.0-Debug\System.Security.Permissions.xml" target="ref\net6.0\System.Security.Permissions.xml" />
+    <file src="C:\Users\ericstj\.nuget\packages\microsoft.dotnet.arcade.sdk\6.0.0-beta.24413.1\tools\Assets\DotNetPackageIcon.png" target="Icon.png" />
+    <file src="C:\src\dotnet\runtimeRel\LICENSE.TXT" target="LICENSE.TXT" />
+    <file src="C:\src\dotnet\runtimeRel\THIRD-PARTY-NOTICES.TXT" target="THIRD-PARTY-NOTICES.TXT" />
+    <file src="C:\src\dotnet\runtimeRel\eng\useSharedDesignerContext.txt" target="useSharedDesignerContext.txt" />
+  </files>
+</package>

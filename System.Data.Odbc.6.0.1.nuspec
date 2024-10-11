@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>System.Data.Odbc</id>
+    <version>6.0.1</version>
+    <authors>Microsoft</authors>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <icon>Icon.png</icon>
+    <projectUrl>https://dot.net/</projectUrl>
+    <description>Provides a collection of classes used to access an ODBC data source in the managed space
+
+Commonly Used Types:
+System.Data.Odbc.OdbcCommand
+System.Data.Odbc.OdbcConnection
+System.Data.Odbc.OdbcDataReader
+System.Data.Odbc.OdbcDataAdapter
+System.Data.Odbc.OdbcParameter
+System.Data.Odbc.OdbcParameterCollection
+System.Data.Odbc.OdbcTransaction</description>
+    <releaseNotes>https://go.microsoft.com/fwlink/?LinkID=799421</releaseNotes>
+    <copyright>© Microsoft Corporation. All rights reserved.</copyright>
+    <repository type="git" url="https://github.com/dotnet/runtime" commit="0000000000000000000000000000000000000000" />
+    <dependencies>
+      <group targetFramework=".NETFramework4.6.1" />
+      <group targetFramework=".NETCoreApp3.1">
+        <dependency id="System.Text.Encoding.CodePages" version="6.0.0" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework="net6.0">
+        <dependency id="System.Text.Encoding.CodePages" version="6.0.0" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework=".NETStandard2.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\System.Data.Odbc\net6.0-Debug\System.Data.Odbc.dll" target="lib\net6.0\System.Data.Odbc.dll" />
+    <file src="C:\Users\ericstj\.nuget\packages\microsoft.private.intellisense\6.0.0-preview-20211019.1\IntellisenseFiles\dotnet-plat-ext\1033\System.Data.Odbc.xml" target="lib\net6.0\System.Data.Odbc.xml" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\System.Data.Odbc\netcoreapp3.1-Debug\System.Data.Odbc.dll" target="lib\netcoreapp3.1\System.Data.Odbc.dll" />
+    <file src="C:\Users\ericstj\.nuget\packages\microsoft.private.intellisense\6.0.0-preview-20211019.1\IntellisenseFiles\dotnet-plat-ext\1033\System.Data.Odbc.xml" target="lib\netcoreapp3.1\System.Data.Odbc.xml" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\System.Data.Odbc\netstandard2.0-Debug\System.Data.Odbc.dll" target="lib\netstandard2.0\System.Data.Odbc.dll" />
+    <file src="C:\Users\ericstj\.nuget\packages\microsoft.private.intellisense\6.0.0-preview-20211019.1\IntellisenseFiles\dotnet-plat-ext\1033\System.Data.Odbc.xml" target="lib\netstandard2.0\System.Data.Odbc.xml" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\obj\System.Data.Odbc\net461-windows-Debug\System.Data.Odbc.dll" target="runtimes\win\lib\net461\System.Data.Odbc.dll" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\obj\System.Data.Odbc\net461-windows-Debug\System.Data.Odbc.dll" target="lib\net461\System.Data.Odbc.dll" />
+    <file src="C:\Users\ericstj\.nuget\packages\microsoft.private.intellisense\6.0.0-preview-20211019.1\IntellisenseFiles\dotnet-plat-ext\1033\System.Data.Odbc.xml" target="runtimes\win\lib\net461\System.Data.Odbc.xml" />
+    <file src="C:\Users\ericstj\.nuget\packages\microsoft.private.intellisense\6.0.0-preview-20211019.1\IntellisenseFiles\dotnet-plat-ext\1033\System.Data.Odbc.xml" target="lib\net461\System.Data.Odbc.xml" />
+    <file src="C:\Users\ericstj\.nuget\packages\microsoft.private.intellisense\6.0.0-preview-20211019.1\IntellisenseFiles\dotnet-plat-ext\1033\System.Data.Odbc.xml" target="runtimes\freebsd\lib\net6.0\System.Data.Odbc.xml" />
+    <file src="C:\Users\ericstj\.nuget\packages\microsoft.private.intellisense\6.0.0-preview-20211019.1\IntellisenseFiles\dotnet-plat-ext\1033\System.Data.Odbc.xml" target="runtimes\illumos\lib\net6.0\System.Data.Odbc.xml" />
+    <file src="C:\Users\ericstj\.nuget\packages\microsoft.private.intellisense\6.0.0-preview-20211019.1\IntellisenseFiles\dotnet-plat-ext\1033\System.Data.Odbc.xml" target="runtimes\ios\lib\net6.0\System.Data.Odbc.xml" />
+    <file src="C:\Users\ericstj\.nuget\packages\microsoft.private.intellisense\6.0.0-preview-20211019.1\IntellisenseFiles\dotnet-plat-ext\1033\System.Data.Odbc.xml" target="runtimes\linux\lib\net6.0\System.Data.Odbc.xml" />
+    <file src="C:\Users\ericstj\.nuget\packages\microsoft.private.intellisense\6.0.0-preview-20211019.1\IntellisenseFiles\dotnet-plat-ext\1033\System.Data.Odbc.xml" target="runtimes\osx\lib\net6.0\System.Data.Odbc.xml" />
+    <file src="C:\Users\ericstj\.nuget\packages\microsoft.private.intellisense\6.0.0-preview-20211019.1\IntellisenseFiles\dotnet-plat-ext\1033\System.Data.Odbc.xml" target="runtimes\solaris\lib\net6.0\System.Data.Odbc.xml" />
+    <file src="C:\Users\ericstj\.nuget\packages\microsoft.private.intellisense\6.0.0-preview-20211019.1\IntellisenseFiles\dotnet-plat-ext\1033\System.Data.Odbc.xml" target="runtimes\tvos\lib\net6.0\System.Data.Odbc.xml" />
+    <file src="C:\Users\ericstj\.nuget\packages\microsoft.private.intellisense\6.0.0-preview-20211019.1\IntellisenseFiles\dotnet-plat-ext\1033\System.Data.Odbc.xml" target="runtimes\win\lib\net6.0\System.Data.Odbc.xml" />
+    <file src="C:\Users\ericstj\.nuget\packages\microsoft.private.intellisense\6.0.0-preview-20211019.1\IntellisenseFiles\dotnet-plat-ext\1033\System.Data.Odbc.xml" target="runtimes\freebsd\lib\netcoreapp3.1\System.Data.Odbc.xml" />
+    <file src="C:\Users\ericstj\.nuget\packages\microsoft.private.intellisense\6.0.0-preview-20211019.1\IntellisenseFiles\dotnet-plat-ext\1033\System.Data.Odbc.xml" target="runtimes\linux\lib\netcoreapp3.1\System.Data.Odbc.xml" />
+    <file src="C:\Users\ericstj\.nuget\packages\microsoft.private.intellisense\6.0.0-preview-20211019.1\IntellisenseFiles\dotnet-plat-ext\1033\System.Data.Odbc.xml" target="runtimes\osx\lib\netcoreapp3.1\System.Data.Odbc.xml" />
+    <file src="C:\Users\ericstj\.nuget\packages\microsoft.private.intellisense\6.0.0-preview-20211019.1\IntellisenseFiles\dotnet-plat-ext\1033\System.Data.Odbc.xml" target="runtimes\win\lib\netcoreapp3.1\System.Data.Odbc.xml" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\obj\System.Data.Odbc\net6.0-FreeBSD-Debug\System.Data.Odbc.dll" target="runtimes\freebsd\lib\net6.0\System.Data.Odbc.dll" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\obj\System.Data.Odbc\net6.0-illumos-Debug\System.Data.Odbc.dll" target="runtimes\illumos\lib\net6.0\System.Data.Odbc.dll" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\obj\System.Data.Odbc\net6.0-iOS-Debug\System.Data.Odbc.dll" target="runtimes\ios\lib\net6.0\System.Data.Odbc.dll" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\obj\System.Data.Odbc\net6.0-Linux-Debug\System.Data.Odbc.dll" target="runtimes\linux\lib\net6.0\System.Data.Odbc.dll" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\obj\System.Data.Odbc\net6.0-OSX-Debug\System.Data.Odbc.dll" target="runtimes\osx\lib\net6.0\System.Data.Odbc.dll" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\obj\System.Data.Odbc\net6.0-Solaris-Debug\System.Data.Odbc.dll" target="runtimes\solaris\lib\net6.0\System.Data.Odbc.dll" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\obj\System.Data.Odbc\net6.0-tvOS-Debug\System.Data.Odbc.dll" target="runtimes\tvos\lib\net6.0\System.Data.Odbc.dll" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\obj\System.Data.Odbc\net6.0-windows-Debug\System.Data.Odbc.dll" target="runtimes\win\lib\net6.0\System.Data.Odbc.dll" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\obj\System.Data.Odbc\netcoreapp3.1-FreeBSD-Debug\System.Data.Odbc.dll" target="runtimes\freebsd\lib\netcoreapp3.1\System.Data.Odbc.dll" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\obj\System.Data.Odbc\netcoreapp3.1-Linux-Debug\System.Data.Odbc.dll" target="runtimes\linux\lib\netcoreapp3.1\System.Data.Odbc.dll" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\obj\System.Data.Odbc\netcoreapp3.1-OSX-Debug\System.Data.Odbc.dll" target="runtimes\osx\lib\netcoreapp3.1\System.Data.Odbc.dll" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\obj\System.Data.Odbc\netcoreapp3.1-windows-Debug\System.Data.Odbc.dll" target="runtimes\win\lib\netcoreapp3.1\System.Data.Odbc.dll" />
+    <file src="C:\Users\ericstj\.nuget\packages\microsoft.dotnet.arcade.sdk\6.0.0-beta.24413.1\tools\Assets\DotNetPackageIcon.png" target="Icon.png" />
+    <file src="C:\src\dotnet\runtimeRel\LICENSE.TXT" target="LICENSE.TXT" />
+    <file src="C:\src\dotnet\runtimeRel\THIRD-PARTY-NOTICES.TXT" target="THIRD-PARTY-NOTICES.TXT" />
+    <file src="C:\src\dotnet\runtimeRel\eng\useSharedDesignerContext.txt" target="useSharedDesignerContext.txt" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\obj\System.Data.Odbc\netstandardcompaterrors\netcoreapp2.0\System.Data.Odbc.targets" target="buildTransitive\netcoreapp2.0\System.Data.Odbc.targets" />
+    <file src="C:\src\dotnet\runtimeRel\eng\_._" target="buildTransitive\netcoreapp3.1\_._" />
+  </files>
+</package>

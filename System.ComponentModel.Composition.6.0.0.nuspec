@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>System.ComponentModel.Composition</id>
+    <version>6.0.0</version>
+    <authors>Microsoft</authors>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <icon>Icon.png</icon>
+    <projectUrl>https://dot.net/</projectUrl>
+    <description>This namespace provides classes that constitute the core of the Managed Extensibility Framework, or MEF.
+
+Commonly Used Types:
+System.ComponentModel.Composition.ChangeRejectedException
+System.ComponentModel.Composition.CompositionContractMismatchException
+System.ComponentModel.Composition.CompositionError
+System.ComponentModel.Composition.CompositionException
+System.ComponentModel.Composition.ExportAttribute
+System.ComponentModel.Composition.ImportAttribute
+System.ComponentModel.Composition.ImportCardinalityMismatchException
+System.ComponentModel.Composition.Hosting.AggregateCatalog
+System.ComponentModel.Composition.Hosting.ApplicationCatalog
+System.ComponentModel.Composition.Hosting.AssemblyCatalog
+System.ComponentModel.Composition.Hosting.CompositionContainer
+System.ComponentModel.Composition.Primitives.ComposablePartException
+System.ComponentModel.Composition.Primitives.ExportDefinition
+System.ComponentModel.Composition.Primitives.ImportDefinition
+System.ComponentModel.Composition.ReflectionModel.ReflectionModelServices</description>
+    <releaseNotes>https://go.microsoft.com/fwlink/?LinkID=799421</releaseNotes>
+    <copyright>© Microsoft Corporation. All rights reserved.</copyright>
+    <repository type="git" url="https://github.com/dotnet/runtime" commit="0000000000000000000000000000000000000000" />
+    <dependencies>
+      <group targetFramework=".NETCoreApp3.1" />
+      <group targetFramework="net6.0" />
+      <group targetFramework=".NETStandard2.0" />
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="System.ComponentModel.Composition" targetFramework=".NETFramework4.6.1" />
+    </frameworkAssemblies>
+  </metadata>
+  <files>
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\System.ComponentModel.Composition\net6.0-Debug\System.ComponentModel.Composition.dll" target="lib\net6.0\System.ComponentModel.Composition.dll" />
+    <file src="C:\Users\ericstj\.nuget\packages\microsoft.private.intellisense\6.0.0-preview-20211019.1\IntellisenseFiles\dotnet-plat-ext\1033\System.ComponentModel.Composition.xml" target="lib\net6.0\System.ComponentModel.Composition.xml" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\System.ComponentModel.Composition\netcoreapp3.1-Debug\System.ComponentModel.Composition.dll" target="lib\netcoreapp3.1\System.ComponentModel.Composition.dll" />
+    <file src="C:\Users\ericstj\.nuget\packages\microsoft.private.intellisense\6.0.0-preview-20211019.1\IntellisenseFiles\dotnet-plat-ext\1033\System.ComponentModel.Composition.xml" target="lib\netcoreapp3.1\System.ComponentModel.Composition.xml" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\System.ComponentModel.Composition\netstandard2.0-Debug\System.ComponentModel.Composition.dll" target="lib\netstandard2.0\System.ComponentModel.Composition.dll" />
+    <file src="C:\Users\ericstj\.nuget\packages\microsoft.private.intellisense\6.0.0-preview-20211019.1\IntellisenseFiles\dotnet-plat-ext\1033\System.ComponentModel.Composition.xml" target="lib\netstandard2.0\System.ComponentModel.Composition.xml" />
+    <file src="C:\Users\ericstj\.nuget\packages\microsoft.dotnet.arcade.sdk\6.0.0-beta.24413.1\tools\Assets\DotNetPackageIcon.png" target="Icon.png" />
+    <file src="C:\src\dotnet\runtimeRel\LICENSE.TXT" target="LICENSE.TXT" />
+    <file src="C:\src\dotnet\runtimeRel\THIRD-PARTY-NOTICES.TXT" target="THIRD-PARTY-NOTICES.TXT" />
+    <file src="C:\src\dotnet\runtimeRel\eng\useSharedDesignerContext.txt" target="useSharedDesignerContext.txt" />
+    <file src="C:\src\dotnet\runtimeRel\eng\_._" target="lib\net461\_._" />
+    <file src="C:\src\dotnet\runtimeRel\eng\_._" target="buildTransitive\netcoreapp3.1\_._" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\obj\System.ComponentModel.Composition\netstandardcompaterrors\netcoreapp2.0\System.ComponentModel.Composition.targets" target="buildTransitive\netcoreapp2.0\System.ComponentModel.Composition.targets" />
+  </files>
+</package>

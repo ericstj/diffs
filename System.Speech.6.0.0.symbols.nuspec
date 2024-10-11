@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>System.Speech</id>
+    <version>6.0.0</version>
+    <authors>Microsoft</authors>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <icon>Icon.png</icon>
+    <projectUrl>https://dot.net/</projectUrl>
+    <description>Provides types to perform speech synthesis and speech recognition.
+
+Commonly Used Types
+System.Speech.Synthesis.SpeechSynthesizer
+System.Speech.Recognition.SpeechRecognizer</description>
+    <releaseNotes>https://go.microsoft.com/fwlink/?LinkID=799421</releaseNotes>
+    <copyright>© Microsoft Corporation. All rights reserved.</copyright>
+    <serviceable>true</serviceable>
+    <repository type="git" url="https://github.com/dotnet/runtime" commit="0000000000000000000000000000000000000000" />
+    <dependencies>
+      <group targetFramework=".NETCoreApp3.1">
+        <dependency id="Microsoft.Win32.Registry" version="5.0.0" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework="net6.0" />
+      <group targetFramework=".NETStandard2.0" />
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="System.Speech" targetFramework=".NETFramework4.6.1" />
+    </frameworkAssemblies>
+  </metadata>
+  <files>
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\System.Speech\net6.0-Debug\System.Speech.pdb" target="lib\net6.0\System.Speech.pdb" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\System.Speech\net6.0-windows-Debug\System.Speech.pdb" target="\runtimes\win\lib\net6.0" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\System.Speech\netcoreapp3.1-Debug\System.Speech.pdb" target="lib\netcoreapp3.1\System.Speech.pdb" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\System.Speech\netcoreapp3.1-windows-Debug\System.Speech.pdb" target="\runtimes\win\lib\netcoreapp3.1" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\System.Speech\netstandard2.0-Debug\System.Speech.pdb" target="lib\netstandard2.0\System.Speech.pdb" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\System.Speech\net6.0-Debug\System.Speech.dll" target="lib\net6.0\System.Speech.dll" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\System.Speech\net6.0-Debug\System.Speech.xml" target="lib\net6.0\System.Speech.xml" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\System.Speech\netcoreapp3.1-Debug\System.Speech.dll" target="lib\netcoreapp3.1\System.Speech.dll" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\System.Speech\netcoreapp3.1-Debug\System.Speech.xml" target="lib\netcoreapp3.1\System.Speech.xml" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\System.Speech\netstandard2.0-Debug\System.Speech.dll" target="lib\netstandard2.0\System.Speech.dll" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\System.Speech\netstandard2.0-Debug\System.Speech.xml" target="lib\netstandard2.0\System.Speech.xml" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\obj\System.Speech\net6.0-windows-Debug\System.Speech.dll" target="runtimes\win\lib\net6.0\System.Speech.dll" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\obj\System.Speech\net6.0-windows-Debug\System.Speech.xml" target="runtimes\win\lib\net6.0\System.Speech.xml" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\obj\System.Speech\netcoreapp3.1-windows-Debug\System.Speech.dll" target="runtimes\win\lib\netcoreapp3.1\System.Speech.dll" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\obj\System.Speech\netcoreapp3.1-windows-Debug\System.Speech.xml" target="runtimes\win\lib\netcoreapp3.1\System.Speech.xml" />
+    <file src="C:\Users\ericstj\.nuget\packages\microsoft.dotnet.arcade.sdk\6.0.0-beta.24413.1\tools\Assets\DotNetPackageIcon.png" target="Icon.png" />
+    <file src="C:\src\dotnet\runtimeRel\LICENSE.TXT" target="LICENSE.TXT" />
+    <file src="C:\src\dotnet\runtimeRel\THIRD-PARTY-NOTICES.TXT" target="THIRD-PARTY-NOTICES.TXT" />
+    <file src="C:\src\dotnet\runtimeRel\eng\useSharedDesignerContext.txt" target="useSharedDesignerContext.txt" />
+    <file src="C:\src\dotnet\runtimeRel\eng\_._" target="lib\net461\_._" />
+    <file src="C:\src\dotnet\runtimeRel\eng\_._" target="buildTransitive\netcoreapp3.1\_._" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\obj\System.Speech\netstandardcompaterrors\netcoreapp2.0\System.Speech.targets" target="buildTransitive\netcoreapp2.0\System.Speech.targets" />
+  </files>
+</package>

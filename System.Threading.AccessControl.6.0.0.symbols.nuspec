@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>System.Threading.AccessControl</id>
+    <version>6.0.0</version>
+    <authors>Microsoft</authors>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <icon>Icon.png</icon>
+    <projectUrl>https://dot.net/</projectUrl>
+    <description>Provides support for managing access and audit control lists for synchronization primitives.
+
+Commonly Used Types:
+System.Security.AccessControl.EventWaitHandleAccessRule
+System.Security.AccessControl.EventWaitHandleAuditRule
+System.Security.AccessControl.MutexAccessRule
+System.Security.AccessControl.MutexAuditRule
+System.Security.AccessControl.MutexSecurity
+System.Security.AccessControl.SemaphoreAccessRule
+System.Security.AccessControl.SemaphoreAuditRule
+System.Security.AccessControl.SemaphoreSecurity</description>
+    <releaseNotes>https://go.microsoft.com/fwlink/?LinkID=799421</releaseNotes>
+    <copyright>© Microsoft Corporation. All rights reserved.</copyright>
+    <serviceable>true</serviceable>
+    <repository type="git" url="https://github.com/dotnet/runtime" commit="0000000000000000000000000000000000000000" />
+    <dependencies>
+      <group targetFramework=".NETFramework4.6.1">
+        <dependency id="System.Security.AccessControl" version="6.0.1" exclude="Build,Analyzers" />
+        <dependency id="System.Security.Principal.Windows" version="5.0.0" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework="net6.0">
+        <dependency id="System.Security.AccessControl" version="6.0.1" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="System.Security.AccessControl" version="6.0.1" exclude="Build,Analyzers" />
+        <dependency id="System.Memory" version="4.5.4" exclude="Build,Analyzers" />
+        <dependency id="System.Security.Principal.Windows" version="5.0.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\System.Threading.AccessControl\net461-windows-Debug\System.Threading.AccessControl.pdb" target="\runtimes\win\lib\net461" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\System.Threading.AccessControl\net461-windows-Debug\System.Threading.AccessControl.pdb" target="\lib\net461" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\System.Threading.AccessControl\net6.0-Debug\System.Threading.AccessControl.pdb" target="lib\net6.0\System.Threading.AccessControl.pdb" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\System.Threading.AccessControl\net6.0-windows-Debug\System.Threading.AccessControl.pdb" target="\runtimes\win\lib\net6.0" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\System.Threading.AccessControl\netstandard2.0-Debug\System.Threading.AccessControl.pdb" target="lib\netstandard2.0\System.Threading.AccessControl.pdb" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\System.Threading.AccessControl\netstandard2.0-windows-Debug\System.Threading.AccessControl.pdb" target="\runtimes\win\lib\netstandard2.0" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\System.Threading.AccessControl\net6.0-Debug\System.Threading.AccessControl.dll" target="lib\net6.0\System.Threading.AccessControl.dll" />
+    <file src="C:\Users\ericstj\.nuget\packages\microsoft.private.intellisense\6.0.0-preview-20211019.1\IntellisenseFiles\dotnet-plat-ext\1033\System.Threading.AccessControl.xml" target="lib\net6.0\System.Threading.AccessControl.xml" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\System.Threading.AccessControl\netstandard2.0-Debug\System.Threading.AccessControl.dll" target="lib\netstandard2.0\System.Threading.AccessControl.dll" />
+    <file src="C:\Users\ericstj\.nuget\packages\microsoft.private.intellisense\6.0.0-preview-20211019.1\IntellisenseFiles\dotnet-plat-ext\1033\System.Threading.AccessControl.xml" target="lib\netstandard2.0\System.Threading.AccessControl.xml" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\obj\System.Threading.AccessControl\net461-windows-Debug\System.Threading.AccessControl.dll" target="runtimes\win\lib\net461\System.Threading.AccessControl.dll" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\obj\System.Threading.AccessControl\net461-windows-Debug\System.Threading.AccessControl.dll" target="lib\net461\System.Threading.AccessControl.dll" />
+    <file src="C:\Users\ericstj\.nuget\packages\microsoft.private.intellisense\6.0.0-preview-20211019.1\IntellisenseFiles\dotnet-plat-ext\1033\System.Threading.AccessControl.xml" target="runtimes\win\lib\net461\System.Threading.AccessControl.xml" />
+    <file src="C:\Users\ericstj\.nuget\packages\microsoft.private.intellisense\6.0.0-preview-20211019.1\IntellisenseFiles\dotnet-plat-ext\1033\System.Threading.AccessControl.xml" target="lib\net461\System.Threading.AccessControl.xml" />
+    <file src="C:\Users\ericstj\.nuget\packages\microsoft.private.intellisense\6.0.0-preview-20211019.1\IntellisenseFiles\dotnet-plat-ext\1033\System.Threading.AccessControl.xml" target="runtimes\win\lib\net6.0\System.Threading.AccessControl.xml" />
+    <file src="C:\Users\ericstj\.nuget\packages\microsoft.private.intellisense\6.0.0-preview-20211019.1\IntellisenseFiles\dotnet-plat-ext\1033\System.Threading.AccessControl.xml" target="runtimes\win\lib\netstandard2.0\System.Threading.AccessControl.xml" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\obj\System.Threading.AccessControl\net6.0-windows-Debug\System.Threading.AccessControl.dll" target="runtimes\win\lib\net6.0\System.Threading.AccessControl.dll" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\obj\System.Threading.AccessControl\netstandard2.0-windows-Debug\System.Threading.AccessControl.dll" target="runtimes\win\lib\netstandard2.0\System.Threading.AccessControl.dll" />
+    <file src="C:\Users\ericstj\.nuget\packages\microsoft.dotnet.arcade.sdk\6.0.0-beta.24413.1\tools\Assets\DotNetPackageIcon.png" target="Icon.png" />
+    <file src="C:\src\dotnet\runtimeRel\LICENSE.TXT" target="LICENSE.TXT" />
+    <file src="C:\src\dotnet\runtimeRel\THIRD-PARTY-NOTICES.TXT" target="THIRD-PARTY-NOTICES.TXT" />
+    <file src="C:\src\dotnet\runtimeRel\eng\useSharedDesignerContext.txt" target="useSharedDesignerContext.txt" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\obj\System.Threading.AccessControl\netstandardcompaterrors\netcoreapp2.0\System.Threading.AccessControl.targets" target="buildTransitive\netcoreapp2.0\System.Threading.AccessControl.targets" />
+    <file src="C:\src\dotnet\runtimeRel\eng\_._" target="buildTransitive\netcoreapp3.1\_._" />
+  </files>
+</package>

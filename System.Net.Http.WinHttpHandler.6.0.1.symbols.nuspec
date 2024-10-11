@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>System.Net.Http.WinHttpHandler</id>
+    <version>6.0.1</version>
+    <authors>Microsoft</authors>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <icon>Icon.png</icon>
+    <projectUrl>https://dot.net/</projectUrl>
+    <description>Provides a message handler for HttpClient based on the WinHTTP interface of Windows. While similar to HttpClientHandler, it provides developers more granular control over the application's HTTP communication than the HttpClientHandler.
+
+Commonly Used Types:
+System.Net.Http.WinHttpHandler</description>
+    <releaseNotes>https://go.microsoft.com/fwlink/?LinkID=799421</releaseNotes>
+    <copyright>© Microsoft Corporation. All rights reserved.</copyright>
+    <serviceable>true</serviceable>
+    <repository type="git" url="https://github.com/dotnet/runtime" commit="0000000000000000000000000000000000000000" />
+    <dependencies>
+      <group targetFramework=".NETFramework4.6.1">
+        <dependency id="System.Buffers" version="4.5.1" exclude="Build,Analyzers" />
+        <dependency id="System.Memory" version="4.5.4" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework="net6.0" />
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="System.Buffers" version="4.5.1" exclude="Build,Analyzers" />
+        <dependency id="System.Memory" version="4.5.4" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework=".NETStandard2.1" />
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="System.Net.Http" targetFramework=".NETFramework4.6.1" />
+    </frameworkAssemblies>
+  </metadata>
+  <files>
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\System.Net.Http.WinHttpHandler\net461-windows-Debug\System.Net.Http.WinHttpHandler.pdb" target="\runtimes\win\lib\net461" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\System.Net.Http.WinHttpHandler\net461-windows-Debug\System.Net.Http.WinHttpHandler.pdb" target="\lib\net461" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\System.Net.Http.WinHttpHandler\net6.0-Debug\System.Net.Http.WinHttpHandler.pdb" target="lib\net6.0\System.Net.Http.WinHttpHandler.pdb" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\System.Net.Http.WinHttpHandler\net6.0-windows-Debug\System.Net.Http.WinHttpHandler.pdb" target="\runtimes\win\lib\net6.0" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\System.Net.Http.WinHttpHandler\netstandard2.0-Debug\System.Net.Http.WinHttpHandler.pdb" target="lib\netstandard2.0\System.Net.Http.WinHttpHandler.pdb" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\System.Net.Http.WinHttpHandler\netstandard2.0-windows-Debug\System.Net.Http.WinHttpHandler.pdb" target="\runtimes\win\lib\netstandard2.0" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\System.Net.Http.WinHttpHandler\netstandard2.1-Debug\System.Net.Http.WinHttpHandler.pdb" target="lib\netstandard2.1\System.Net.Http.WinHttpHandler.pdb" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\System.Net.Http.WinHttpHandler\netstandard2.1-windows-Debug\System.Net.Http.WinHttpHandler.pdb" target="\runtimes\win\lib\netstandard2.1" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\System.Net.Http.WinHttpHandler\net6.0-Debug\System.Net.Http.WinHttpHandler.dll" target="lib\net6.0\System.Net.Http.WinHttpHandler.dll" />
+    <file src="C:\Users\ericstj\.nuget\packages\microsoft.private.intellisense\6.0.0-preview-20211019.1\IntellisenseFiles\dotnet-plat-ext\1033\System.Net.Http.WinHttpHandler.xml" target="lib\net6.0\System.Net.Http.WinHttpHandler.xml" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\System.Net.Http.WinHttpHandler\netstandard2.0-Debug\System.Net.Http.WinHttpHandler.dll" target="lib\netstandard2.0\System.Net.Http.WinHttpHandler.dll" />
+    <file src="C:\Users\ericstj\.nuget\packages\microsoft.private.intellisense\6.0.0-preview-20211019.1\IntellisenseFiles\dotnet-plat-ext\1033\System.Net.Http.WinHttpHandler.xml" target="lib\netstandard2.0\System.Net.Http.WinHttpHandler.xml" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\System.Net.Http.WinHttpHandler\netstandard2.1-Debug\System.Net.Http.WinHttpHandler.dll" target="lib\netstandard2.1\System.Net.Http.WinHttpHandler.dll" />
+    <file src="C:\Users\ericstj\.nuget\packages\microsoft.private.intellisense\6.0.0-preview-20211019.1\IntellisenseFiles\dotnet-plat-ext\1033\System.Net.Http.WinHttpHandler.xml" target="lib\netstandard2.1\System.Net.Http.WinHttpHandler.xml" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\obj\System.Net.Http.WinHttpHandler\net461-windows-Debug\System.Net.Http.WinHttpHandler.dll" target="runtimes\win\lib\net461\System.Net.Http.WinHttpHandler.dll" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\obj\System.Net.Http.WinHttpHandler\net461-windows-Debug\System.Net.Http.WinHttpHandler.dll" target="lib\net461\System.Net.Http.WinHttpHandler.dll" />
+    <file src="C:\Users\ericstj\.nuget\packages\microsoft.private.intellisense\6.0.0-preview-20211019.1\IntellisenseFiles\dotnet-plat-ext\1033\System.Net.Http.WinHttpHandler.xml" target="runtimes\win\lib\net461\System.Net.Http.WinHttpHandler.xml" />
+    <file src="C:\Users\ericstj\.nuget\packages\microsoft.private.intellisense\6.0.0-preview-20211019.1\IntellisenseFiles\dotnet-plat-ext\1033\System.Net.Http.WinHttpHandler.xml" target="lib\net461\System.Net.Http.WinHttpHandler.xml" />
+    <file src="C:\Users\ericstj\.nuget\packages\microsoft.private.intellisense\6.0.0-preview-20211019.1\IntellisenseFiles\dotnet-plat-ext\1033\System.Net.Http.WinHttpHandler.xml" target="runtimes\win\lib\net6.0\System.Net.Http.WinHttpHandler.xml" />
+    <file src="C:\Users\ericstj\.nuget\packages\microsoft.private.intellisense\6.0.0-preview-20211019.1\IntellisenseFiles\dotnet-plat-ext\1033\System.Net.Http.WinHttpHandler.xml" target="runtimes\win\lib\netstandard2.0\System.Net.Http.WinHttpHandler.xml" />
+    <file src="C:\Users\ericstj\.nuget\packages\microsoft.private.intellisense\6.0.0-preview-20211019.1\IntellisenseFiles\dotnet-plat-ext\1033\System.Net.Http.WinHttpHandler.xml" target="runtimes\win\lib\netstandard2.1\System.Net.Http.WinHttpHandler.xml" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\obj\System.Net.Http.WinHttpHandler\net6.0-windows-Debug\System.Net.Http.WinHttpHandler.dll" target="runtimes\win\lib\net6.0\System.Net.Http.WinHttpHandler.dll" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\obj\System.Net.Http.WinHttpHandler\netstandard2.0-windows-Debug\System.Net.Http.WinHttpHandler.dll" target="runtimes\win\lib\netstandard2.0\System.Net.Http.WinHttpHandler.dll" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\obj\System.Net.Http.WinHttpHandler\netstandard2.1-windows-Debug\System.Net.Http.WinHttpHandler.dll" target="runtimes\win\lib\netstandard2.1\System.Net.Http.WinHttpHandler.dll" />
+    <file src="C:\Users\ericstj\.nuget\packages\microsoft.dotnet.arcade.sdk\6.0.0-beta.24413.1\tools\Assets\DotNetPackageIcon.png" target="Icon.png" />
+    <file src="C:\src\dotnet\runtimeRel\LICENSE.TXT" target="LICENSE.TXT" />
+    <file src="C:\src\dotnet\runtimeRel\THIRD-PARTY-NOTICES.TXT" target="THIRD-PARTY-NOTICES.TXT" />
+    <file src="C:\src\dotnet\runtimeRel\eng\useSharedDesignerContext.txt" target="useSharedDesignerContext.txt" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\obj\System.Net.Http.WinHttpHandler\netstandardcompaterrors\netcoreapp2.0\System.Net.Http.WinHttpHandler.targets" target="buildTransitive\netcoreapp2.0\System.Net.Http.WinHttpHandler.targets" />
+    <file src="C:\src\dotnet\runtimeRel\eng\_._" target="buildTransitive\netcoreapp3.1\_._" />
+  </files>
+</package>

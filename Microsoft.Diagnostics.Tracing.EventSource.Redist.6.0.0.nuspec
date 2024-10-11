@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Microsoft.Diagnostics.Tracing.EventSource.Redist</id>
+    <version>6.0.0</version>
+    <authors>Microsoft</authors>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <icon>Icon.png</icon>
+    <projectUrl>https://dot.net/</projectUrl>
+    <description>This package includes the class Microsoft.Diagnostics.Tracing.EventSource which enables firing ETW events from managed code. This is the "runtime" or "redist" EventSource package and should be referenced directly only by other NuGet packages that need the EventSource functionality. Application developers that need this functionality should instead reference the Microsoft.Diagnostics.Tracing.EventSource NuGet package which provides an enhanced developer experience.
+This package enables defining a strongly typed specification of an ETW provider that can be called by managed code. The EventSource class is also included in the .NET Framework, .NET Core, and netstandard2.0 in the System.Diagnostics.Tracing namespace. This package contains the latest version of EventSource and is meant to be used as a stop gap for .NET Framework developers until features and fixes are ported to System.Diagnostics.Tracing.EventSource in the .NET Framework.
+For more details, have a look at http://msdn.microsoft.com/en-us/library/system.diagnostics.tracing.eventsource.aspx.
+
+Commonly Used Types:
+Microsoft.Diagnostics.Tracing.EventSource</description>
+    <releaseNotes>https://go.microsoft.com/fwlink/?LinkID=799421</releaseNotes>
+    <copyright>© Microsoft Corporation. All rights reserved.</copyright>
+    <repository type="git" url="https://github.com/dotnet/runtime" commit="0000000000000000000000000000000000000000" />
+    <dependencies>
+      <group targetFramework=".NETFramework4.6.1" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\Microsoft.Diagnostics.Tracing.EventSource.Redist\net461-Debug\Microsoft.Diagnostics.Tracing.EventSource.dll" target="lib\net461\Microsoft.Diagnostics.Tracing.EventSource.dll" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\Microsoft.Diagnostics.Tracing.EventSource.Redist\net461-Debug\Microsoft.Diagnostics.Tracing.EventSource.xml" target="lib\net461\Microsoft.Diagnostics.Tracing.EventSource.xml" />
+    <file src="C:\Users\ericstj\.nuget\packages\microsoft.dotnet.arcade.sdk\6.0.0-beta.24413.1\tools\Assets\DotNetPackageIcon.png" target="Icon.png" />
+    <file src="C:\src\dotnet\runtimeRel\LICENSE.TXT" target="LICENSE.TXT" />
+    <file src="C:\src\dotnet\runtimeRel\THIRD-PARTY-NOTICES.TXT" target="THIRD-PARTY-NOTICES.TXT" />
+    <file src="C:\src\dotnet\runtimeRel\eng\useSharedDesignerContext.txt" target="useSharedDesignerContext.txt" />
+  </files>
+</package>

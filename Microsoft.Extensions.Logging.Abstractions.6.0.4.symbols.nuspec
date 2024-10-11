@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Microsoft.Extensions.Logging.Abstractions</id>
+    <version>6.0.4</version>
+    <authors>Microsoft</authors>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <icon>Icon.png</icon>
+    <projectUrl>https://dot.net/</projectUrl>
+    <description>Logging abstractions for Microsoft.Extensions.Logging.
+
+Commonly Used Types:
+Microsoft.Extensions.Logging.ILogger
+Microsoft.Extensions.Logging.ILoggerFactory
+Microsoft.Extensions.Logging.ILogger&lt;TCategoryName&gt;
+Microsoft.Extensions.Logging.LogLevel
+Microsoft.Extensions.Logging.Logger&lt;T&gt;
+Microsoft.Extensions.Logging.LoggerMessage
+Microsoft.Extensions.Logging.Abstractions.NullLogger</description>
+    <releaseNotes>https://go.microsoft.com/fwlink/?LinkID=799421</releaseNotes>
+    <copyright>© Microsoft Corporation. All rights reserved.</copyright>
+    <serviceable>true</serviceable>
+    <repository type="git" url="https://github.com/dotnet/runtime" commit="0000000000000000000000000000000000000000" />
+    <dependencies>
+      <group targetFramework=".NETFramework4.6.1">
+        <dependency id="System.Buffers" version="4.5.1" exclude="Build,Analyzers" />
+        <dependency id="System.Memory" version="4.5.4" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework="net6.0" />
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="System.Buffers" version="4.5.1" exclude="Build,Analyzers" />
+        <dependency id="System.Memory" version="4.5.4" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\Microsoft.Extensions.Logging.Generators.Roslyn3.11\netstandard2.0-Debug\Microsoft.Extensions.Logging.Generators.pdb" target="\analyzers\dotnet\roslyn3.11\cs\Microsoft.Extensions.Logging.Generators.pdb" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\Microsoft.Extensions.Logging.Generators.Roslyn4.0\netstandard2.0-Debug\Microsoft.Extensions.Logging.Generators.pdb" target="\analyzers\dotnet\roslyn4.0\cs\Microsoft.Extensions.Logging.Generators.pdb" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\Microsoft.Extensions.Logging.Abstractions\net461-Debug\Microsoft.Extensions.Logging.Abstractions.pdb" target="lib\net461\Microsoft.Extensions.Logging.Abstractions.pdb" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\Microsoft.Extensions.Logging.Abstractions\net6.0-Debug\Microsoft.Extensions.Logging.Abstractions.pdb" target="lib\net6.0\Microsoft.Extensions.Logging.Abstractions.pdb" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\Microsoft.Extensions.Logging.Abstractions\netstandard2.0-Debug\Microsoft.Extensions.Logging.Abstractions.pdb" target="lib\netstandard2.0\Microsoft.Extensions.Logging.Abstractions.pdb" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\Microsoft.Extensions.Logging.Abstractions\net461-Debug\Microsoft.Extensions.Logging.Abstractions.dll" target="lib\net461\Microsoft.Extensions.Logging.Abstractions.dll" />
+    <file src="C:\Users\ericstj\.nuget\packages\microsoft.private.intellisense\6.0.0-preview-20211019.1\IntellisenseFiles\dotnet-plat-ext\1033\Microsoft.Extensions.Logging.Abstractions.xml" target="lib\net461\Microsoft.Extensions.Logging.Abstractions.xml" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\Microsoft.Extensions.Logging.Abstractions\net6.0-Debug\Microsoft.Extensions.Logging.Abstractions.dll" target="lib\net6.0\Microsoft.Extensions.Logging.Abstractions.dll" />
+    <file src="C:\Users\ericstj\.nuget\packages\microsoft.private.intellisense\6.0.0-preview-20211019.1\IntellisenseFiles\dotnet-plat-ext\1033\Microsoft.Extensions.Logging.Abstractions.xml" target="lib\net6.0\Microsoft.Extensions.Logging.Abstractions.xml" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\Microsoft.Extensions.Logging.Abstractions\netstandard2.0-Debug\Microsoft.Extensions.Logging.Abstractions.dll" target="lib\netstandard2.0\Microsoft.Extensions.Logging.Abstractions.dll" />
+    <file src="C:\Users\ericstj\.nuget\packages\microsoft.private.intellisense\6.0.0-preview-20211019.1\IntellisenseFiles\dotnet-plat-ext\1033\Microsoft.Extensions.Logging.Abstractions.xml" target="lib\netstandard2.0\Microsoft.Extensions.Logging.Abstractions.xml" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\obj\Microsoft.Extensions.Logging.Generators.Roslyn3.11\netstandard2.0-Debug\cs\Microsoft.Extensions.Logging.Generators.resources.dll" target="analyzers\dotnet\roslyn3.11\cs\cs\Microsoft.Extensions.Logging.Generators.resources.dll" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\obj\Microsoft.Extensions.Logging.Generators.Roslyn3.11\netstandard2.0-Debug\de\Microsoft.Extensions.Logging.Generators.resources.dll" target="analyzers\dotnet\roslyn3.11\cs\de\Microsoft.Extensions.Logging.Generators.resources.dll" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\obj\Microsoft.Extensions.Logging.Generators.Roslyn3.11\netstandard2.0-Debug\es\Microsoft.Extensions.Logging.Generators.resources.dll" target="analyzers\dotnet\roslyn3.11\cs\es\Microsoft.Extensions.Logging.Generators.resources.dll" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\obj\Microsoft.Extensions.Logging.Generators.Roslyn3.11\netstandard2.0-Debug\fr\Microsoft.Extensions.Logging.Generators.resources.dll" target="analyzers\dotnet\roslyn3.11\cs\fr\Microsoft.Extensions.Logging.Generators.resources.dll" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\obj\Microsoft.Extensions.Logging.Generators.Roslyn3.11\netstandard2.0-Debug\it\Microsoft.Extensions.Logging.Generators.resources.dll" target="analyzers\dotnet\roslyn3.11\cs\it\Microsoft.Extensions.Logging.Generators.resources.dll" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\obj\Microsoft.Extensions.Logging.Generators.Roslyn3.11\netstandard2.0-Debug\ja\Microsoft.Extensions.Logging.Generators.resources.dll" target="analyzers\dotnet\roslyn3.11\cs\ja\Microsoft.Extensions.Logging.Generators.resources.dll" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\obj\Microsoft.Extensions.Logging.Generators.Roslyn3.11\netstandard2.0-Debug\ko\Microsoft.Extensions.Logging.Generators.resources.dll" target="analyzers\dotnet\roslyn3.11\cs\ko\Microsoft.Extensions.Logging.Generators.resources.dll" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\obj\Microsoft.Extensions.Logging.Generators.Roslyn3.11\netstandard2.0-Debug\pl\Microsoft.Extensions.Logging.Generators.resources.dll" target="analyzers\dotnet\roslyn3.11\cs\pl\Microsoft.Extensions.Logging.Generators.resources.dll" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\obj\Microsoft.Extensions.Logging.Generators.Roslyn3.11\netstandard2.0-Debug\pt-BR\Microsoft.Extensions.Logging.Generators.resources.dll" target="analyzers\dotnet\roslyn3.11\cs\pt-BR\Microsoft.Extensions.Logging.Generators.resources.dll" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\obj\Microsoft.Extensions.Logging.Generators.Roslyn3.11\netstandard2.0-Debug\ru\Microsoft.Extensions.Logging.Generators.resources.dll" target="analyzers\dotnet\roslyn3.11\cs\ru\Microsoft.Extensions.Logging.Generators.resources.dll" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\obj\Microsoft.Extensions.Logging.Generators.Roslyn3.11\netstandard2.0-Debug\tr\Microsoft.Extensions.Logging.Generators.resources.dll" target="analyzers\dotnet\roslyn3.11\cs\tr\Microsoft.Extensions.Logging.Generators.resources.dll" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\obj\Microsoft.Extensions.Logging.Generators.Roslyn3.11\netstandard2.0-Debug\zh-Hans\Microsoft.Extensions.Logging.Generators.resources.dll" target="analyzers\dotnet\roslyn3.11\cs\zh-Hans\Microsoft.Extensions.Logging.Generators.resources.dll" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\obj\Microsoft.Extensions.Logging.Generators.Roslyn3.11\netstandard2.0-Debug\zh-Hant\Microsoft.Extensions.Logging.Generators.resources.dll" target="analyzers\dotnet\roslyn3.11\cs\zh-Hant\Microsoft.Extensions.Logging.Generators.resources.dll" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\obj\Microsoft.Extensions.Logging.Generators.Roslyn3.11\netstandard2.0-Debug\Microsoft.Extensions.Logging.Generators.dll" target="analyzers\dotnet\roslyn3.11\cs\Microsoft.Extensions.Logging.Generators.dll" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\obj\Microsoft.Extensions.Logging.Generators.Roslyn4.0\netstandard2.0-Debug\cs\Microsoft.Extensions.Logging.Generators.resources.dll" target="analyzers\dotnet\roslyn4.0\cs\cs\Microsoft.Extensions.Logging.Generators.resources.dll" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\obj\Microsoft.Extensions.Logging.Generators.Roslyn4.0\netstandard2.0-Debug\de\Microsoft.Extensions.Logging.Generators.resources.dll" target="analyzers\dotnet\roslyn4.0\cs\de\Microsoft.Extensions.Logging.Generators.resources.dll" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\obj\Microsoft.Extensions.Logging.Generators.Roslyn4.0\netstandard2.0-Debug\es\Microsoft.Extensions.Logging.Generators.resources.dll" target="analyzers\dotnet\roslyn4.0\cs\es\Microsoft.Extensions.Logging.Generators.resources.dll" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\obj\Microsoft.Extensions.Logging.Generators.Roslyn4.0\netstandard2.0-Debug\fr\Microsoft.Extensions.Logging.Generators.resources.dll" target="analyzers\dotnet\roslyn4.0\cs\fr\Microsoft.Extensions.Logging.Generators.resources.dll" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\obj\Microsoft.Extensions.Logging.Generators.Roslyn4.0\netstandard2.0-Debug\it\Microsoft.Extensions.Logging.Generators.resources.dll" target="analyzers\dotnet\roslyn4.0\cs\it\Microsoft.Extensions.Logging.Generators.resources.dll" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\obj\Microsoft.Extensions.Logging.Generators.Roslyn4.0\netstandard2.0-Debug\ja\Microsoft.Extensions.Logging.Generators.resources.dll" target="analyzers\dotnet\roslyn4.0\cs\ja\Microsoft.Extensions.Logging.Generators.resources.dll" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\obj\Microsoft.Extensions.Logging.Generators.Roslyn4.0\netstandard2.0-Debug\ko\Microsoft.Extensions.Logging.Generators.resources.dll" target="analyzers\dotnet\roslyn4.0\cs\ko\Microsoft.Extensions.Logging.Generators.resources.dll" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\obj\Microsoft.Extensions.Logging.Generators.Roslyn4.0\netstandard2.0-Debug\pl\Microsoft.Extensions.Logging.Generators.resources.dll" target="analyzers\dotnet\roslyn4.0\cs\pl\Microsoft.Extensions.Logging.Generators.resources.dll" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\obj\Microsoft.Extensions.Logging.Generators.Roslyn4.0\netstandard2.0-Debug\pt-BR\Microsoft.Extensions.Logging.Generators.resources.dll" target="analyzers\dotnet\roslyn4.0\cs\pt-BR\Microsoft.Extensions.Logging.Generators.resources.dll" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\obj\Microsoft.Extensions.Logging.Generators.Roslyn4.0\netstandard2.0-Debug\ru\Microsoft.Extensions.Logging.Generators.resources.dll" target="analyzers\dotnet\roslyn4.0\cs\ru\Microsoft.Extensions.Logging.Generators.resources.dll" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\obj\Microsoft.Extensions.Logging.Generators.Roslyn4.0\netstandard2.0-Debug\tr\Microsoft.Extensions.Logging.Generators.resources.dll" target="analyzers\dotnet\roslyn4.0\cs\tr\Microsoft.Extensions.Logging.Generators.resources.dll" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\obj\Microsoft.Extensions.Logging.Generators.Roslyn4.0\netstandard2.0-Debug\zh-Hans\Microsoft.Extensions.Logging.Generators.resources.dll" target="analyzers\dotnet\roslyn4.0\cs\zh-Hans\Microsoft.Extensions.Logging.Generators.resources.dll" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\obj\Microsoft.Extensions.Logging.Generators.Roslyn4.0\netstandard2.0-Debug\zh-Hant\Microsoft.Extensions.Logging.Generators.resources.dll" target="analyzers\dotnet\roslyn4.0\cs\zh-Hant\Microsoft.Extensions.Logging.Generators.resources.dll" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\obj\Microsoft.Extensions.Logging.Generators.Roslyn4.0\netstandard2.0-Debug\Microsoft.Extensions.Logging.Generators.dll" target="analyzers\dotnet\roslyn4.0\cs\Microsoft.Extensions.Logging.Generators.dll" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\obj\Microsoft.Extensions.Logging.Abstractions\Debug\MultiTargetRoslynComponent.targets" target="buildTransitive\netstandard2.0\Microsoft.Extensions.Logging.Abstractions.targets" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\obj\Microsoft.Extensions.Logging.Abstractions\Debug\MultiTargetRoslynComponent.targets" target="buildTransitive\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.targets" />
+    <file src="C:\Users\ericstj\.nuget\packages\microsoft.dotnet.arcade.sdk\6.0.0-beta.24413.1\tools\Assets\DotNetPackageIcon.png" target="Icon.png" />
+    <file src="C:\src\dotnet\runtimeRel\LICENSE.TXT" target="LICENSE.TXT" />
+    <file src="C:\src\dotnet\runtimeRel\THIRD-PARTY-NOTICES.TXT" target="THIRD-PARTY-NOTICES.TXT" />
+    <file src="C:\src\dotnet\runtimeRel\eng\useSharedDesignerContext.txt" target="useSharedDesignerContext.txt" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\obj\Microsoft.Extensions.Logging.Abstractions\netstandardcompaterrors\netcoreapp2.0\Microsoft.Extensions.Logging.Abstractions.targets" target="buildTransitive\netcoreapp2.0\Microsoft.Extensions.Logging.Abstractions.targets" />
+  </files>
+</package>

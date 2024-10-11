@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>System.DirectoryServices.AccountManagement</id>
+    <version>6.0.0</version>
+    <authors>Microsoft</authors>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <icon>Icon.png</icon>
+    <projectUrl>https://dot.net/</projectUrl>
+    <description>Provides uniform access and manipulation of user, computer, and group security principals across the multiple principal stores: Active Directory Domain Services (AD DS), Active Directory Lightweight Directory Services (AD LDS), and Machine SAM (MSAM).</description>
+    <releaseNotes>https://go.microsoft.com/fwlink/?LinkID=799421</releaseNotes>
+    <copyright>© Microsoft Corporation. All rights reserved.</copyright>
+    <repository type="git" url="https://github.com/dotnet/runtime" commit="0000000000000000000000000000000000000000" />
+    <dependencies>
+      <group targetFramework=".NETCoreApp3.1">
+        <dependency id="System.Configuration.ConfigurationManager" version="6.0.1" exclude="Build,Analyzers" />
+        <dependency id="System.DirectoryServices.Protocols" version="6.0.2" exclude="Build,Analyzers" />
+        <dependency id="System.DirectoryServices" version="6.0.1" exclude="Build,Analyzers" />
+        <dependency id="System.Security.AccessControl" version="6.0.1" exclude="Build,Analyzers" />
+        <dependency id="System.IO.FileSystem.AccessControl" version="5.0.0" exclude="Build,Analyzers" />
+        <dependency id="System.Security.Principal.Windows" version="5.0.0" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework="net6.0">
+        <dependency id="System.Configuration.ConfigurationManager" version="6.0.1" exclude="Build,Analyzers" />
+        <dependency id="System.DirectoryServices.Protocols" version="6.0.2" exclude="Build,Analyzers" />
+        <dependency id="System.DirectoryServices" version="6.0.1" exclude="Build,Analyzers" />
+        <dependency id="System.Security.AccessControl" version="6.0.1" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="System.Security.Principal.Windows" version="5.0.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="System.DirectoryServices.AccountManagement" targetFramework=".NETFramework4.6.1" />
+    </frameworkAssemblies>
+  </metadata>
+  <files>
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\System.DirectoryServices.AccountManagement\net6.0-Debug\System.DirectoryServices.AccountManagement.dll" target="lib\net6.0\System.DirectoryServices.AccountManagement.dll" />
+    <file src="C:\Users\ericstj\.nuget\packages\microsoft.private.intellisense\6.0.0-preview-20211019.1\IntellisenseFiles\dotnet-plat-ext\1033\System.DirectoryServices.AccountManagement.xml" target="lib\net6.0\System.DirectoryServices.AccountManagement.xml" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\System.DirectoryServices.AccountManagement\netcoreapp3.1-Debug\System.DirectoryServices.AccountManagement.dll" target="lib\netcoreapp3.1\System.DirectoryServices.AccountManagement.dll" />
+    <file src="C:\Users\ericstj\.nuget\packages\microsoft.private.intellisense\6.0.0-preview-20211019.1\IntellisenseFiles\dotnet-plat-ext\1033\System.DirectoryServices.AccountManagement.xml" target="lib\netcoreapp3.1\System.DirectoryServices.AccountManagement.xml" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\System.DirectoryServices.AccountManagement\netstandard2.0-Debug\System.DirectoryServices.AccountManagement.dll" target="lib\netstandard2.0\System.DirectoryServices.AccountManagement.dll" />
+    <file src="C:\Users\ericstj\.nuget\packages\microsoft.private.intellisense\6.0.0-preview-20211019.1\IntellisenseFiles\dotnet-plat-ext\1033\System.DirectoryServices.AccountManagement.xml" target="lib\netstandard2.0\System.DirectoryServices.AccountManagement.xml" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\obj\System.DirectoryServices.AccountManagement\net6.0-windows-Debug\System.DirectoryServices.AccountManagement.dll" target="runtimes\win\lib\net6.0\System.DirectoryServices.AccountManagement.dll" />
+    <file src="C:\Users\ericstj\.nuget\packages\microsoft.private.intellisense\6.0.0-preview-20211019.1\IntellisenseFiles\dotnet-plat-ext\1033\System.DirectoryServices.AccountManagement.xml" target="runtimes\win\lib\net6.0\System.DirectoryServices.AccountManagement.xml" />
+    <file src="C:\Users\ericstj\.nuget\packages\microsoft.private.intellisense\6.0.0-preview-20211019.1\IntellisenseFiles\dotnet-plat-ext\1033\System.DirectoryServices.AccountManagement.xml" target="runtimes\win\lib\netcoreapp3.1\System.DirectoryServices.AccountManagement.xml" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\obj\System.DirectoryServices.AccountManagement\netcoreapp3.1-windows-Debug\System.DirectoryServices.AccountManagement.dll" target="runtimes\win\lib\netcoreapp3.1\System.DirectoryServices.AccountManagement.dll" />
+    <file src="C:\Users\ericstj\.nuget\packages\microsoft.dotnet.arcade.sdk\6.0.0-beta.24413.1\tools\Assets\DotNetPackageIcon.png" target="Icon.png" />
+    <file src="C:\src\dotnet\runtimeRel\LICENSE.TXT" target="LICENSE.TXT" />
+    <file src="C:\src\dotnet\runtimeRel\THIRD-PARTY-NOTICES.TXT" target="THIRD-PARTY-NOTICES.TXT" />
+    <file src="C:\src\dotnet\runtimeRel\eng\useSharedDesignerContext.txt" target="useSharedDesignerContext.txt" />
+    <file src="C:\src\dotnet\runtimeRel\eng\_._" target="lib\net461\_._" />
+    <file src="C:\src\dotnet\runtimeRel\eng\_._" target="buildTransitive\netcoreapp3.1\_._" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\obj\System.DirectoryServices.AccountManagement\netstandardcompaterrors\netcoreapp2.0\System.DirectoryServices.AccountManagement.targets" target="buildTransitive\netcoreapp2.0\System.DirectoryServices.AccountManagement.targets" />
+  </files>
+</package>

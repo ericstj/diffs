@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>System.Security.Cryptography.ProtectedData</id>
+    <version>6.0.0</version>
+    <authors>Microsoft</authors>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <icon>Icon.png</icon>
+    <projectUrl>https://dot.net/</projectUrl>
+    <description>Provides access to Windows Data Protection Api.
+
+Commonly Used Types:
+System.Security.Cryptography.DataProtectionScope
+System.Security.Cryptography.ProtectedData</description>
+    <releaseNotes>https://go.microsoft.com/fwlink/?LinkID=799421</releaseNotes>
+    <copyright>© Microsoft Corporation. All rights reserved.</copyright>
+    <repository type="git" url="https://github.com/dotnet/runtime" commit="0000000000000000000000000000000000000000" />
+    <dependencies>
+      <group targetFramework=".NETFramework4.6.1" />
+      <group targetFramework="net6.0" />
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="System.Memory" version="4.5.4" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="System.Security" targetFramework=".NETFramework4.6.1" />
+    </frameworkAssemblies>
+  </metadata>
+  <files>
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\System.Security.Cryptography.ProtectedData\net6.0-Debug\System.Security.Cryptography.ProtectedData.dll" target="lib\net6.0\System.Security.Cryptography.ProtectedData.dll" />
+    <file src="C:\Users\ericstj\.nuget\packages\microsoft.private.intellisense\6.0.0-preview-20211019.1\IntellisenseFiles\dotnet-plat-ext\1033\System.Security.Cryptography.ProtectedData.xml" target="lib\net6.0\System.Security.Cryptography.ProtectedData.xml" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\System.Security.Cryptography.ProtectedData\netstandard2.0-Debug\System.Security.Cryptography.ProtectedData.dll" target="lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll" />
+    <file src="C:\Users\ericstj\.nuget\packages\microsoft.private.intellisense\6.0.0-preview-20211019.1\IntellisenseFiles\dotnet-plat-ext\1033\System.Security.Cryptography.ProtectedData.xml" target="lib\netstandard2.0\System.Security.Cryptography.ProtectedData.xml" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\obj\System.Security.Cryptography.ProtectedData\net461-windows-Debug\System.Security.Cryptography.ProtectedData.dll" target="runtimes\win\lib\net461\System.Security.Cryptography.ProtectedData.dll" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\obj\System.Security.Cryptography.ProtectedData\net461-windows-Debug\System.Security.Cryptography.ProtectedData.dll" target="lib\net461\System.Security.Cryptography.ProtectedData.dll" />
+    <file src="C:\Users\ericstj\.nuget\packages\microsoft.private.intellisense\6.0.0-preview-20211019.1\IntellisenseFiles\dotnet-plat-ext\1033\System.Security.Cryptography.ProtectedData.xml" target="runtimes\win\lib\net461\System.Security.Cryptography.ProtectedData.xml" />
+    <file src="C:\Users\ericstj\.nuget\packages\microsoft.private.intellisense\6.0.0-preview-20211019.1\IntellisenseFiles\dotnet-plat-ext\1033\System.Security.Cryptography.ProtectedData.xml" target="lib\net461\System.Security.Cryptography.ProtectedData.xml" />
+    <file src="C:\Users\ericstj\.nuget\packages\microsoft.private.intellisense\6.0.0-preview-20211019.1\IntellisenseFiles\dotnet-plat-ext\1033\System.Security.Cryptography.ProtectedData.xml" target="runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.xml" />
+    <file src="C:\Users\ericstj\.nuget\packages\microsoft.private.intellisense\6.0.0-preview-20211019.1\IntellisenseFiles\dotnet-plat-ext\1033\System.Security.Cryptography.ProtectedData.xml" target="runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.xml" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\obj\System.Security.Cryptography.ProtectedData\net6.0-windows-Debug\System.Security.Cryptography.ProtectedData.dll" target="runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\obj\System.Security.Cryptography.ProtectedData\netstandard2.0-windows-Debug\System.Security.Cryptography.ProtectedData.dll" target="runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll" />
+    <file src="C:\Users\ericstj\.nuget\packages\microsoft.dotnet.arcade.sdk\6.0.0-beta.24413.1\tools\Assets\DotNetPackageIcon.png" target="Icon.png" />
+    <file src="C:\src\dotnet\runtimeRel\LICENSE.TXT" target="LICENSE.TXT" />
+    <file src="C:\src\dotnet\runtimeRel\THIRD-PARTY-NOTICES.TXT" target="THIRD-PARTY-NOTICES.TXT" />
+    <file src="C:\src\dotnet\runtimeRel\eng\useSharedDesignerContext.txt" target="useSharedDesignerContext.txt" />
+    <file src="C:\src\dotnet\runtimeRel\eng\_._" target="lib\MonoAndroid10\_._" />
+    <file src="C:\src\dotnet\runtimeRel\eng\_._" target="lib\MonoTouch10\_._" />
+    <file src="C:\src\dotnet\runtimeRel\eng\_._" target="lib\xamarinios10\_._" />
+    <file src="C:\src\dotnet\runtimeRel\eng\_._" target="lib\xamarinmac20\_._" />
+    <file src="C:\src\dotnet\runtimeRel\eng\_._" target="lib\xamarintvos10\_._" />
+    <file src="C:\src\dotnet\runtimeRel\eng\_._" target="lib\xamarinwatchos10\_._" />
+    <file src="C:\src\dotnet\runtimeRel\eng\_._" target="buildTransitive\netcoreapp3.1\_._" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\obj\System.Security.Cryptography.ProtectedData\netstandardcompaterrors\netcoreapp2.0\System.Security.Cryptography.ProtectedData.targets" target="buildTransitive\netcoreapp2.0\System.Security.Cryptography.ProtectedData.targets" />
+  </files>
+</package>

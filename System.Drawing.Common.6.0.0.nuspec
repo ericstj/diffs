@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>System.Drawing.Common</id>
+    <version>6.0.0</version>
+    <authors>Microsoft</authors>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <icon>Icon.png</icon>
+    <projectUrl>https://dot.net/</projectUrl>
+    <description>Provides access to GDI+ graphics functionality.
+
+Commonly Used Types:
+System.Drawing.Bitmap
+System.Drawing.BitmapData
+System.Drawing.Brush
+System.Drawing.Font
+System.Drawing.Graphics
+System.Drawing.Icon
+
+Unix support is disabled by default. See https://aka.ms/systemdrawingnonwindows for more information.</description>
+    <releaseNotes>https://go.microsoft.com/fwlink/?LinkID=799421</releaseNotes>
+    <copyright>© Microsoft Corporation. All rights reserved.</copyright>
+    <repository type="git" url="https://github.com/dotnet/runtime" commit="0000000000000000000000000000000000000000" />
+    <dependencies>
+      <group targetFramework=".NETFramework4.6.1" />
+      <group targetFramework=".NETCoreApp3.1">
+        <dependency id="Microsoft.Win32.SystemEvents" version="6.0.1" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework="net6.0">
+        <dependency id="Microsoft.Win32.SystemEvents" version="6.0.1" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework=".NETStandard2.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\System.Drawing.Common\net461-Debug\System.Drawing.Common.dll" target="lib\net461\System.Drawing.Common.dll" />
+    <file src="C:\Users\ericstj\.nuget\packages\microsoft.private.intellisense\6.0.0-preview-20211019.1\IntellisenseFiles\dotnet-plat-ext\1033\System.Drawing.Common.xml" target="lib\net461\System.Drawing.Common.xml" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\System.Drawing.Common\net6.0-Debug\System.Drawing.Common.dll" target="lib\net6.0\System.Drawing.Common.dll" />
+    <file src="C:\Users\ericstj\.nuget\packages\microsoft.private.intellisense\6.0.0-preview-20211019.1\IntellisenseFiles\dotnet-plat-ext\1033\System.Drawing.Common.xml" target="lib\net6.0\System.Drawing.Common.xml" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\System.Drawing.Common\netcoreapp3.1-Debug\System.Drawing.Common.dll" target="lib\netcoreapp3.1\System.Drawing.Common.dll" />
+    <file src="C:\Users\ericstj\.nuget\packages\microsoft.private.intellisense\6.0.0-preview-20211019.1\IntellisenseFiles\dotnet-plat-ext\1033\System.Drawing.Common.xml" target="lib\netcoreapp3.1\System.Drawing.Common.xml" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\System.Drawing.Common\netstandard2.0-Debug\System.Drawing.Common.dll" target="lib\netstandard2.0\System.Drawing.Common.dll" />
+    <file src="C:\Users\ericstj\.nuget\packages\microsoft.private.intellisense\6.0.0-preview-20211019.1\IntellisenseFiles\dotnet-plat-ext\1033\System.Drawing.Common.xml" target="lib\netstandard2.0\System.Drawing.Common.xml" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\obj\System.Drawing.Common\net6.0-Unix-Debug\System.Drawing.Common.dll" target="runtimes\unix\lib\net6.0\System.Drawing.Common.dll" />
+    <file src="C:\Users\ericstj\.nuget\packages\microsoft.private.intellisense\6.0.0-preview-20211019.1\IntellisenseFiles\dotnet-plat-ext\1033\System.Drawing.Common.xml" target="runtimes\unix\lib\net6.0\System.Drawing.Common.xml" />
+    <file src="C:\Users\ericstj\.nuget\packages\microsoft.private.intellisense\6.0.0-preview-20211019.1\IntellisenseFiles\dotnet-plat-ext\1033\System.Drawing.Common.xml" target="runtimes\win\lib\net6.0\System.Drawing.Common.xml" />
+    <file src="C:\Users\ericstj\.nuget\packages\microsoft.private.intellisense\6.0.0-preview-20211019.1\IntellisenseFiles\dotnet-plat-ext\1033\System.Drawing.Common.xml" target="runtimes\unix\lib\netcoreapp3.1\System.Drawing.Common.xml" />
+    <file src="C:\Users\ericstj\.nuget\packages\microsoft.private.intellisense\6.0.0-preview-20211019.1\IntellisenseFiles\dotnet-plat-ext\1033\System.Drawing.Common.xml" target="runtimes\win\lib\netcoreapp3.1\System.Drawing.Common.xml" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\obj\System.Drawing.Common\net6.0-windows-Debug\System.Drawing.Common.dll" target="runtimes\win\lib\net6.0\System.Drawing.Common.dll" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\obj\System.Drawing.Common\netcoreapp3.1-Unix-Debug\System.Drawing.Common.dll" target="runtimes\unix\lib\netcoreapp3.1\System.Drawing.Common.dll" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\obj\System.Drawing.Common\netcoreapp3.1-windows-Debug\System.Drawing.Common.dll" target="runtimes\win\lib\netcoreapp3.1\System.Drawing.Common.dll" />
+    <file src="C:\Users\ericstj\.nuget\packages\microsoft.dotnet.arcade.sdk\6.0.0-beta.24413.1\tools\Assets\DotNetPackageIcon.png" target="Icon.png" />
+    <file src="C:\src\dotnet\runtimeRel\LICENSE.TXT" target="LICENSE.TXT" />
+    <file src="C:\src\dotnet\runtimeRel\THIRD-PARTY-NOTICES.TXT" target="THIRD-PARTY-NOTICES.TXT" />
+    <file src="C:\src\dotnet\runtimeRel\eng\useSharedDesignerContext.txt" target="useSharedDesignerContext.txt" />
+    <file src="C:\src\dotnet\runtimeRel\eng\_._" target="lib\MonoAndroid10\_._" />
+    <file src="C:\src\dotnet\runtimeRel\eng\_._" target="lib\MonoTouch10\_._" />
+    <file src="C:\src\dotnet\runtimeRel\eng\_._" target="lib\xamarinios10\_._" />
+    <file src="C:\src\dotnet\runtimeRel\eng\_._" target="lib\xamarinmac20\_._" />
+    <file src="C:\src\dotnet\runtimeRel\eng\_._" target="lib\xamarintvos10\_._" />
+    <file src="C:\src\dotnet\runtimeRel\eng\_._" target="lib\xamarinwatchos10\_._" />
+    <file src="C:\src\dotnet\runtimeRel\eng\_._" target="buildTransitive\netcoreapp3.1\_._" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\obj\System.Drawing.Common\netstandardcompaterrors\netcoreapp2.0\System.Drawing.Common.targets" target="buildTransitive\netcoreapp2.0\System.Drawing.Common.targets" />
+  </files>
+</package>

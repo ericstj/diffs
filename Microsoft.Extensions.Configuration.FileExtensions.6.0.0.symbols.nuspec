@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Microsoft.Extensions.Configuration.FileExtensions</id>
+    <version>6.0.0</version>
+    <authors>Microsoft</authors>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <icon>Icon.png</icon>
+    <projectUrl>https://dot.net/</projectUrl>
+    <description>Extension methods for configuring file-based configuration providers for Microsoft.Extensions.Configuration.</description>
+    <releaseNotes>https://go.microsoft.com/fwlink/?LinkID=799421</releaseNotes>
+    <copyright>© Microsoft Corporation. All rights reserved.</copyright>
+    <serviceable>true</serviceable>
+    <repository type="git" url="https://github.com/dotnet/runtime" commit="0000000000000000000000000000000000000000" />
+    <dependencies>
+      <group targetFramework=".NETFramework4.6.1">
+        <dependency id="Microsoft.Extensions.Configuration.Abstractions" version="6.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Configuration" version="6.0.1" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.FileProviders.Abstractions" version="6.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.FileProviders.Physical" version="6.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Primitives" version="6.0.0" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="Microsoft.Extensions.Configuration.Abstractions" version="6.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Configuration" version="6.0.1" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.FileProviders.Abstractions" version="6.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.FileProviders.Physical" version="6.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Primitives" version="6.0.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\Microsoft.Extensions.Configuration.FileExtensions\net461-Debug\Microsoft.Extensions.Configuration.FileExtensions.pdb" target="lib\net461\Microsoft.Extensions.Configuration.FileExtensions.pdb" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\Microsoft.Extensions.Configuration.FileExtensions\netstandard2.0-Debug\Microsoft.Extensions.Configuration.FileExtensions.pdb" target="lib\netstandard2.0\Microsoft.Extensions.Configuration.FileExtensions.pdb" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\Microsoft.Extensions.Configuration.FileExtensions\net461-Debug\Microsoft.Extensions.Configuration.FileExtensions.dll" target="lib\net461\Microsoft.Extensions.Configuration.FileExtensions.dll" />
+    <file src="C:\Users\ericstj\.nuget\packages\microsoft.private.intellisense\6.0.0-preview-20211019.1\IntellisenseFiles\dotnet-plat-ext\1033\Microsoft.Extensions.Configuration.FileExtensions.xml" target="lib\net461\Microsoft.Extensions.Configuration.FileExtensions.xml" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\Microsoft.Extensions.Configuration.FileExtensions\netstandard2.0-Debug\Microsoft.Extensions.Configuration.FileExtensions.dll" target="lib\netstandard2.0\Microsoft.Extensions.Configuration.FileExtensions.dll" />
+    <file src="C:\Users\ericstj\.nuget\packages\microsoft.private.intellisense\6.0.0-preview-20211019.1\IntellisenseFiles\dotnet-plat-ext\1033\Microsoft.Extensions.Configuration.FileExtensions.xml" target="lib\netstandard2.0\Microsoft.Extensions.Configuration.FileExtensions.xml" />
+    <file src="C:\Users\ericstj\.nuget\packages\microsoft.dotnet.arcade.sdk\6.0.0-beta.24413.1\tools\Assets\DotNetPackageIcon.png" target="Icon.png" />
+    <file src="C:\src\dotnet\runtimeRel\LICENSE.TXT" target="LICENSE.TXT" />
+    <file src="C:\src\dotnet\runtimeRel\THIRD-PARTY-NOTICES.TXT" target="THIRD-PARTY-NOTICES.TXT" />
+    <file src="C:\src\dotnet\runtimeRel\eng\useSharedDesignerContext.txt" target="useSharedDesignerContext.txt" />
+  </files>
+</package>

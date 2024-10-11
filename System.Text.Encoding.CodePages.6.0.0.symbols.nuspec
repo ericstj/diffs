@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>System.Text.Encoding.CodePages</id>
+    <version>6.0.0</version>
+    <authors>Microsoft</authors>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <icon>Icon.png</icon>
+    <projectUrl>https://dot.net/</projectUrl>
+    <description>Provides support for code-page based encodings, including Windows-1252, Shift-JIS, and GB2312.
+
+Commonly Used Types:
+System.Text.CodePagesEncodingProvider</description>
+    <releaseNotes>https://go.microsoft.com/fwlink/?LinkID=799421</releaseNotes>
+    <copyright>© Microsoft Corporation. All rights reserved.</copyright>
+    <serviceable>true</serviceable>
+    <repository type="git" url="https://github.com/dotnet/runtime" commit="0000000000000000000000000000000000000000" />
+    <dependencies>
+      <group targetFramework=".NETFramework4.6.1">
+        <dependency id="System.Runtime.CompilerServices.Unsafe" version="6.0.0" exclude="Build,Analyzers" />
+        <dependency id="System.Memory" version="4.5.4" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework=".NETCoreApp3.1">
+        <dependency id="System.Runtime.CompilerServices.Unsafe" version="6.0.0" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework="net6.0">
+        <dependency id="System.Runtime.CompilerServices.Unsafe" version="6.0.0" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="System.Runtime.CompilerServices.Unsafe" version="6.0.0" exclude="Build,Analyzers" />
+        <dependency id="System.Memory" version="4.5.4" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\System.Text.Encoding.CodePages\net461-windows-Debug\System.Text.Encoding.CodePages.pdb" target="\runtimes\win\lib\net461" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\System.Text.Encoding.CodePages\net461-windows-Debug\System.Text.Encoding.CodePages.pdb" target="\lib\net461" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\System.Text.Encoding.CodePages\net6.0-Debug\System.Text.Encoding.CodePages.pdb" target="lib\net6.0\System.Text.Encoding.CodePages.pdb" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\System.Text.Encoding.CodePages\net6.0-windows-Debug\System.Text.Encoding.CodePages.pdb" target="\runtimes\win\lib\net6.0" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\System.Text.Encoding.CodePages\netcoreapp3.1-Debug\System.Text.Encoding.CodePages.pdb" target="lib\netcoreapp3.1\System.Text.Encoding.CodePages.pdb" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\System.Text.Encoding.CodePages\netcoreapp3.1-windows-Debug\System.Text.Encoding.CodePages.pdb" target="\runtimes\win\lib\netcoreapp3.1" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\System.Text.Encoding.CodePages\netstandard2.0-Debug\System.Text.Encoding.CodePages.pdb" target="lib\netstandard2.0\System.Text.Encoding.CodePages.pdb" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\System.Text.Encoding.CodePages\netstandard2.0-windows-Debug\System.Text.Encoding.CodePages.pdb" target="\runtimes\win\lib\netstandard2.0" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\System.Text.Encoding.CodePages\net6.0-Debug\System.Text.Encoding.CodePages.dll" target="lib\net6.0\System.Text.Encoding.CodePages.dll" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\System.Text.Encoding.CodePages\net6.0-Debug\System.Text.Encoding.CodePages.xml" target="lib\net6.0\System.Text.Encoding.CodePages.xml" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\System.Text.Encoding.CodePages\netcoreapp3.1-Debug\System.Text.Encoding.CodePages.dll" target="lib\netcoreapp3.1\System.Text.Encoding.CodePages.dll" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\System.Text.Encoding.CodePages\netcoreapp3.1-Debug\System.Text.Encoding.CodePages.xml" target="lib\netcoreapp3.1\System.Text.Encoding.CodePages.xml" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\System.Text.Encoding.CodePages\netstandard2.0-Debug\System.Text.Encoding.CodePages.dll" target="lib\netstandard2.0\System.Text.Encoding.CodePages.dll" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\System.Text.Encoding.CodePages\netstandard2.0-Debug\System.Text.Encoding.CodePages.xml" target="lib\netstandard2.0\System.Text.Encoding.CodePages.xml" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\obj\System.Text.Encoding.CodePages\net461-windows-Debug\System.Text.Encoding.CodePages.dll" target="runtimes\win\lib\net461\System.Text.Encoding.CodePages.dll" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\obj\System.Text.Encoding.CodePages\net461-windows-Debug\System.Text.Encoding.CodePages.dll" target="lib\net461\System.Text.Encoding.CodePages.dll" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\obj\System.Text.Encoding.CodePages\net461-windows-Debug\System.Text.Encoding.CodePages.xml" target="runtimes\win\lib\net461\System.Text.Encoding.CodePages.xml" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\obj\System.Text.Encoding.CodePages\net461-windows-Debug\System.Text.Encoding.CodePages.xml" target="lib\net461\System.Text.Encoding.CodePages.xml" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\obj\System.Text.Encoding.CodePages\net6.0-windows-Debug\System.Text.Encoding.CodePages.dll" target="runtimes\win\lib\net6.0\System.Text.Encoding.CodePages.dll" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\obj\System.Text.Encoding.CodePages\net6.0-windows-Debug\System.Text.Encoding.CodePages.xml" target="runtimes\win\lib\net6.0\System.Text.Encoding.CodePages.xml" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\obj\System.Text.Encoding.CodePages\netcoreapp3.1-windows-Debug\System.Text.Encoding.CodePages.dll" target="runtimes\win\lib\netcoreapp3.1\System.Text.Encoding.CodePages.dll" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\obj\System.Text.Encoding.CodePages\netcoreapp3.1-windows-Debug\System.Text.Encoding.CodePages.xml" target="runtimes\win\lib\netcoreapp3.1\System.Text.Encoding.CodePages.xml" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\obj\System.Text.Encoding.CodePages\netstandard2.0-windows-Debug\System.Text.Encoding.CodePages.dll" target="runtimes\win\lib\netstandard2.0\System.Text.Encoding.CodePages.dll" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\obj\System.Text.Encoding.CodePages\netstandard2.0-windows-Debug\System.Text.Encoding.CodePages.xml" target="runtimes\win\lib\netstandard2.0\System.Text.Encoding.CodePages.xml" />
+    <file src="C:\Users\ericstj\.nuget\packages\microsoft.dotnet.arcade.sdk\6.0.0-beta.24413.1\tools\Assets\DotNetPackageIcon.png" target="Icon.png" />
+    <file src="C:\src\dotnet\runtimeRel\LICENSE.TXT" target="LICENSE.TXT" />
+    <file src="C:\src\dotnet\runtimeRel\THIRD-PARTY-NOTICES.TXT" target="THIRD-PARTY-NOTICES.TXT" />
+    <file src="C:\src\dotnet\runtimeRel\eng\useSharedDesignerContext.txt" target="useSharedDesignerContext.txt" />
+    <file src="C:\src\dotnet\runtimeRel\eng\_._" target="lib\MonoAndroid10\_._" />
+    <file src="C:\src\dotnet\runtimeRel\eng\_._" target="lib\MonoTouch10\_._" />
+    <file src="C:\src\dotnet\runtimeRel\eng\_._" target="lib\xamarinios10\_._" />
+    <file src="C:\src\dotnet\runtimeRel\eng\_._" target="lib\xamarinmac20\_._" />
+    <file src="C:\src\dotnet\runtimeRel\eng\_._" target="lib\xamarintvos10\_._" />
+    <file src="C:\src\dotnet\runtimeRel\eng\_._" target="lib\xamarinwatchos10\_._" />
+    <file src="C:\src\dotnet\runtimeRel\eng\_._" target="buildTransitive\netcoreapp3.1\_._" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\obj\System.Text.Encoding.CodePages\netstandardcompaterrors\netcoreapp2.0\System.Text.Encoding.CodePages.targets" target="buildTransitive\netcoreapp2.0\System.Text.Encoding.CodePages.targets" />
+  </files>
+</package>

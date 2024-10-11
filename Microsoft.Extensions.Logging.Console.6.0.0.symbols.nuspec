@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Microsoft.Extensions.Logging.Console</id>
+    <version>6.0.0</version>
+    <authors>Microsoft</authors>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <icon>Icon.png</icon>
+    <projectUrl>https://dot.net/</projectUrl>
+    <description>Console logger provider implementation for Microsoft.Extensions.Logging.</description>
+    <releaseNotes>https://go.microsoft.com/fwlink/?LinkID=799421</releaseNotes>
+    <copyright>© Microsoft Corporation. All rights reserved.</copyright>
+    <serviceable>true</serviceable>
+    <repository type="git" url="https://github.com/dotnet/runtime" commit="0000000000000000000000000000000000000000" />
+    <dependencies>
+      <group targetFramework=".NETFramework4.6.1">
+        <dependency id="Microsoft.Bcl.AsyncInterfaces" version="6.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.DependencyInjection.Abstractions" version="6.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Logging.Abstractions" version="6.0.4" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Logging.Configuration" version="6.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Logging" version="6.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Options" version="6.0.0" exclude="Build,Analyzers" />
+        <dependency id="System.Text.Json" version="6.0.9" exclude="Build,Analyzers" />
+        <dependency id="System.Buffers" version="4.5.1" exclude="Build,Analyzers" />
+        <dependency id="System.Runtime.InteropServices.RuntimeInformation" version="4.3.0" exclude="Build,Analyzers" />
+        <dependency id="System.ValueTuple" version="4.5.0" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework=".NETCoreApp3.1">
+        <dependency id="Microsoft.Extensions.DependencyInjection.Abstractions" version="6.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Logging.Abstractions" version="6.0.4" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Logging.Configuration" version="6.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Logging" version="6.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Options" version="6.0.0" exclude="Build,Analyzers" />
+        <dependency id="System.Text.Json" version="6.0.9" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework="net6.0">
+        <dependency id="Microsoft.Extensions.DependencyInjection.Abstractions" version="6.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Logging.Abstractions" version="6.0.4" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Logging.Configuration" version="6.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Logging" version="6.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Options" version="6.0.0" exclude="Build,Analyzers" />
+        <dependency id="System.Text.Json" version="6.0.9" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="Microsoft.Bcl.AsyncInterfaces" version="6.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.DependencyInjection.Abstractions" version="6.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Logging.Abstractions" version="6.0.4" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Logging.Configuration" version="6.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Logging" version="6.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Options" version="6.0.0" exclude="Build,Analyzers" />
+        <dependency id="System.Text.Json" version="6.0.9" exclude="Build,Analyzers" />
+        <dependency id="System.Buffers" version="4.5.1" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="System.Runtime" targetFramework=".NETFramework4.6.1" />
+    </frameworkAssemblies>
+  </metadata>
+  <files>
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\Microsoft.Extensions.Logging.Console\net461-Debug\Microsoft.Extensions.Logging.Console.pdb" target="lib\net461\Microsoft.Extensions.Logging.Console.pdb" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\Microsoft.Extensions.Logging.Console\net6.0-Debug\Microsoft.Extensions.Logging.Console.pdb" target="lib\net6.0\Microsoft.Extensions.Logging.Console.pdb" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\Microsoft.Extensions.Logging.Console\netcoreapp3.1-Debug\Microsoft.Extensions.Logging.Console.pdb" target="lib\netcoreapp3.1\Microsoft.Extensions.Logging.Console.pdb" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\Microsoft.Extensions.Logging.Console\netstandard2.0-Debug\Microsoft.Extensions.Logging.Console.pdb" target="lib\netstandard2.0\Microsoft.Extensions.Logging.Console.pdb" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\Microsoft.Extensions.Logging.Console\net461-Debug\Microsoft.Extensions.Logging.Console.dll" target="lib\net461\Microsoft.Extensions.Logging.Console.dll" />
+    <file src="C:\Users\ericstj\.nuget\packages\microsoft.private.intellisense\6.0.0-preview-20211019.1\IntellisenseFiles\dotnet-plat-ext\1033\Microsoft.Extensions.Logging.Console.xml" target="lib\net461\Microsoft.Extensions.Logging.Console.xml" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\Microsoft.Extensions.Logging.Console\net6.0-Debug\Microsoft.Extensions.Logging.Console.dll" target="lib\net6.0\Microsoft.Extensions.Logging.Console.dll" />
+    <file src="C:\Users\ericstj\.nuget\packages\microsoft.private.intellisense\6.0.0-preview-20211019.1\IntellisenseFiles\dotnet-plat-ext\1033\Microsoft.Extensions.Logging.Console.xml" target="lib\net6.0\Microsoft.Extensions.Logging.Console.xml" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\Microsoft.Extensions.Logging.Console\netcoreapp3.1-Debug\Microsoft.Extensions.Logging.Console.dll" target="lib\netcoreapp3.1\Microsoft.Extensions.Logging.Console.dll" />
+    <file src="C:\Users\ericstj\.nuget\packages\microsoft.private.intellisense\6.0.0-preview-20211019.1\IntellisenseFiles\dotnet-plat-ext\1033\Microsoft.Extensions.Logging.Console.xml" target="lib\netcoreapp3.1\Microsoft.Extensions.Logging.Console.xml" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\Microsoft.Extensions.Logging.Console\netstandard2.0-Debug\Microsoft.Extensions.Logging.Console.dll" target="lib\netstandard2.0\Microsoft.Extensions.Logging.Console.dll" />
+    <file src="C:\Users\ericstj\.nuget\packages\microsoft.private.intellisense\6.0.0-preview-20211019.1\IntellisenseFiles\dotnet-plat-ext\1033\Microsoft.Extensions.Logging.Console.xml" target="lib\netstandard2.0\Microsoft.Extensions.Logging.Console.xml" />
+    <file src="C:\Users\ericstj\.nuget\packages\microsoft.dotnet.arcade.sdk\6.0.0-beta.24413.1\tools\Assets\DotNetPackageIcon.png" target="Icon.png" />
+    <file src="C:\src\dotnet\runtimeRel\LICENSE.TXT" target="LICENSE.TXT" />
+    <file src="C:\src\dotnet\runtimeRel\THIRD-PARTY-NOTICES.TXT" target="THIRD-PARTY-NOTICES.TXT" />
+    <file src="C:\src\dotnet\runtimeRel\eng\useSharedDesignerContext.txt" target="useSharedDesignerContext.txt" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\obj\Microsoft.Extensions.Logging.Console\netstandardcompaterrors\netcoreapp2.0\Microsoft.Extensions.Logging.Console.targets" target="buildTransitive\netcoreapp2.0\Microsoft.Extensions.Logging.Console.targets" />
+    <file src="C:\src\dotnet\runtimeRel\eng\_._" target="buildTransitive\netcoreapp3.1\_._" />
+  </files>
+</package>

@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>System.DirectoryServices.Protocols</id>
+    <version>6.0.2</version>
+    <authors>Microsoft</authors>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <icon>Icon.png</icon>
+    <projectUrl>https://dot.net/</projectUrl>
+    <description>Provides the methods defined in the Lightweight Directory Access Protocol (LDAP) version 3 (V3) and Directory Services Markup Language (DSML) version 2.0 (V2) standards.</description>
+    <releaseNotes>https://go.microsoft.com/fwlink/?LinkID=799421</releaseNotes>
+    <copyright>© Microsoft Corporation. All rights reserved.</copyright>
+    <serviceable>true</serviceable>
+    <repository type="git" url="https://github.com/dotnet/runtime" commit="0000000000000000000000000000000000000000" />
+    <dependencies>
+      <group targetFramework=".NETCoreApp3.1">
+        <dependency id="System.Security.Principal.Windows" version="5.0.0" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework="net6.0" />
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="System.Security.Principal.Windows" version="5.0.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="System.DirectoryServices.Protocols" targetFramework=".NETFramework4.6.1" />
+    </frameworkAssemblies>
+  </metadata>
+  <files>
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\System.DirectoryServices.Protocols\net6.0-Debug\System.DirectoryServices.Protocols.pdb" target="lib\net6.0\System.DirectoryServices.Protocols.pdb" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\System.DirectoryServices.Protocols\net6.0-Linux-Debug\System.DirectoryServices.Protocols.pdb" target="\runtimes\linux\lib\net6.0" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\System.DirectoryServices.Protocols\net6.0-OSX-Debug\System.DirectoryServices.Protocols.pdb" target="\runtimes\osx\lib\net6.0" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\System.DirectoryServices.Protocols\net6.0-windows-Debug\System.DirectoryServices.Protocols.pdb" target="\runtimes\win\lib\net6.0" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\System.DirectoryServices.Protocols\netcoreapp3.1-Debug\System.DirectoryServices.Protocols.pdb" target="lib\netcoreapp3.1\System.DirectoryServices.Protocols.pdb" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\System.DirectoryServices.Protocols\netcoreapp3.1-Linux-Debug\System.DirectoryServices.Protocols.pdb" target="\runtimes\linux\lib\netcoreapp3.1" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\System.DirectoryServices.Protocols\netcoreapp3.1-OSX-Debug\System.DirectoryServices.Protocols.pdb" target="\runtimes\osx\lib\netcoreapp3.1" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\System.DirectoryServices.Protocols\netcoreapp3.1-windows-Debug\System.DirectoryServices.Protocols.pdb" target="\runtimes\win\lib\netcoreapp3.1" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\System.DirectoryServices.Protocols\netstandard2.0-Debug\System.DirectoryServices.Protocols.pdb" target="lib\netstandard2.0\System.DirectoryServices.Protocols.pdb" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\System.DirectoryServices.Protocols\net6.0-Debug\System.DirectoryServices.Protocols.dll" target="lib\net6.0\System.DirectoryServices.Protocols.dll" />
+    <file src="C:\Users\ericstj\.nuget\packages\microsoft.private.intellisense\6.0.0-preview-20211019.1\IntellisenseFiles\dotnet-plat-ext\1033\System.DirectoryServices.Protocols.xml" target="lib\net6.0\System.DirectoryServices.Protocols.xml" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\System.DirectoryServices.Protocols\netcoreapp3.1-Debug\System.DirectoryServices.Protocols.dll" target="lib\netcoreapp3.1\System.DirectoryServices.Protocols.dll" />
+    <file src="C:\Users\ericstj\.nuget\packages\microsoft.private.intellisense\6.0.0-preview-20211019.1\IntellisenseFiles\dotnet-plat-ext\1033\System.DirectoryServices.Protocols.xml" target="lib\netcoreapp3.1\System.DirectoryServices.Protocols.xml" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\System.DirectoryServices.Protocols\netstandard2.0-Debug\System.DirectoryServices.Protocols.dll" target="lib\netstandard2.0\System.DirectoryServices.Protocols.dll" />
+    <file src="C:\Users\ericstj\.nuget\packages\microsoft.private.intellisense\6.0.0-preview-20211019.1\IntellisenseFiles\dotnet-plat-ext\1033\System.DirectoryServices.Protocols.xml" target="lib\netstandard2.0\System.DirectoryServices.Protocols.xml" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\obj\System.DirectoryServices.Protocols\net6.0-Linux-Debug\System.DirectoryServices.Protocols.dll" target="runtimes\linux\lib\net6.0\System.DirectoryServices.Protocols.dll" />
+    <file src="C:\Users\ericstj\.nuget\packages\microsoft.private.intellisense\6.0.0-preview-20211019.1\IntellisenseFiles\dotnet-plat-ext\1033\System.DirectoryServices.Protocols.xml" target="runtimes\linux\lib\net6.0\System.DirectoryServices.Protocols.xml" />
+    <file src="C:\Users\ericstj\.nuget\packages\microsoft.private.intellisense\6.0.0-preview-20211019.1\IntellisenseFiles\dotnet-plat-ext\1033\System.DirectoryServices.Protocols.xml" target="runtimes\osx\lib\net6.0\System.DirectoryServices.Protocols.xml" />
+    <file src="C:\Users\ericstj\.nuget\packages\microsoft.private.intellisense\6.0.0-preview-20211019.1\IntellisenseFiles\dotnet-plat-ext\1033\System.DirectoryServices.Protocols.xml" target="runtimes\win\lib\net6.0\System.DirectoryServices.Protocols.xml" />
+    <file src="C:\Users\ericstj\.nuget\packages\microsoft.private.intellisense\6.0.0-preview-20211019.1\IntellisenseFiles\dotnet-plat-ext\1033\System.DirectoryServices.Protocols.xml" target="runtimes\linux\lib\netcoreapp3.1\System.DirectoryServices.Protocols.xml" />
+    <file src="C:\Users\ericstj\.nuget\packages\microsoft.private.intellisense\6.0.0-preview-20211019.1\IntellisenseFiles\dotnet-plat-ext\1033\System.DirectoryServices.Protocols.xml" target="runtimes\osx\lib\netcoreapp3.1\System.DirectoryServices.Protocols.xml" />
+    <file src="C:\Users\ericstj\.nuget\packages\microsoft.private.intellisense\6.0.0-preview-20211019.1\IntellisenseFiles\dotnet-plat-ext\1033\System.DirectoryServices.Protocols.xml" target="runtimes\win\lib\netcoreapp3.1\System.DirectoryServices.Protocols.xml" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\obj\System.DirectoryServices.Protocols\net6.0-OSX-Debug\System.DirectoryServices.Protocols.dll" target="runtimes\osx\lib\net6.0\System.DirectoryServices.Protocols.dll" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\obj\System.DirectoryServices.Protocols\net6.0-windows-Debug\System.DirectoryServices.Protocols.dll" target="runtimes\win\lib\net6.0\System.DirectoryServices.Protocols.dll" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\obj\System.DirectoryServices.Protocols\netcoreapp3.1-Linux-Debug\System.DirectoryServices.Protocols.dll" target="runtimes\linux\lib\netcoreapp3.1\System.DirectoryServices.Protocols.dll" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\obj\System.DirectoryServices.Protocols\netcoreapp3.1-OSX-Debug\System.DirectoryServices.Protocols.dll" target="runtimes\osx\lib\netcoreapp3.1\System.DirectoryServices.Protocols.dll" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\obj\System.DirectoryServices.Protocols\netcoreapp3.1-windows-Debug\System.DirectoryServices.Protocols.dll" target="runtimes\win\lib\netcoreapp3.1\System.DirectoryServices.Protocols.dll" />
+    <file src="C:\Users\ericstj\.nuget\packages\microsoft.dotnet.arcade.sdk\6.0.0-beta.24413.1\tools\Assets\DotNetPackageIcon.png" target="Icon.png" />
+    <file src="C:\src\dotnet\runtimeRel\LICENSE.TXT" target="LICENSE.TXT" />
+    <file src="C:\src\dotnet\runtimeRel\THIRD-PARTY-NOTICES.TXT" target="THIRD-PARTY-NOTICES.TXT" />
+    <file src="C:\src\dotnet\runtimeRel\eng\useSharedDesignerContext.txt" target="useSharedDesignerContext.txt" />
+    <file src="C:\src\dotnet\runtimeRel\eng\_._" target="lib\net461\_._" />
+    <file src="C:\src\dotnet\runtimeRel\eng\_._" target="buildTransitive\netcoreapp3.1\_._" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\obj\System.DirectoryServices.Protocols\netstandardcompaterrors\netcoreapp2.0\System.DirectoryServices.Protocols.targets" target="buildTransitive\netcoreapp2.0\System.DirectoryServices.Protocols.targets" />
+  </files>
+</package>

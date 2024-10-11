@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Microsoft.XmlSerializer.Generator</id>
+    <version>6.0.0</version>
+    <authors>Microsoft</authors>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <icon>Icon.png</icon>
+    <projectUrl>https://go.microsoft.com/fwlink/?linkid=858594</projectUrl>
+    <description>Creates an Xml serialization assembly for types contained in an assembly in order to improve the startup performance of Xml serialization when serializing or de-serializing objects of those types using XmlSerializer.</description>
+    <releaseNotes>https://go.microsoft.com/fwlink/?LinkID=863421</releaseNotes>
+    <copyright>© Microsoft Corporation. All rights reserved.</copyright>
+    <serviceable>true</serviceable>
+    <repository type="git" url="https://github.com/dotnet/runtime" commit="0000000000000000000000000000000000000000" />
+    <dependencies>
+      <group targetFramework=".NETStandard2.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\Microsoft.XmlSerializer.Generator\netstandard2.0-Debug\dotnet-Microsoft.XmlSerializer.Generator.pdb" target="lib\netstandard2.0\dotnet-Microsoft.XmlSerializer.Generator.pdb" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\Microsoft.XmlSerializer.Generator\netstandard2.0-Debug\dotnet-Microsoft.XmlSerializer.Generator.dll" target="lib\netstandard2.0\dotnet-Microsoft.XmlSerializer.Generator.dll" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\bin\Microsoft.XmlSerializer.Generator\netstandard2.0-Debug\dotnet-Microsoft.XmlSerializer.Generator.xml" target="lib\netstandard2.0\dotnet-Microsoft.XmlSerializer.Generator.xml" />
+    <file src="C:\src\dotnet\runtimeRel\src\libraries\Microsoft.XmlSerializer.Generator\src\build\prefercliruntime" target="\prefercliruntime" />
+    <file src="C:\src\dotnet\runtimeRel\src\libraries\Microsoft.XmlSerializer.Generator\src\build\Microsoft.XmlSerializer.Generator.targets" target="build\Microsoft.XmlSerializer.Generator.targets" />
+    <file src="C:\src\dotnet\runtimeRel\src\libraries\Microsoft.XmlSerializer.Generator\src\build\dotnet-Microsoft.XmlSerializer.Generator.runtimeconfig.json" target="lib\netstandard2.0\dotnet-Microsoft.XmlSerializer.Generator.runtimeconfig.json" />
+    <file src="C:\src\dotnet\runtimeRel\artifacts\obj\Microsoft.XmlSerializer.Generator\Microsoft.XmlSerializer.Generator.props" target="build\Microsoft.XmlSerializer.Generator.props" />
+    <file src="C:\Users\ericstj\.nuget\packages\microsoft.dotnet.arcade.sdk\6.0.0-beta.24413.1\tools\Assets\DotNetPackageIcon.png" target="Icon.png" />
+    <file src="C:\src\dotnet\runtimeRel\LICENSE.TXT" target="LICENSE.TXT" />
+    <file src="C:\src\dotnet\runtimeRel\THIRD-PARTY-NOTICES.TXT" target="THIRD-PARTY-NOTICES.TXT" />
+    <file src="C:\src\dotnet\runtimeRel\eng\useSharedDesignerContext.txt" target="useSharedDesignerContext.txt" />
+  </files>
+</package>
